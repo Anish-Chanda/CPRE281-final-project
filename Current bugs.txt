@@ -1,0 +1,5 @@
+Current bugs
+- one bit jump - DONE
+- Swicthing register error - DONE
+- CLR, clears both the registers - DONE
+- Enable, doesnt work after adding the regSelect thing
