@@ -1,13 +1,13 @@
-Analysis & Synthesis Status : Successful - Sun Apr 28 18:35:31 2024
+Analysis & Synthesis Status : Successful - Sun Apr 28 19:30:44 2024
 Quartus Prime Version : 22.1std.1 Build 917 02/14/2023 SC Standard Edition
 Revision Name : finalproject
-Top-level Entity Name : ledPatternGen
+Top-level Entity Name : finalproject
 Family : Cyclone IV E
-Total logic elements : 185
-    Total combinational functions : 185
-    Dedicated logic registers : 159
-Total registers : 159
-Total pins : 26
+Total logic elements : 373
+    Total combinational functions : 372
+    Dedicated logic registers : 272
+Total registers : 272
+Total pins : 66
 Total virtual pins : 0
 Total memory bits : 0
 Embedded Multiplier 9-bit elements : 0

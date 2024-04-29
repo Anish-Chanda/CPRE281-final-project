@@ -1,4 +1,633 @@
-|ledPatternGen
+|finalproject
+a4 <= seven_seg_decoder:display4.A
+counter1 => inst12.IN0
+counter2 => inst13.IN0
+counter3 => inst14.IN0
+counter4 => inst15.IN0
+clr => selector:inst4.clr
+setPass => selector:inst4.select
+setPass => segSelector:inst.select
+setPass => segSelector:inst11.select
+setPass => segSelector:inst6.select
+setPass => segSelector:inst5.select
+setPass => setPassLED.DATAIN
+setPass => isgameFinishedModule:inst21.guessMode
+setPass => theUltimateComparer:inst16.checkPass
+BoardClock => upcounter:inst111.boardCLock
+BoardClock => upcounter:inst7.boardCLock
+BoardClock => upcounter:inst1.boardCLock
+BoardClock => upcounter:inst8.boardCLock
+BoardClock => upcounter:inst2.boardCLock
+BoardClock => upcounter:inst9.boardCLock
+BoardClock => upcounter:inst3.boardCLock
+BoardClock => upcounter:inst10.boardCLock
+BoardClock => ledPatternGen:inst19.clk
+b4 <= seven_seg_decoder:display4.B
+c4 <= seven_seg_decoder:display4.C
+d4 <= seven_seg_decoder:display4.D
+e4 <= seven_seg_decoder:display4.E
+f4 <= seven_seg_decoder:display4.F
+g4 <= seven_seg_decoder:display4.G
+a3 <= seven_seg_decoder:display3.A
+b3 <= seven_seg_decoder:display3.B
+c3 <= seven_seg_decoder:display3.C
+d3 <= seven_seg_decoder:display3.D
+e3 <= seven_seg_decoder:display3.E
+f3 <= seven_seg_decoder:display3.F
+g3 <= seven_seg_decoder:display3.G
+a2 <= seven_seg_decoder:display2.A
+b2 <= seven_seg_decoder:display2.B
+c2 <= seven_seg_decoder:display2.C
+d2 <= seven_seg_decoder:display2.D
+e2 <= seven_seg_decoder:display2.E
+f2 <= seven_seg_decoder:display2.F
+g2 <= seven_seg_decoder:display2.G
+a1 <= seven_seg_decoder:display1.A
+b1 <= seven_seg_decoder:display1.B
+c1 <= seven_seg_decoder:display1.C
+d1 <= seven_seg_decoder:display1.D
+e1 <= seven_seg_decoder:display1.E
+f1 <= seven_seg_decoder:display1.F
+g1 <= seven_seg_decoder:display1.G
+setPassLED <= setPass.DB_MAX_OUTPUT_PORT_TYPE
+reg2clk1LED <= register2[3].DB_MAX_OUTPUT_PORT_TYPE
+guessBit4Bit4LED <= upcounter:inst7.out0
+clrreg1 <= selector:inst4.enable1
+clrreg2 <= selector:inst4.enable2
+pin_name1 <= ledPatternGen:inst19.pin_name1
+CheckPass => isgameFinishedModule:inst21.CheckPass
+pin_name2 <= ledPatternGen:inst19.pin_name13
+pin_name3 <= ledPatternGen:inst19.pin_name2
+pin_name4 <= ledPatternGen:inst19.pin_name14
+pin_name5 <= ledPatternGen:inst19.pin_name3
+pin_name6 <= ledPatternGen:inst19.pin_name15
+pin_name7 <= ledPatternGen:inst19.pin_name4
+pin_name8 <= ledPatternGen:inst19.pin_name16
+pin_name9 <= ledPatternGen:inst19.pin_name5
+pin_name10 <= ledPatternGen:inst19.pin_name17
+pin_name11 <= ledPatternGen:inst19.pin_name6
+pin_name12 <= ledPatternGen:inst19.pin_name18
+pin_name13 <= ledPatternGen:inst19.pin_name7
+pin_name14 <= ledPatternGen:inst19.pin_name19
+pin_name15 <= ledPatternGen:inst19.pin_name8
+pin_name16 <= ledPatternGen:inst19.pin_name20
+pin_name17 <= ledPatternGen:inst19.pin_name9
+pin_name18 <= ledPatternGen:inst19.pin_name21
+pin_name19 <= ledPatternGen:inst19.pin_name10
+pin_name20 <= ledPatternGen:inst19.pin_name22
+pin_name21 <= ledPatternGen:inst19.pin_name11
+pin_name22 <= ledPatternGen:inst19.pin_name23
+pin_name23 <= ledPatternGen:inst19.pin_name12
+pin_name24 <= ledPatternGen:inst19.pin_name24
+ENABLE => ~NO_FANOUT~
+
+
+|finalproject|seven_seg_decoder:display4
+Z => Decoder0.IN0
+Y => Decoder0.IN1
+X => Decoder0.IN2
+W => Decoder0.IN3
+A <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+B <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+C <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+D <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+E <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+F <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+G <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|finalproject|segSelector:inst
+inputs_set1a => outputa.DATAB
+inputs_set1b => outputb.DATAB
+inputs_set1c => outputc.DATAB
+inputs_set1d => outputd.DATAB
+inputs_set2a => outputa.DATAA
+inputs_set2b => outputb.DATAA
+inputs_set2c => outputc.DATAA
+inputs_set2d => outputd.DATAA
+select => outputa.OUTPUTSELECT
+select => outputb.OUTPUTSELECT
+select => outputc.OUTPUTSELECT
+select => outputd.OUTPUTSELECT
+outputa <= outputa.DB_MAX_OUTPUT_PORT_TYPE
+outputb <= outputb.DB_MAX_OUTPUT_PORT_TYPE
+outputc <= outputc.DB_MAX_OUTPUT_PORT_TYPE
+outputd <= outputd.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|finalproject|upcounter:inst111
+out3 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+CLRN => inst3.ACLR
+CLRN => inst2.ACLR
+CLRN => inst1.ACLR
+CLRN => inst389025.ACLR
+Enable => inst3.IN0
+Enable => inst2.IN0
+Enable => inst1.IN0
+Enable => inst389025.IN0
+Clk => debouncer:inst6.manual
+boardCLock => debouncer:inst6.board
+out2 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+out1 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+out0 <= inst389025.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|finalproject|upcounter:inst111|debouncer:inst6
+Smooth <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+board => clock_divider_1024:inst.CLK_IN
+manual => inst2.DATAIN
+
+
+|finalproject|upcounter:inst111|debouncer:inst6|clock_divider_1024:inst1
+CLK_OUT <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+CLK_IN => inst1.CLK
+CLK_IN => inst2.CLK
+CLK_IN => inst3.CLK
+CLK_IN => inst6.CLK
+CLK_IN => inst7.CLK
+CLK_IN => inst8.CLK
+CLK_IN => inst9.CLK
+CLK_IN => inst10.CLK
+
+
+|finalproject|upcounter:inst111|debouncer:inst6|clock_divider_1024:inst
+CLK_OUT <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+CLK_IN => inst1.CLK
+CLK_IN => inst2.CLK
+CLK_IN => inst3.CLK
+CLK_IN => inst6.CLK
+CLK_IN => inst7.CLK
+CLK_IN => inst8.CLK
+CLK_IN => inst9.CLK
+CLK_IN => inst10.CLK
+
+
+|finalproject|selector:inst4
+counter1 => register1.DATAB
+counter1 => register2.DATAA
+counter2 => register1.DATAB
+counter2 => register2.DATAA
+counter3 => register1.DATAB
+counter3 => register2.DATAA
+counter4 => register1.DATAB
+counter4 => register2.DATAA
+clr => clr1.DATAB
+clr => clr2.DATAA
+select => register1.OUTPUTSELECT
+select => register1.OUTPUTSELECT
+select => register1.OUTPUTSELECT
+select => register1.OUTPUTSELECT
+select => register2.OUTPUTSELECT
+select => register2.OUTPUTSELECT
+select => register2.OUTPUTSELECT
+select => register2.OUTPUTSELECT
+select => clr1.OUTPUTSELECT
+select => clr2.OUTPUTSELECT
+select => enable1.DATAIN
+select => enable2.DATAIN
+register1[0] <= register1.DB_MAX_OUTPUT_PORT_TYPE
+register1[1] <= register1.DB_MAX_OUTPUT_PORT_TYPE
+register1[2] <= register1.DB_MAX_OUTPUT_PORT_TYPE
+register1[3] <= register1.DB_MAX_OUTPUT_PORT_TYPE
+register2[0] <= register2.DB_MAX_OUTPUT_PORT_TYPE
+register2[1] <= register2.DB_MAX_OUTPUT_PORT_TYPE
+register2[2] <= register2.DB_MAX_OUTPUT_PORT_TYPE
+register2[3] <= register2.DB_MAX_OUTPUT_PORT_TYPE
+enable1 <= select.DB_MAX_OUTPUT_PORT_TYPE
+enable2 <= select.DB_MAX_OUTPUT_PORT_TYPE
+clr1 <= clr1.DB_MAX_OUTPUT_PORT_TYPE
+clr2 <= clr2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|finalproject|upcounter:inst7
+out3 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+CLRN => inst3.ACLR
+CLRN => inst2.ACLR
+CLRN => inst1.ACLR
+CLRN => inst389025.ACLR
+Enable => inst3.IN0
+Enable => inst2.IN0
+Enable => inst1.IN0
+Enable => inst389025.IN0
+Clk => debouncer:inst6.manual
+boardCLock => debouncer:inst6.board
+out2 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+out1 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+out0 <= inst389025.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|finalproject|upcounter:inst7|debouncer:inst6
+Smooth <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+board => clock_divider_1024:inst.CLK_IN
+manual => inst2.DATAIN
+
+
+|finalproject|upcounter:inst7|debouncer:inst6|clock_divider_1024:inst1
+CLK_OUT <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+CLK_IN => inst1.CLK
+CLK_IN => inst2.CLK
+CLK_IN => inst3.CLK
+CLK_IN => inst6.CLK
+CLK_IN => inst7.CLK
+CLK_IN => inst8.CLK
+CLK_IN => inst9.CLK
+CLK_IN => inst10.CLK
+
+
+|finalproject|upcounter:inst7|debouncer:inst6|clock_divider_1024:inst
+CLK_OUT <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+CLK_IN => inst1.CLK
+CLK_IN => inst2.CLK
+CLK_IN => inst3.CLK
+CLK_IN => inst6.CLK
+CLK_IN => inst7.CLK
+CLK_IN => inst8.CLK
+CLK_IN => inst9.CLK
+CLK_IN => inst10.CLK
+
+
+|finalproject|seven_seg_decoder:display3
+Z => Decoder0.IN0
+Y => Decoder0.IN1
+X => Decoder0.IN2
+W => Decoder0.IN3
+A <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+B <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+C <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+D <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+E <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+F <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+G <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|finalproject|segSelector:inst11
+inputs_set1a => outputa.DATAB
+inputs_set1b => outputb.DATAB
+inputs_set1c => outputc.DATAB
+inputs_set1d => outputd.DATAB
+inputs_set2a => outputa.DATAA
+inputs_set2b => outputb.DATAA
+inputs_set2c => outputc.DATAA
+inputs_set2d => outputd.DATAA
+select => outputa.OUTPUTSELECT
+select => outputb.OUTPUTSELECT
+select => outputc.OUTPUTSELECT
+select => outputd.OUTPUTSELECT
+outputa <= outputa.DB_MAX_OUTPUT_PORT_TYPE
+outputb <= outputb.DB_MAX_OUTPUT_PORT_TYPE
+outputc <= outputc.DB_MAX_OUTPUT_PORT_TYPE
+outputd <= outputd.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|finalproject|upcounter:inst1
+out3 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+CLRN => inst3.ACLR
+CLRN => inst2.ACLR
+CLRN => inst1.ACLR
+CLRN => inst389025.ACLR
+Enable => inst3.IN0
+Enable => inst2.IN0
+Enable => inst1.IN0
+Enable => inst389025.IN0
+Clk => debouncer:inst6.manual
+boardCLock => debouncer:inst6.board
+out2 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+out1 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+out0 <= inst389025.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|finalproject|upcounter:inst1|debouncer:inst6
+Smooth <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+board => clock_divider_1024:inst.CLK_IN
+manual => inst2.DATAIN
+
+
+|finalproject|upcounter:inst1|debouncer:inst6|clock_divider_1024:inst1
+CLK_OUT <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+CLK_IN => inst1.CLK
+CLK_IN => inst2.CLK
+CLK_IN => inst3.CLK
+CLK_IN => inst6.CLK
+CLK_IN => inst7.CLK
+CLK_IN => inst8.CLK
+CLK_IN => inst9.CLK
+CLK_IN => inst10.CLK
+
+
+|finalproject|upcounter:inst1|debouncer:inst6|clock_divider_1024:inst
+CLK_OUT <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+CLK_IN => inst1.CLK
+CLK_IN => inst2.CLK
+CLK_IN => inst3.CLK
+CLK_IN => inst6.CLK
+CLK_IN => inst7.CLK
+CLK_IN => inst8.CLK
+CLK_IN => inst9.CLK
+CLK_IN => inst10.CLK
+
+
+|finalproject|upcounter:inst8
+out3 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+CLRN => inst3.ACLR
+CLRN => inst2.ACLR
+CLRN => inst1.ACLR
+CLRN => inst389025.ACLR
+Enable => inst3.IN0
+Enable => inst2.IN0
+Enable => inst1.IN0
+Enable => inst389025.IN0
+Clk => debouncer:inst6.manual
+boardCLock => debouncer:inst6.board
+out2 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+out1 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+out0 <= inst389025.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|finalproject|upcounter:inst8|debouncer:inst6
+Smooth <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+board => clock_divider_1024:inst.CLK_IN
+manual => inst2.DATAIN
+
+
+|finalproject|upcounter:inst8|debouncer:inst6|clock_divider_1024:inst1
+CLK_OUT <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+CLK_IN => inst1.CLK
+CLK_IN => inst2.CLK
+CLK_IN => inst3.CLK
+CLK_IN => inst6.CLK
+CLK_IN => inst7.CLK
+CLK_IN => inst8.CLK
+CLK_IN => inst9.CLK
+CLK_IN => inst10.CLK
+
+
+|finalproject|upcounter:inst8|debouncer:inst6|clock_divider_1024:inst
+CLK_OUT <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+CLK_IN => inst1.CLK
+CLK_IN => inst2.CLK
+CLK_IN => inst3.CLK
+CLK_IN => inst6.CLK
+CLK_IN => inst7.CLK
+CLK_IN => inst8.CLK
+CLK_IN => inst9.CLK
+CLK_IN => inst10.CLK
+
+
+|finalproject|seven_seg_decoder:display2
+Z => Decoder0.IN0
+Y => Decoder0.IN1
+X => Decoder0.IN2
+W => Decoder0.IN3
+A <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+B <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+C <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+D <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+E <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+F <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+G <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|finalproject|segSelector:inst6
+inputs_set1a => outputa.DATAB
+inputs_set1b => outputb.DATAB
+inputs_set1c => outputc.DATAB
+inputs_set1d => outputd.DATAB
+inputs_set2a => outputa.DATAA
+inputs_set2b => outputb.DATAA
+inputs_set2c => outputc.DATAA
+inputs_set2d => outputd.DATAA
+select => outputa.OUTPUTSELECT
+select => outputb.OUTPUTSELECT
+select => outputc.OUTPUTSELECT
+select => outputd.OUTPUTSELECT
+outputa <= outputa.DB_MAX_OUTPUT_PORT_TYPE
+outputb <= outputb.DB_MAX_OUTPUT_PORT_TYPE
+outputc <= outputc.DB_MAX_OUTPUT_PORT_TYPE
+outputd <= outputd.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|finalproject|upcounter:inst2
+out3 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+CLRN => inst3.ACLR
+CLRN => inst2.ACLR
+CLRN => inst1.ACLR
+CLRN => inst389025.ACLR
+Enable => inst3.IN0
+Enable => inst2.IN0
+Enable => inst1.IN0
+Enable => inst389025.IN0
+Clk => debouncer:inst6.manual
+boardCLock => debouncer:inst6.board
+out2 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+out1 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+out0 <= inst389025.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|finalproject|upcounter:inst2|debouncer:inst6
+Smooth <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+board => clock_divider_1024:inst.CLK_IN
+manual => inst2.DATAIN
+
+
+|finalproject|upcounter:inst2|debouncer:inst6|clock_divider_1024:inst1
+CLK_OUT <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+CLK_IN => inst1.CLK
+CLK_IN => inst2.CLK
+CLK_IN => inst3.CLK
+CLK_IN => inst6.CLK
+CLK_IN => inst7.CLK
+CLK_IN => inst8.CLK
+CLK_IN => inst9.CLK
+CLK_IN => inst10.CLK
+
+
+|finalproject|upcounter:inst2|debouncer:inst6|clock_divider_1024:inst
+CLK_OUT <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+CLK_IN => inst1.CLK
+CLK_IN => inst2.CLK
+CLK_IN => inst3.CLK
+CLK_IN => inst6.CLK
+CLK_IN => inst7.CLK
+CLK_IN => inst8.CLK
+CLK_IN => inst9.CLK
+CLK_IN => inst10.CLK
+
+
+|finalproject|upcounter:inst9
+out3 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+CLRN => inst3.ACLR
+CLRN => inst2.ACLR
+CLRN => inst1.ACLR
+CLRN => inst389025.ACLR
+Enable => inst3.IN0
+Enable => inst2.IN0
+Enable => inst1.IN0
+Enable => inst389025.IN0
+Clk => debouncer:inst6.manual
+boardCLock => debouncer:inst6.board
+out2 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+out1 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+out0 <= inst389025.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|finalproject|upcounter:inst9|debouncer:inst6
+Smooth <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+board => clock_divider_1024:inst.CLK_IN
+manual => inst2.DATAIN
+
+
+|finalproject|upcounter:inst9|debouncer:inst6|clock_divider_1024:inst1
+CLK_OUT <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+CLK_IN => inst1.CLK
+CLK_IN => inst2.CLK
+CLK_IN => inst3.CLK
+CLK_IN => inst6.CLK
+CLK_IN => inst7.CLK
+CLK_IN => inst8.CLK
+CLK_IN => inst9.CLK
+CLK_IN => inst10.CLK
+
+
+|finalproject|upcounter:inst9|debouncer:inst6|clock_divider_1024:inst
+CLK_OUT <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+CLK_IN => inst1.CLK
+CLK_IN => inst2.CLK
+CLK_IN => inst3.CLK
+CLK_IN => inst6.CLK
+CLK_IN => inst7.CLK
+CLK_IN => inst8.CLK
+CLK_IN => inst9.CLK
+CLK_IN => inst10.CLK
+
+
+|finalproject|seven_seg_decoder:display1
+Z => Decoder0.IN0
+Y => Decoder0.IN1
+X => Decoder0.IN2
+W => Decoder0.IN3
+A <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+B <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+C <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+D <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+E <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+F <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+G <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|finalproject|segSelector:inst5
+inputs_set1a => outputa.DATAB
+inputs_set1b => outputb.DATAB
+inputs_set1c => outputc.DATAB
+inputs_set1d => outputd.DATAB
+inputs_set2a => outputa.DATAA
+inputs_set2b => outputb.DATAA
+inputs_set2c => outputc.DATAA
+inputs_set2d => outputd.DATAA
+select => outputa.OUTPUTSELECT
+select => outputb.OUTPUTSELECT
+select => outputc.OUTPUTSELECT
+select => outputd.OUTPUTSELECT
+outputa <= outputa.DB_MAX_OUTPUT_PORT_TYPE
+outputb <= outputb.DB_MAX_OUTPUT_PORT_TYPE
+outputc <= outputc.DB_MAX_OUTPUT_PORT_TYPE
+outputd <= outputd.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|finalproject|upcounter:inst3
+out3 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+CLRN => inst3.ACLR
+CLRN => inst2.ACLR
+CLRN => inst1.ACLR
+CLRN => inst389025.ACLR
+Enable => inst3.IN0
+Enable => inst2.IN0
+Enable => inst1.IN0
+Enable => inst389025.IN0
+Clk => debouncer:inst6.manual
+boardCLock => debouncer:inst6.board
+out2 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+out1 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+out0 <= inst389025.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|finalproject|upcounter:inst3|debouncer:inst6
+Smooth <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+board => clock_divider_1024:inst.CLK_IN
+manual => inst2.DATAIN
+
+
+|finalproject|upcounter:inst3|debouncer:inst6|clock_divider_1024:inst1
+CLK_OUT <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+CLK_IN => inst1.CLK
+CLK_IN => inst2.CLK
+CLK_IN => inst3.CLK
+CLK_IN => inst6.CLK
+CLK_IN => inst7.CLK
+CLK_IN => inst8.CLK
+CLK_IN => inst9.CLK
+CLK_IN => inst10.CLK
+
+
+|finalproject|upcounter:inst3|debouncer:inst6|clock_divider_1024:inst
+CLK_OUT <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+CLK_IN => inst1.CLK
+CLK_IN => inst2.CLK
+CLK_IN => inst3.CLK
+CLK_IN => inst6.CLK
+CLK_IN => inst7.CLK
+CLK_IN => inst8.CLK
+CLK_IN => inst9.CLK
+CLK_IN => inst10.CLK
+
+
+|finalproject|upcounter:inst10
+out3 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+CLRN => inst3.ACLR
+CLRN => inst2.ACLR
+CLRN => inst1.ACLR
+CLRN => inst389025.ACLR
+Enable => inst3.IN0
+Enable => inst2.IN0
+Enable => inst1.IN0
+Enable => inst389025.IN0
+Clk => debouncer:inst6.manual
+boardCLock => debouncer:inst6.board
+out2 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+out1 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+out0 <= inst389025.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|finalproject|upcounter:inst10|debouncer:inst6
+Smooth <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+board => clock_divider_1024:inst.CLK_IN
+manual => inst2.DATAIN
+
+
+|finalproject|upcounter:inst10|debouncer:inst6|clock_divider_1024:inst1
+CLK_OUT <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+CLK_IN => inst1.CLK
+CLK_IN => inst2.CLK
+CLK_IN => inst3.CLK
+CLK_IN => inst6.CLK
+CLK_IN => inst7.CLK
+CLK_IN => inst8.CLK
+CLK_IN => inst9.CLK
+CLK_IN => inst10.CLK
+
+
+|finalproject|upcounter:inst10|debouncer:inst6|clock_divider_1024:inst
+CLK_OUT <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+CLK_IN => inst1.CLK
+CLK_IN => inst2.CLK
+CLK_IN => inst3.CLK
+CLK_IN => inst6.CLK
+CLK_IN => inst7.CLK
+CLK_IN => inst8.CLK
+CLK_IN => inst9.CLK
+CLK_IN => inst10.CLK
+
+
+|finalproject|ledPatternGen:inst19
 pin_name1 <= nineCounter:ledset1.out1
 in => nineCounter:ledset1.w
 in => nineCounter:ledset2.w
@@ -41,7 +670,7 @@ pin_name23 <= nineCounter:ledset8.out2
 pin_name24 <= nineCounter:ledset8.out3
 
 
-|ledPatternGen|nineCounter:ledset1
+|finalproject|ledPatternGen:inst19|nineCounter:ledset1
 w~ <= inst20.DB_MAX_OUTPUT_PORT_TYPE
 w => inst20.IN0
 w => inst3.ACLR
@@ -60,12 +689,12 @@ out2 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
 out3 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|ledPatternGen|nineCounter:ledset1|clock_generator:inst
+|finalproject|ledPatternGen:inst19|nineCounter:ledset1|clock_generator:inst
 CLK_OUT <= inst7.DB_MAX_OUTPUT_PORT_TYPE
 CLK_IN => clock_divider_1024:inst103.CLK_IN
 
 
-|ledPatternGen|nineCounter:ledset1|clock_generator:inst|clock_divider_1024:inst102
+|finalproject|ledPatternGen:inst19|nineCounter:ledset1|clock_generator:inst|clock_divider_1024:inst102
 CLK_OUT <= inst10.DB_MAX_OUTPUT_PORT_TYPE
 CLK_IN => inst1.CLK
 CLK_IN => inst2.CLK
@@ -77,7 +706,7 @@ CLK_IN => inst9.CLK
 CLK_IN => inst10.CLK
 
 
-|ledPatternGen|nineCounter:ledset1|clock_generator:inst|clock_divider_1024:inst103
+|finalproject|ledPatternGen:inst19|nineCounter:ledset1|clock_generator:inst|clock_divider_1024:inst103
 CLK_OUT <= inst10.DB_MAX_OUTPUT_PORT_TYPE
 CLK_IN => inst1.CLK
 CLK_IN => inst2.CLK
@@ -89,7 +718,7 @@ CLK_IN => inst9.CLK
 CLK_IN => inst10.CLK
 
 
-|ledPatternGen|nineCounter:ledset2
+|finalproject|ledPatternGen:inst19|nineCounter:ledset2
 w~ <= inst20.DB_MAX_OUTPUT_PORT_TYPE
 w => inst20.IN0
 w => inst3.ACLR
@@ -108,12 +737,12 @@ out2 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
 out3 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|ledPatternGen|nineCounter:ledset2|clock_generator:inst
+|finalproject|ledPatternGen:inst19|nineCounter:ledset2|clock_generator:inst
 CLK_OUT <= inst7.DB_MAX_OUTPUT_PORT_TYPE
 CLK_IN => clock_divider_1024:inst103.CLK_IN
 
 
-|ledPatternGen|nineCounter:ledset2|clock_generator:inst|clock_divider_1024:inst102
+|finalproject|ledPatternGen:inst19|nineCounter:ledset2|clock_generator:inst|clock_divider_1024:inst102
 CLK_OUT <= inst10.DB_MAX_OUTPUT_PORT_TYPE
 CLK_IN => inst1.CLK
 CLK_IN => inst2.CLK
@@ -125,7 +754,7 @@ CLK_IN => inst9.CLK
 CLK_IN => inst10.CLK
 
 
-|ledPatternGen|nineCounter:ledset2|clock_generator:inst|clock_divider_1024:inst103
+|finalproject|ledPatternGen:inst19|nineCounter:ledset2|clock_generator:inst|clock_divider_1024:inst103
 CLK_OUT <= inst10.DB_MAX_OUTPUT_PORT_TYPE
 CLK_IN => inst1.CLK
 CLK_IN => inst2.CLK
@@ -137,7 +766,7 @@ CLK_IN => inst9.CLK
 CLK_IN => inst10.CLK
 
 
-|ledPatternGen|nineCounter:ledset3
+|finalproject|ledPatternGen:inst19|nineCounter:ledset3
 w~ <= inst20.DB_MAX_OUTPUT_PORT_TYPE
 w => inst20.IN0
 w => inst3.ACLR
@@ -156,12 +785,12 @@ out2 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
 out3 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|ledPatternGen|nineCounter:ledset3|clock_generator:inst
+|finalproject|ledPatternGen:inst19|nineCounter:ledset3|clock_generator:inst
 CLK_OUT <= inst7.DB_MAX_OUTPUT_PORT_TYPE
 CLK_IN => clock_divider_1024:inst103.CLK_IN
 
 
-|ledPatternGen|nineCounter:ledset3|clock_generator:inst|clock_divider_1024:inst102
+|finalproject|ledPatternGen:inst19|nineCounter:ledset3|clock_generator:inst|clock_divider_1024:inst102
 CLK_OUT <= inst10.DB_MAX_OUTPUT_PORT_TYPE
 CLK_IN => inst1.CLK
 CLK_IN => inst2.CLK
@@ -173,7 +802,7 @@ CLK_IN => inst9.CLK
 CLK_IN => inst10.CLK
 
 
-|ledPatternGen|nineCounter:ledset3|clock_generator:inst|clock_divider_1024:inst103
+|finalproject|ledPatternGen:inst19|nineCounter:ledset3|clock_generator:inst|clock_divider_1024:inst103
 CLK_OUT <= inst10.DB_MAX_OUTPUT_PORT_TYPE
 CLK_IN => inst1.CLK
 CLK_IN => inst2.CLK
@@ -185,7 +814,7 @@ CLK_IN => inst9.CLK
 CLK_IN => inst10.CLK
 
 
-|ledPatternGen|nineCounter:ledset4
+|finalproject|ledPatternGen:inst19|nineCounter:ledset4
 w~ <= inst20.DB_MAX_OUTPUT_PORT_TYPE
 w => inst20.IN0
 w => inst3.ACLR
@@ -204,12 +833,12 @@ out2 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
 out3 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|ledPatternGen|nineCounter:ledset4|clock_generator:inst
+|finalproject|ledPatternGen:inst19|nineCounter:ledset4|clock_generator:inst
 CLK_OUT <= inst7.DB_MAX_OUTPUT_PORT_TYPE
 CLK_IN => clock_divider_1024:inst103.CLK_IN
 
 
-|ledPatternGen|nineCounter:ledset4|clock_generator:inst|clock_divider_1024:inst102
+|finalproject|ledPatternGen:inst19|nineCounter:ledset4|clock_generator:inst|clock_divider_1024:inst102
 CLK_OUT <= inst10.DB_MAX_OUTPUT_PORT_TYPE
 CLK_IN => inst1.CLK
 CLK_IN => inst2.CLK
@@ -221,7 +850,7 @@ CLK_IN => inst9.CLK
 CLK_IN => inst10.CLK
 
 
-|ledPatternGen|nineCounter:ledset4|clock_generator:inst|clock_divider_1024:inst103
+|finalproject|ledPatternGen:inst19|nineCounter:ledset4|clock_generator:inst|clock_divider_1024:inst103
 CLK_OUT <= inst10.DB_MAX_OUTPUT_PORT_TYPE
 CLK_IN => inst1.CLK
 CLK_IN => inst2.CLK
@@ -233,7 +862,7 @@ CLK_IN => inst9.CLK
 CLK_IN => inst10.CLK
 
 
-|ledPatternGen|nineCounter:ledset5
+|finalproject|ledPatternGen:inst19|nineCounter:ledset5
 w~ <= inst20.DB_MAX_OUTPUT_PORT_TYPE
 w => inst20.IN0
 w => inst3.ACLR
@@ -252,12 +881,12 @@ out2 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
 out3 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|ledPatternGen|nineCounter:ledset5|clock_generator:inst
+|finalproject|ledPatternGen:inst19|nineCounter:ledset5|clock_generator:inst
 CLK_OUT <= inst7.DB_MAX_OUTPUT_PORT_TYPE
 CLK_IN => clock_divider_1024:inst103.CLK_IN
 
 
-|ledPatternGen|nineCounter:ledset5|clock_generator:inst|clock_divider_1024:inst102
+|finalproject|ledPatternGen:inst19|nineCounter:ledset5|clock_generator:inst|clock_divider_1024:inst102
 CLK_OUT <= inst10.DB_MAX_OUTPUT_PORT_TYPE
 CLK_IN => inst1.CLK
 CLK_IN => inst2.CLK
@@ -269,7 +898,7 @@ CLK_IN => inst9.CLK
 CLK_IN => inst10.CLK
 
 
-|ledPatternGen|nineCounter:ledset5|clock_generator:inst|clock_divider_1024:inst103
+|finalproject|ledPatternGen:inst19|nineCounter:ledset5|clock_generator:inst|clock_divider_1024:inst103
 CLK_OUT <= inst10.DB_MAX_OUTPUT_PORT_TYPE
 CLK_IN => inst1.CLK
 CLK_IN => inst2.CLK
@@ -281,7 +910,7 @@ CLK_IN => inst9.CLK
 CLK_IN => inst10.CLK
 
 
-|ledPatternGen|nineCounter:ledset6
+|finalproject|ledPatternGen:inst19|nineCounter:ledset6
 w~ <= inst20.DB_MAX_OUTPUT_PORT_TYPE
 w => inst20.IN0
 w => inst3.ACLR
@@ -300,12 +929,12 @@ out2 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
 out3 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|ledPatternGen|nineCounter:ledset6|clock_generator:inst
+|finalproject|ledPatternGen:inst19|nineCounter:ledset6|clock_generator:inst
 CLK_OUT <= inst7.DB_MAX_OUTPUT_PORT_TYPE
 CLK_IN => clock_divider_1024:inst103.CLK_IN
 
 
-|ledPatternGen|nineCounter:ledset6|clock_generator:inst|clock_divider_1024:inst102
+|finalproject|ledPatternGen:inst19|nineCounter:ledset6|clock_generator:inst|clock_divider_1024:inst102
 CLK_OUT <= inst10.DB_MAX_OUTPUT_PORT_TYPE
 CLK_IN => inst1.CLK
 CLK_IN => inst2.CLK
@@ -317,7 +946,7 @@ CLK_IN => inst9.CLK
 CLK_IN => inst10.CLK
 
 
-|ledPatternGen|nineCounter:ledset6|clock_generator:inst|clock_divider_1024:inst103
+|finalproject|ledPatternGen:inst19|nineCounter:ledset6|clock_generator:inst|clock_divider_1024:inst103
 CLK_OUT <= inst10.DB_MAX_OUTPUT_PORT_TYPE
 CLK_IN => inst1.CLK
 CLK_IN => inst2.CLK
@@ -329,7 +958,7 @@ CLK_IN => inst9.CLK
 CLK_IN => inst10.CLK
 
 
-|ledPatternGen|nineCounter:ledset7
+|finalproject|ledPatternGen:inst19|nineCounter:ledset7
 w~ <= inst20.DB_MAX_OUTPUT_PORT_TYPE
 w => inst20.IN0
 w => inst3.ACLR
@@ -348,12 +977,12 @@ out2 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
 out3 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|ledPatternGen|nineCounter:ledset7|clock_generator:inst
+|finalproject|ledPatternGen:inst19|nineCounter:ledset7|clock_generator:inst
 CLK_OUT <= inst7.DB_MAX_OUTPUT_PORT_TYPE
 CLK_IN => clock_divider_1024:inst103.CLK_IN
 
 
-|ledPatternGen|nineCounter:ledset7|clock_generator:inst|clock_divider_1024:inst102
+|finalproject|ledPatternGen:inst19|nineCounter:ledset7|clock_generator:inst|clock_divider_1024:inst102
 CLK_OUT <= inst10.DB_MAX_OUTPUT_PORT_TYPE
 CLK_IN => inst1.CLK
 CLK_IN => inst2.CLK
@@ -365,7 +994,7 @@ CLK_IN => inst9.CLK
 CLK_IN => inst10.CLK
 
 
-|ledPatternGen|nineCounter:ledset7|clock_generator:inst|clock_divider_1024:inst103
+|finalproject|ledPatternGen:inst19|nineCounter:ledset7|clock_generator:inst|clock_divider_1024:inst103
 CLK_OUT <= inst10.DB_MAX_OUTPUT_PORT_TYPE
 CLK_IN => inst1.CLK
 CLK_IN => inst2.CLK
@@ -377,7 +1006,7 @@ CLK_IN => inst9.CLK
 CLK_IN => inst10.CLK
 
 
-|ledPatternGen|nineCounter:ledset8
+|finalproject|ledPatternGen:inst19|nineCounter:ledset8
 w~ <= inst20.DB_MAX_OUTPUT_PORT_TYPE
 w => inst20.IN0
 w => inst3.ACLR
@@ -396,12 +1025,12 @@ out2 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
 out3 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|ledPatternGen|nineCounter:ledset8|clock_generator:inst
+|finalproject|ledPatternGen:inst19|nineCounter:ledset8|clock_generator:inst
 CLK_OUT <= inst7.DB_MAX_OUTPUT_PORT_TYPE
 CLK_IN => clock_divider_1024:inst103.CLK_IN
 
 
-|ledPatternGen|nineCounter:ledset8|clock_generator:inst|clock_divider_1024:inst102
+|finalproject|ledPatternGen:inst19|nineCounter:ledset8|clock_generator:inst|clock_divider_1024:inst102
 CLK_OUT <= inst10.DB_MAX_OUTPUT_PORT_TYPE
 CLK_IN => inst1.CLK
 CLK_IN => inst2.CLK
@@ -413,7 +1042,7 @@ CLK_IN => inst9.CLK
 CLK_IN => inst10.CLK
 
 
-|ledPatternGen|nineCounter:ledset8|clock_generator:inst|clock_divider_1024:inst103
+|finalproject|ledPatternGen:inst19|nineCounter:ledset8|clock_generator:inst|clock_divider_1024:inst103
 CLK_OUT <= inst10.DB_MAX_OUTPUT_PORT_TYPE
 CLK_IN => inst1.CLK
 CLK_IN => inst2.CLK
@@ -423,5 +1052,177 @@ CLK_IN => inst7.CLK
 CLK_IN => inst8.CLK
 CLK_IN => inst9.CLK
 CLK_IN => inst10.CLK
+
+
+|finalproject|isgameFinishedModule:inst21
+out <= inst.DB_MAX_OUTPUT_PORT_TYPE
+clear => inst.ACLR
+CheckPass => ins11.IN0
+Comparer => ins11.IN1
+guessMode => inst.DATAIN
+
+
+|finalproject|theUltimateComparer:inst16
+out <= inst8.DB_MAX_OUTPUT_PORT_TYPE
+checkPass => smallUltimateComparers:check44.checkguess
+checkPass => smallUltimateComparers:check42.checkguess
+checkPass => smallUltimateComparers:check43.checkguess
+checkPass => smallUltimateComparers:check41.checkguess
+checkPass => smallUltimateComparers:check32.checkguess
+checkPass => smallUltimateComparers:check33.checkguess
+checkPass => smallUltimateComparers:check31.checkguess
+checkPass => smallUltimateComparers:check34.checkguess
+checkPass => smallUltimateComparers:check24.checkguess
+checkPass => smallUltimateComparers:check22.checkguess
+checkPass => smallUltimateComparers:check23.checkguess
+checkPass => smallUltimateComparers:check21.checkguess
+checkPass => smallUltimateComparers:check12.checkguess
+checkPass => smallUltimateComparers:check13.checkguess
+checkPass => smallUltimateComparers:check11.checkguess
+checkPass => smallUltimateComparers:check14.checkguess
+pass44 => smallUltimateComparers:check44.pass
+guess44 => smallUltimateComparers:check44.guess
+pass42 => smallUltimateComparers:check42.pass
+guess42 => smallUltimateComparers:check42.guess
+pass43 => smallUltimateComparers:check43.pass
+guess43 => smallUltimateComparers:check43.guess
+pass41 => smallUltimateComparers:check41.pass
+guess41 => smallUltimateComparers:check41.guess
+pass32 => smallUltimateComparers:check32.pass
+guess32 => smallUltimateComparers:check32.guess
+pass33 => smallUltimateComparers:check33.pass
+guess33 => smallUltimateComparers:check33.guess
+pass31 => smallUltimateComparers:check31.pass
+guess31 => smallUltimateComparers:check31.guess
+pass34 => smallUltimateComparers:check34.pass
+guess34 => smallUltimateComparers:check34.guess
+pass24 => smallUltimateComparers:check24.pass
+guess24 => smallUltimateComparers:check24.guess
+pass22 => smallUltimateComparers:check22.pass
+guess22 => smallUltimateComparers:check22.guess
+pass23 => smallUltimateComparers:check23.pass
+guess23 => smallUltimateComparers:check23.guess
+pass21 => smallUltimateComparers:check21.pass
+guess21 => smallUltimateComparers:check21.guess
+pass12 => smallUltimateComparers:check12.pass
+guess12 => smallUltimateComparers:check12.guess
+pass13 => smallUltimateComparers:check13.pass
+guess13 => smallUltimateComparers:check13.guess
+pass11 => smallUltimateComparers:check11.pass
+guess11 => smallUltimateComparers:check11.guess
+pass14 => smallUltimateComparers:check14.pass
+guess14 => smallUltimateComparers:check14.guess
+
+
+|finalproject|theUltimateComparer:inst16|smallUltimateComparers:check44
+out <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+checkguess => inst2.IN0
+pass => inst.IN0
+guess => inst.IN1
+
+
+|finalproject|theUltimateComparer:inst16|smallUltimateComparers:check42
+out <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+checkguess => inst2.IN0
+pass => inst.IN0
+guess => inst.IN1
+
+
+|finalproject|theUltimateComparer:inst16|smallUltimateComparers:check43
+out <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+checkguess => inst2.IN0
+pass => inst.IN0
+guess => inst.IN1
+
+
+|finalproject|theUltimateComparer:inst16|smallUltimateComparers:check41
+out <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+checkguess => inst2.IN0
+pass => inst.IN0
+guess => inst.IN1
+
+
+|finalproject|theUltimateComparer:inst16|smallUltimateComparers:check32
+out <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+checkguess => inst2.IN0
+pass => inst.IN0
+guess => inst.IN1
+
+
+|finalproject|theUltimateComparer:inst16|smallUltimateComparers:check33
+out <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+checkguess => inst2.IN0
+pass => inst.IN0
+guess => inst.IN1
+
+
+|finalproject|theUltimateComparer:inst16|smallUltimateComparers:check31
+out <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+checkguess => inst2.IN0
+pass => inst.IN0
+guess => inst.IN1
+
+
+|finalproject|theUltimateComparer:inst16|smallUltimateComparers:check34
+out <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+checkguess => inst2.IN0
+pass => inst.IN0
+guess => inst.IN1
+
+
+|finalproject|theUltimateComparer:inst16|smallUltimateComparers:check24
+out <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+checkguess => inst2.IN0
+pass => inst.IN0
+guess => inst.IN1
+
+
+|finalproject|theUltimateComparer:inst16|smallUltimateComparers:check22
+out <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+checkguess => inst2.IN0
+pass => inst.IN0
+guess => inst.IN1
+
+
+|finalproject|theUltimateComparer:inst16|smallUltimateComparers:check23
+out <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+checkguess => inst2.IN0
+pass => inst.IN0
+guess => inst.IN1
+
+
+|finalproject|theUltimateComparer:inst16|smallUltimateComparers:check21
+out <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+checkguess => inst2.IN0
+pass => inst.IN0
+guess => inst.IN1
+
+
+|finalproject|theUltimateComparer:inst16|smallUltimateComparers:check12
+out <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+checkguess => inst2.IN0
+pass => inst.IN0
+guess => inst.IN1
+
+
+|finalproject|theUltimateComparer:inst16|smallUltimateComparers:check13
+out <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+checkguess => inst2.IN0
+pass => inst.IN0
+guess => inst.IN1
+
+
+|finalproject|theUltimateComparer:inst16|smallUltimateComparers:check11
+out <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+checkguess => inst2.IN0
+pass => inst.IN0
+guess => inst.IN1
+
+
+|finalproject|theUltimateComparer:inst16|smallUltimateComparers:check14
+out <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+checkguess => inst2.IN0
+pass => inst.IN0
+guess => inst.IN1
 
 

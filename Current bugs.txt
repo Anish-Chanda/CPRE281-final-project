@@ -3,3 +3,16 @@ Current bugs
 - Swicthing register error - DONE
 - CLR, clears both the registers - DONE
 - Enable, doesnt work after adding the regSelect thing
+
+
+wip
+stages of the game, 
+password is chosen. 
+then sw0 db is used to set pass
+guess is chose
+(TODO) - DONE check the pass using a push btn
+(TODO) if password wrong show no in hex 5 and 4
+(TODO) if password right show yes in hex 6 - 4
+show LED pattern
+(TODO) disable inputs to the registers
+(TODO) add a push btn to restart game
