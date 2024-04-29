@@ -1,5 +1,5 @@
 |finalproject
-a4 <= seven_seg_decoder:display4.A
+a4 <= seven_seg_decoder:passdisplay4.A
 counter1 => inst12.IN0
 counter2 => inst13.IN0
 counter3 => inst14.IN0
@@ -22,33 +22,33 @@ BoardClock => upcounter:inst9.boardCLock
 BoardClock => upcounter:inst3.boardCLock
 BoardClock => upcounter:inst10.boardCLock
 BoardClock => ledPatternGen:inst19.clk
-b4 <= seven_seg_decoder:display4.B
-c4 <= seven_seg_decoder:display4.C
-d4 <= seven_seg_decoder:display4.D
-e4 <= seven_seg_decoder:display4.E
-f4 <= seven_seg_decoder:display4.F
-g4 <= seven_seg_decoder:display4.G
-a3 <= seven_seg_decoder:display3.A
-b3 <= seven_seg_decoder:display3.B
-c3 <= seven_seg_decoder:display3.C
-d3 <= seven_seg_decoder:display3.D
-e3 <= seven_seg_decoder:display3.E
-f3 <= seven_seg_decoder:display3.F
-g3 <= seven_seg_decoder:display3.G
-a2 <= seven_seg_decoder:display2.A
-b2 <= seven_seg_decoder:display2.B
-c2 <= seven_seg_decoder:display2.C
-d2 <= seven_seg_decoder:display2.D
-e2 <= seven_seg_decoder:display2.E
-f2 <= seven_seg_decoder:display2.F
-g2 <= seven_seg_decoder:display2.G
-a1 <= seven_seg_decoder:display1.A
-b1 <= seven_seg_decoder:display1.B
-c1 <= seven_seg_decoder:display1.C
-d1 <= seven_seg_decoder:display1.D
-e1 <= seven_seg_decoder:display1.E
-f1 <= seven_seg_decoder:display1.F
-g1 <= seven_seg_decoder:display1.G
+b4 <= seven_seg_decoder:passdisplay4.B
+c4 <= seven_seg_decoder:passdisplay4.C
+d4 <= seven_seg_decoder:passdisplay4.D
+e4 <= seven_seg_decoder:passdisplay4.E
+f4 <= seven_seg_decoder:passdisplay4.F
+g4 <= seven_seg_decoder:passdisplay4.G
+a3 <= seven_seg_decoder:passdisplay3.A
+b3 <= seven_seg_decoder:passdisplay3.B
+c3 <= seven_seg_decoder:passdisplay3.C
+d3 <= seven_seg_decoder:passdisplay3.D
+e3 <= seven_seg_decoder:passdisplay3.E
+f3 <= seven_seg_decoder:passdisplay3.F
+g3 <= seven_seg_decoder:passdisplay3.G
+a2 <= seven_seg_decoder:passdisplay2.A
+b2 <= seven_seg_decoder:passdisplay2.B
+c2 <= seven_seg_decoder:passdisplay2.C
+d2 <= seven_seg_decoder:passdisplay2.D
+e2 <= seven_seg_decoder:passdisplay2.E
+f2 <= seven_seg_decoder:passdisplay2.F
+g2 <= seven_seg_decoder:passdisplay2.G
+a1 <= seven_seg_decoder:passdisplay1.A
+b1 <= seven_seg_decoder:passdisplay1.B
+c1 <= seven_seg_decoder:passdisplay1.C
+d1 <= seven_seg_decoder:passdisplay1.D
+e1 <= seven_seg_decoder:passdisplay1.E
+f1 <= seven_seg_decoder:passdisplay1.F
+g1 <= seven_seg_decoder:passdisplay1.G
 setPassLED <= setPass.DB_MAX_OUTPUT_PORT_TYPE
 reg2clk1LED <= register2[3].DB_MAX_OUTPUT_PORT_TYPE
 guessBit4Bit4LED <= upcounter:inst7.out0
@@ -56,6 +56,7 @@ clrreg1 <= selector:inst4.enable1
 clrreg2 <= selector:inst4.enable2
 pin_name1 <= ledPatternGen:inst19.pin_name1
 CheckPass => isgameFinishedModule:inst21.CheckPass
+CheckPass => inst25.IN1
 pin_name2 <= ledPatternGen:inst19.pin_name13
 pin_name3 <= ledPatternGen:inst19.pin_name2
 pin_name4 <= ledPatternGen:inst19.pin_name14
@@ -79,10 +80,39 @@ pin_name21 <= ledPatternGen:inst19.pin_name11
 pin_name22 <= ledPatternGen:inst19.pin_name23
 pin_name23 <= ledPatternGen:inst19.pin_name12
 pin_name24 <= ledPatternGen:inst19.pin_name24
+msgDisplay11 <= display1[6].DB_MAX_OUTPUT_PORT_TYPE
+msgDisplay12 <= display1[5].DB_MAX_OUTPUT_PORT_TYPE
+msgDisplay13 <= display1[4].DB_MAX_OUTPUT_PORT_TYPE
+msgDisplay14 <= display1[3].DB_MAX_OUTPUT_PORT_TYPE
+msgDisplay15 <= display1[2].DB_MAX_OUTPUT_PORT_TYPE
+msgDisplay16 <= display1[1].DB_MAX_OUTPUT_PORT_TYPE
+msgDisplay17 <= display1[0].DB_MAX_OUTPUT_PORT_TYPE
+msgDisplay18 <= display2[5].DB_MAX_OUTPUT_PORT_TYPE
+msgDisplay19 <= display2[4].DB_MAX_OUTPUT_PORT_TYPE
+msgDisplay20 <= display2[3].DB_MAX_OUTPUT_PORT_TYPE
+msgDisplay21 <= display2[2].DB_MAX_OUTPUT_PORT_TYPE
+msgDisplay22 <= display2[1].DB_MAX_OUTPUT_PORT_TYPE
+msgDisplay23 <= display2[0].DB_MAX_OUTPUT_PORT_TYPE
+msgDisplay24 <= display3[6].DB_MAX_OUTPUT_PORT_TYPE
+msgDisplay25 <= display3[5].DB_MAX_OUTPUT_PORT_TYPE
+msgDisplay26 <= display3[4].DB_MAX_OUTPUT_PORT_TYPE
+msgDisplay27 <= display3[3].DB_MAX_OUTPUT_PORT_TYPE
+msgDisplay28 <= display3[2].DB_MAX_OUTPUT_PORT_TYPE
+msgDisplay29 <= display3[1].DB_MAX_OUTPUT_PORT_TYPE
+msgDisplay30 <= display3[0].DB_MAX_OUTPUT_PORT_TYPE
+msgDisplay31 <= display4[6].DB_MAX_OUTPUT_PORT_TYPE
+msgDisplay32 <= display4[5].DB_MAX_OUTPUT_PORT_TYPE
+msgDisplay33 <= display4[4].DB_MAX_OUTPUT_PORT_TYPE
+msgDisplay34 <= display4[3].DB_MAX_OUTPUT_PORT_TYPE
+msgDisplay35 <= display4[2].DB_MAX_OUTPUT_PORT_TYPE
+msgDisplay36 <= display4[1].DB_MAX_OUTPUT_PORT_TYPE
+msgDisplay37 <= display4[0].DB_MAX_OUTPUT_PORT_TYPE
+msgDisplay171 <= display2[6].DB_MAX_OUTPUT_PORT_TYPE
+checkpassled111 <= theUltimateComparer:inst16.out
 ENABLE => ~NO_FANOUT~
 
 
-|finalproject|seven_seg_decoder:display4
+|finalproject|seven_seg_decoder:passdisplay4
 Z => Decoder0.IN0
 Y => Decoder0.IN1
 X => Decoder0.IN2
@@ -246,7 +276,7 @@ CLK_IN => inst9.CLK
 CLK_IN => inst10.CLK
 
 
-|finalproject|seven_seg_decoder:display3
+|finalproject|seven_seg_decoder:passdisplay3
 Z => Decoder0.IN0
 Y => Decoder0.IN1
 X => Decoder0.IN2
@@ -373,7 +403,7 @@ CLK_IN => inst9.CLK
 CLK_IN => inst10.CLK
 
 
-|finalproject|seven_seg_decoder:display2
+|finalproject|seven_seg_decoder:passdisplay2
 Z => Decoder0.IN0
 Y => Decoder0.IN1
 X => Decoder0.IN2
@@ -500,7 +530,7 @@ CLK_IN => inst9.CLK
 CLK_IN => inst10.CLK
 
 
-|finalproject|seven_seg_decoder:display1
+|finalproject|seven_seg_decoder:passdisplay1
 Z => Decoder0.IN0
 Y => Decoder0.IN1
 X => Decoder0.IN2
@@ -1224,5 +1254,40 @@ out <= inst2.DB_MAX_OUTPUT_PORT_TYPE
 checkguess => inst2.IN0
 pass => inst.IN0
 guess => inst.IN1
+
+
+|finalproject|yesnogenerator:inst22
+in => always0.IN0
+in => always0.IN0
+enable => always0.IN1
+enable => always0.IN1
+display1[0] <= display1.DB_MAX_OUTPUT_PORT_TYPE
+display1[1] <= <VCC>
+display1[2] <= display1.DB_MAX_OUTPUT_PORT_TYPE
+display1[3] <= <VCC>
+display1[4] <= display1.DB_MAX_OUTPUT_PORT_TYPE
+display1[5] <= <VCC>
+display1[6] <= <VCC>
+display2[0] <= <VCC>
+display2[1] <= display2.DB_MAX_OUTPUT_PORT_TYPE
+display2[2] <= display2.DB_MAX_OUTPUT_PORT_TYPE
+display2[3] <= always0.DB_MAX_OUTPUT_PORT_TYPE
+display2[4] <= always0.DB_MAX_OUTPUT_PORT_TYPE
+display2[5] <= always0.DB_MAX_OUTPUT_PORT_TYPE
+display2[6] <= always0.DB_MAX_OUTPUT_PORT_TYPE
+display3[0] <= always0.DB_MAX_OUTPUT_PORT_TYPE
+display3[1] <= display3.DB_MAX_OUTPUT_PORT_TYPE
+display3[2] <= display3.DB_MAX_OUTPUT_PORT_TYPE
+display3[3] <= display3.DB_MAX_OUTPUT_PORT_TYPE
+display3[4] <= <VCC>
+display3[5] <= always0.DB_MAX_OUTPUT_PORT_TYPE
+display3[6] <= display3.DB_MAX_OUTPUT_PORT_TYPE
+display4[0] <= display4.DB_MAX_OUTPUT_PORT_TYPE
+display4[1] <= display4.DB_MAX_OUTPUT_PORT_TYPE
+display4[2] <= display4.DB_MAX_OUTPUT_PORT_TYPE
+display4[3] <= display4.DB_MAX_OUTPUT_PORT_TYPE
+display4[4] <= <VCC>
+display4[5] <= <VCC>
+display4[6] <= display4.DB_MAX_OUTPUT_PORT_TYPE
 
 

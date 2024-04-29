@@ -1,5 +1,5 @@
 Analysis & Synthesis report for finalproject
-Sun Apr 28 19:30:44 2024
+Sun Apr 28 22:38:05 2024
 Quartus Prime Version 22.1std.1 Build 917 02/14/2023 SC Standard Edition
 
 
@@ -44,16 +44,16 @@ https://fpgasoftware.intel.com/eula.
 +-----------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                            ;
 +------------------------------------+----------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Sun Apr 28 19:30:44 2024              ;
+; Analysis & Synthesis Status        ; Successful - Sun Apr 28 22:38:05 2024              ;
 ; Quartus Prime Version              ; 22.1std.1 Build 917 02/14/2023 SC Standard Edition ;
 ; Revision Name                      ; finalproject                                       ;
 ; Top-level Entity Name              ; finalproject                                       ;
 ; Family                             ; Cyclone IV E                                       ;
-; Total logic elements               ; 373                                                ;
-;     Total combinational functions  ; 372                                                ;
+; Total logic elements               ; 376                                                ;
+;     Total combinational functions  ; 375                                                ;
 ;     Dedicated logic registers      ; 272                                                ;
 ; Total registers                    ; 272                                                ;
-; Total pins                         ; 66                                                 ;
+; Total pins                         ; 95                                                 ;
 ; Total virtual pins                 ; 0                                                  ;
 ; Total memory bits                  ; 0                                                  ;
 ; Embedded Multiplier 9-bit elements ; 0                                                  ;
@@ -182,6 +182,7 @@ https://fpgasoftware.intel.com/eula.
 ; clock_divider_1024.bdf           ; yes             ; User Block Diagram/Schematic File  ; U:/CPRE281/final project v2/final project/clock_divider_1024.bdf     ;         ;
 ; clock_generator.bdf              ; yes             ; User Block Diagram/Schematic File  ; U:/CPRE281/final project v2/final project/clock_generator.bdf        ;         ;
 ; isgameFinishedModule.bdf         ; yes             ; User Block Diagram/Schematic File  ; U:/CPRE281/final project v2/final project/isgameFinishedModule.bdf   ;         ;
+; yesnogenerator.v                 ; yes             ; User Verilog HDL File              ; U:/CPRE281/final project v2/final project/yesnogenerator.v           ;         ;
 ; seven_seg_decoder.v              ; yes             ; Auto-Found Verilog HDL File        ; U:/CPRE281/final project v2/final project/seven_seg_decoder.v        ;         ;
 +----------------------------------+-----------------+------------------------------------+----------------------------------------------------------------------+---------+
 
@@ -191,30 +192,30 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------+---------------+
 ; Resource                                    ; Usage         ;
 +---------------------------------------------+---------------+
-; Estimated Total logic elements              ; 373           ;
+; Estimated Total logic elements              ; 376           ;
 ;                                             ;               ;
-; Total combinational functions               ; 372           ;
+; Total combinational functions               ; 375           ;
 ; Logic element usage by number of LUT inputs ;               ;
-;     -- 4 input functions                    ; 132           ;
-;     -- 3 input functions                    ; 90            ;
-;     -- <=2 input functions                  ; 150           ;
+;     -- 4 input functions                    ; 133           ;
+;     -- 3 input functions                    ; 91            ;
+;     -- <=2 input functions                  ; 151           ;
 ;                                             ;               ;
 ; Logic elements by mode                      ;               ;
-;     -- normal mode                          ; 372           ;
+;     -- normal mode                          ; 375           ;
 ;     -- arithmetic mode                      ; 0             ;
 ;                                             ;               ;
 ; Total registers                             ; 272           ;
 ;     -- Dedicated logic registers            ; 272           ;
 ;     -- I/O registers                        ; 0             ;
 ;                                             ;               ;
-; I/O pins                                    ; 66            ;
+; I/O pins                                    ; 95            ;
 ;                                             ;               ;
 ; Embedded Multiplier 9-bit elements          ; 0             ;
 ;                                             ;               ;
 ; Maximum fan-out node                        ; setPass~input ;
-; Maximum fan-out                             ; 63            ;
-; Total fan-out                               ; 1795          ;
-; Average fan-out                             ; 2.31          ;
+; Maximum fan-out                             ; 66            ;
+; Total fan-out                               ; 1854          ;
+; Average fan-out                             ; 2.22          ;
 +---------------------------------------------+---------------+
 
 
@@ -223,9 +224,9 @@ https://fpgasoftware.intel.com/eula.
 +------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+--------------------------------------------------------------------------------------------------------+----------------------+--------------+
 ; Compilation Hierarchy Node               ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                    ; Entity Name          ; Library Name ;
 +------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+--------------------------------------------------------------------------------------------------------+----------------------+--------------+
-; |finalproject                            ; 372 (0)             ; 272 (0)                   ; 0           ; 0            ; 0       ; 0         ; 66   ; 0            ; |finalproject                                                                                          ; finalproject         ; work         ;
-;    |isgameFinishedModule:inst21|         ; 11 (11)             ; 1 (1)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |finalproject|isgameFinishedModule:inst21                                                              ; isgameFinishedModule ; work         ;
-;    |ledPatternGen:inst19|                ; 184 (0)             ; 159 (0)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |finalproject|ledPatternGen:inst19                                                                     ; ledPatternGen        ; work         ;
+; |finalproject                            ; 375 (0)             ; 272 (0)                   ; 0           ; 0            ; 0       ; 0         ; 95   ; 0            ; |finalproject                                                                                          ; finalproject         ; work         ;
+;    |isgameFinishedModule:inst21|         ; 1 (1)               ; 1 (1)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |finalproject|isgameFinishedModule:inst21                                                              ; isgameFinishedModule ; work         ;
+;    |ledPatternGen:inst19|                ; 183 (0)             ; 159 (0)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |finalproject|ledPatternGen:inst19                                                                     ; ledPatternGen        ; work         ;
 ;       |nineCounter:ledset1|              ; 27 (3)              ; 24 (3)                    ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |finalproject|ledPatternGen:inst19|nineCounter:ledset1                                                 ; nineCounter          ; work         ;
 ;          |clock_generator:inst|          ; 24 (8)              ; 21 (7)                    ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |finalproject|ledPatternGen:inst19|nineCounter:ledset1|clock_generator:inst                            ; clock_generator      ; work         ;
 ;             |clock_divider_1024:inst102| ; 10 (10)             ; 8 (8)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |finalproject|ledPatternGen:inst19|nineCounter:ledset1|clock_generator:inst|clock_divider_1024:inst102 ; clock_divider_1024   ; work         ;
@@ -234,8 +235,8 @@ https://fpgasoftware.intel.com/eula.
 ;          |clock_generator:inst|          ; 19 (8)              ; 16 (7)                    ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |finalproject|ledPatternGen:inst19|nineCounter:ledset2|clock_generator:inst                            ; clock_generator      ; work         ;
 ;             |clock_divider_1024:inst102| ; 10 (10)             ; 8 (8)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |finalproject|ledPatternGen:inst19|nineCounter:ledset2|clock_generator:inst|clock_divider_1024:inst102 ; clock_divider_1024   ; work         ;
 ;             |clock_divider_1024:inst103| ; 1 (1)               ; 1 (1)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |finalproject|ledPatternGen:inst19|nineCounter:ledset2|clock_generator:inst|clock_divider_1024:inst103 ; clock_divider_1024   ; work         ;
-;       |nineCounter:ledset3|              ; 23 (3)              ; 19 (3)                    ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |finalproject|ledPatternGen:inst19|nineCounter:ledset3                                                 ; nineCounter          ; work         ;
-;          |clock_generator:inst|          ; 20 (9)              ; 16 (7)                    ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |finalproject|ledPatternGen:inst19|nineCounter:ledset3|clock_generator:inst                            ; clock_generator      ; work         ;
+;       |nineCounter:ledset3|              ; 22 (3)              ; 19 (3)                    ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |finalproject|ledPatternGen:inst19|nineCounter:ledset3                                                 ; nineCounter          ; work         ;
+;          |clock_generator:inst|          ; 19 (8)              ; 16 (7)                    ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |finalproject|ledPatternGen:inst19|nineCounter:ledset3|clock_generator:inst                            ; clock_generator      ; work         ;
 ;             |clock_divider_1024:inst102| ; 10 (10)             ; 8 (8)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |finalproject|ledPatternGen:inst19|nineCounter:ledset3|clock_generator:inst|clock_divider_1024:inst102 ; clock_divider_1024   ; work         ;
 ;             |clock_divider_1024:inst103| ; 1 (1)               ; 1 (1)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |finalproject|ledPatternGen:inst19|nineCounter:ledset3|clock_generator:inst|clock_divider_1024:inst103 ; clock_divider_1024   ; work         ;
 ;       |nineCounter:ledset4|              ; 22 (3)              ; 19 (3)                    ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |finalproject|ledPatternGen:inst19|nineCounter:ledset4                                                 ; nineCounter          ; work         ;
@@ -263,10 +264,11 @@ https://fpgasoftware.intel.com/eula.
 ;    |segSelector:inst6|                   ; 4 (4)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |finalproject|segSelector:inst6                                                                        ; segSelector          ; work         ;
 ;    |segSelector:inst|                    ; 4 (4)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |finalproject|segSelector:inst                                                                         ; segSelector          ; work         ;
 ;    |selector:inst4|                      ; 10 (10)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |finalproject|selector:inst4                                                                           ; selector             ; work         ;
-;    |seven_seg_decoder:display1|          ; 7 (7)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |finalproject|seven_seg_decoder:display1                                                               ; seven_seg_decoder    ; work         ;
-;    |seven_seg_decoder:display2|          ; 7 (7)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |finalproject|seven_seg_decoder:display2                                                               ; seven_seg_decoder    ; work         ;
-;    |seven_seg_decoder:display3|          ; 7 (7)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |finalproject|seven_seg_decoder:display3                                                               ; seven_seg_decoder    ; work         ;
-;    |seven_seg_decoder:display4|          ; 7 (7)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |finalproject|seven_seg_decoder:display4                                                               ; seven_seg_decoder    ; work         ;
+;    |seven_seg_decoder:passdisplay1|      ; 7 (7)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |finalproject|seven_seg_decoder:passdisplay1                                                           ; seven_seg_decoder    ; work         ;
+;    |seven_seg_decoder:passdisplay2|      ; 7 (7)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |finalproject|seven_seg_decoder:passdisplay2                                                           ; seven_seg_decoder    ; work         ;
+;    |seven_seg_decoder:passdisplay3|      ; 7 (7)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |finalproject|seven_seg_decoder:passdisplay3                                                           ; seven_seg_decoder    ; work         ;
+;    |seven_seg_decoder:passdisplay4|      ; 7 (7)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |finalproject|seven_seg_decoder:passdisplay4                                                           ; seven_seg_decoder    ; work         ;
+;    |theUltimateComparer:inst16|          ; 11 (11)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |finalproject|theUltimateComparer:inst16                                                               ; theUltimateComparer  ; work         ;
 ;    |upcounter:inst10|                    ; 15 (4)              ; 14 (4)                    ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |finalproject|upcounter:inst10                                                                         ; upcounter            ; work         ;
 ;       |debouncer:inst6|                  ; 11 (0)              ; 10 (1)                    ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |finalproject|upcounter:inst10|debouncer:inst6                                                         ; debouncer            ; work         ;
 ;          |clock_divider_1024:inst1|      ; 10 (10)             ; 8 (8)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |finalproject|upcounter:inst10|debouncer:inst6|clock_divider_1024:inst1                                ; clock_divider_1024   ; work         ;
@@ -299,6 +301,7 @@ https://fpgasoftware.intel.com/eula.
 ;       |debouncer:inst6|                  ; 11 (0)              ; 10 (1)                    ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |finalproject|upcounter:inst9|debouncer:inst6                                                          ; debouncer            ; work         ;
 ;          |clock_divider_1024:inst1|      ; 10 (10)             ; 8 (8)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |finalproject|upcounter:inst9|debouncer:inst6|clock_divider_1024:inst1                                 ; clock_divider_1024   ; work         ;
 ;          |clock_divider_1024:inst|       ; 1 (1)               ; 1 (1)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |finalproject|upcounter:inst9|debouncer:inst6|clock_divider_1024:inst                                  ; clock_divider_1024   ; work         ;
+;    |yesnogenerator:inst22|               ; 3 (3)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |finalproject|yesnogenerator:inst22                                                                    ; yesnogenerator       ; work         ;
 +------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+--------------------------------------------------------------------------------------------------------+----------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
@@ -437,21 +440,22 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-----------------------+-----------------------------+
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
-; boundary_port         ; 66                          ;
+; boundary_port         ; 95                          ;
 ; cycloneiii_ff         ; 272                         ;
 ;     CLR               ; 24                          ;
 ;     ENA               ; 15                          ;
 ;     ENA CLR           ; 32                          ;
 ;     plain             ; 201                         ;
-; cycloneiii_lcell_comb ; 378                         ;
-;     normal            ; 378                         ;
-;         1 data inputs ; 79                          ;
-;         2 data inputs ; 77                          ;
-;         3 data inputs ; 90                          ;
-;         4 data inputs ; 132                         ;
+; cycloneiii_lcell_comb ; 385                         ;
+;     normal            ; 385                         ;
+;         0 data inputs ; 1                           ;
+;         1 data inputs ; 82                          ;
+;         2 data inputs ; 78                          ;
+;         3 data inputs ; 91                          ;
+;         4 data inputs ; 133                         ;
 ;                       ;                             ;
-; Max LUT depth         ; 3.00                        ;
-; Average LUT depth     ; 1.85                        ;
+; Max LUT depth         ; 4.00                        ;
+; Average LUT depth     ; 1.93                        ;
 +-----------------------+-----------------------------+
 
 
@@ -470,7 +474,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 22.1std.1 Build 917 02/14/2023 SC Standard Edition
-    Info: Processing started: Sun Apr 28 19:30:37 2024
+    Info: Processing started: Sun Apr 28 22:37:58 2024
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off finalproject -c finalproject
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 12 of the 12 processors detected
@@ -500,12 +504,15 @@ Info (12021): Found 1 design units, including 1 entities, in source file clock_g
     Info (12023): Found entity 1: clock_generator
 Info (12021): Found 1 design units, including 1 entities, in source file isgamefinishedmodule.bdf
     Info (12023): Found entity 1: isgameFinishedModule
+Info (12021): Found 1 design units, including 1 entities, in source file yesnogenerator.v
+    Info (12023): Found entity 1: yesnogenerator File: U:/CPRE281/final project v2/final project/yesnogenerator.v Line: 1
 Info (12127): Elaborating entity "finalproject" for the top level hierarchy
-Warning (275011): Block or symbol "seven_seg_decoder" of instance "display4" overlaps another block or symbol
+Warning (275011): Block or symbol "segSelector" of instance "inst" overlaps another block or symbol
+Warning (275011): Block or symbol "yesnogenerator" of instance "inst22" overlaps another block or symbol
 Warning (275009): Pin "ENABLE" not connected
 Warning (12125): Using design file seven_seg_decoder.v, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
     Info (12023): Found entity 1: seven_seg_decoder File: U:/CPRE281/final project v2/final project/seven_seg_decoder.v Line: 1
-Info (12128): Elaborating entity "seven_seg_decoder" for hierarchy "seven_seg_decoder:display4"
+Info (12128): Elaborating entity "seven_seg_decoder" for hierarchy "seven_seg_decoder:passdisplay4"
 Info (12128): Elaborating entity "segSelector" for hierarchy "segSelector:inst"
 Info (12128): Elaborating entity "upcounter" for hierarchy "upcounter:inst111"
 Info (12128): Elaborating entity "debouncer" for hierarchy "upcounter:inst111|debouncer:inst6"
@@ -521,19 +528,29 @@ Info (12128): Elaborating entity "clock_generator" for hierarchy "ledPatternGen:
 Info (12128): Elaborating entity "isgameFinishedModule" for hierarchy "isgameFinishedModule:inst21"
 Info (12128): Elaborating entity "theUltimateComparer" for hierarchy "theUltimateComparer:inst16"
 Info (12128): Elaborating entity "smallUltimateComparers" for hierarchy "theUltimateComparer:inst16|smallUltimateComparers:check44"
+Info (12128): Elaborating entity "yesnogenerator" for hierarchy "yesnogenerator:inst22"
+Warning (13024): Output pins are stuck at VCC or GND
+    Warning (13410): Pin "msgDisplay11" is stuck at VCC
+    Warning (13410): Pin "msgDisplay12" is stuck at VCC
+    Warning (13410): Pin "msgDisplay14" is stuck at VCC
+    Warning (13410): Pin "msgDisplay16" is stuck at VCC
+    Warning (13410): Pin "msgDisplay23" is stuck at VCC
+    Warning (13410): Pin "msgDisplay26" is stuck at VCC
+    Warning (13410): Pin "msgDisplay32" is stuck at VCC
+    Warning (13410): Pin "msgDisplay33" is stuck at VCC
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
 Warning (21074): Design contains 1 input pin(s) that do not drive logic
     Warning (15610): No output dependent on input pin "ENABLE"
-Info (21057): Implemented 439 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 471 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 9 input pins
-    Info (21059): Implemented 57 output pins
-    Info (21061): Implemented 373 logic cells
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 12 warnings
-    Info: Peak virtual memory: 4875 megabytes
-    Info: Processing ended: Sun Apr 28 19:30:44 2024
+    Info (21059): Implemented 86 output pins
+    Info (21061): Implemented 376 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 22 warnings
+    Info: Peak virtual memory: 4887 megabytes
+    Info: Processing ended: Sun Apr 28 22:38:05 2024
     Info: Elapsed time: 00:00:07
-    Info: Total CPU time (on all processors): 00:00:03
+    Info: Total CPU time (on all processors): 00:00:04
 
 

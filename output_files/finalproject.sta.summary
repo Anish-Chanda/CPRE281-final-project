@@ -3,232 +3,232 @@ Timing Analyzer Summary
 ------------------------------------------------------------
 
 Type  : Slow 1200mV 85C Model Setup 'BoardClock'
-Slack : -3.112
-TNS   : -45.903
+Slack : -3.350
+TNS   : -47.936
 
 Type  : Slow 1200mV 85C Model Setup 'upcounter:inst7|debouncer:inst6|clock_divider_1024:inst|inst10'
-Slack : -2.695
-TNS   : -6.694
-
-Type  : Slow 1200mV 85C Model Setup 'ledPatternGen:inst19|nineCounter:ledset3|clock_generator:inst|clock_divider_1024:inst103|inst10'
-Slack : -2.628
-TNS   : -6.739
-
-Type  : Slow 1200mV 85C Model Setup 'ledPatternGen:inst19|nineCounter:ledset8|clock_generator:inst|clock_divider_1024:inst103|inst10'
-Slack : -2.558
-TNS   : -5.341
+Slack : -2.685
+TNS   : -5.536
 
 Type  : Slow 1200mV 85C Model Setup 'upcounter:inst9|debouncer:inst6|clock_divider_1024:inst|inst10'
-Slack : -2.555
-TNS   : -7.092
-
-Type  : Slow 1200mV 85C Model Setup 'upcounter:inst111|debouncer:inst6|clock_divider_1024:inst|inst10'
-Slack : -2.538
-TNS   : -5.064
-
-Type  : Slow 1200mV 85C Model Setup 'upcounter:inst1|debouncer:inst6|clock_divider_1024:inst|inst10'
-Slack : -2.522
-TNS   : -5.693
-
-Type  : Slow 1200mV 85C Model Setup 'ledPatternGen:inst19|nineCounter:ledset6|clock_generator:inst|clock_divider_1024:inst103|inst10'
-Slack : -2.514
-TNS   : -5.818
+Slack : -2.661
+TNS   : -5.767
 
 Type  : Slow 1200mV 85C Model Setup 'ledPatternGen:inst19|nineCounter:ledset1|clock_generator:inst|clock_divider_1024:inst103|inst10'
-Slack : -2.508
-TNS   : -5.121
+Slack : -2.605
+TNS   : -5.084
 
-Type  : Slow 1200mV 85C Model Setup 'ledPatternGen:inst19|nineCounter:ledset2|clock_generator:inst|clock_divider_1024:inst103|inst10'
-Slack : -2.504
-TNS   : -5.612
+Type  : Slow 1200mV 85C Model Setup 'ledPatternGen:inst19|nineCounter:ledset8|clock_generator:inst|clock_divider_1024:inst103|inst10'
+Slack : -2.568
+TNS   : -6.672
 
-Type  : Slow 1200mV 85C Model Setup 'upcounter:inst10|debouncer:inst6|clock_divider_1024:inst|inst10'
-Slack : -2.474
-TNS   : -6.404
-
-Type  : Slow 1200mV 85C Model Setup 'ledPatternGen:inst19|nineCounter:ledset4|clock_generator:inst|clock_divider_1024:inst103|inst10'
-Slack : -2.462
-TNS   : -6.438
-
-Type  : Slow 1200mV 85C Model Setup 'ledPatternGen:inst19|nineCounter:ledset5|clock_generator:inst|clock_divider_1024:inst103|inst10'
-Slack : -2.461
-TNS   : -6.565
-
-Type  : Slow 1200mV 85C Model Setup 'upcounter:inst3|debouncer:inst6|clock_divider_1024:inst|inst10'
-Slack : -2.460
-TNS   : -6.360
+Type  : Slow 1200mV 85C Model Setup 'ledPatternGen:inst19|nineCounter:ledset3|clock_generator:inst|clock_divider_1024:inst103|inst10'
+Slack : -2.563
+TNS   : -6.056
 
 Type  : Slow 1200mV 85C Model Setup 'upcounter:inst8|debouncer:inst6|clock_divider_1024:inst|inst10'
-Slack : -2.452
-TNS   : -5.560
+Slack : -2.514
+TNS   : -5.593
 
-Type  : Slow 1200mV 85C Model Setup 'upcounter:inst2|debouncer:inst6|clock_divider_1024:inst|inst10'
-Slack : -2.448
-TNS   : -6.018
+Type  : Slow 1200mV 85C Model Setup 'ledPatternGen:inst19|nineCounter:ledset2|clock_generator:inst|clock_divider_1024:inst103|inst10'
+Slack : -2.503
+TNS   : -5.605
+
+Type  : Slow 1200mV 85C Model Setup 'upcounter:inst10|debouncer:inst6|clock_divider_1024:inst|inst10'
+Slack : -2.502
+TNS   : -6.405
+
+Type  : Slow 1200mV 85C Model Setup 'upcounter:inst3|debouncer:inst6|clock_divider_1024:inst|inst10'
+Slack : -2.502
+TNS   : -5.913
+
+Type  : Slow 1200mV 85C Model Setup 'upcounter:inst111|debouncer:inst6|clock_divider_1024:inst|inst10'
+Slack : -2.494
+TNS   : -5.049
 
 Type  : Slow 1200mV 85C Model Setup 'ledPatternGen:inst19|nineCounter:ledset7|clock_generator:inst|clock_divider_1024:inst103|inst10'
-Slack : -2.416
-TNS   : -6.251
+Slack : -2.492
+TNS   : -6.353
 
-Type  : Slow 1200mV 85C Model Setup 'ledPatternGen:inst19|nineCounter:ledset1|clock_generator:inst|clock_divider_1024:inst102|inst10'
-Slack : -1.934
-TNS   : -3.948
+Type  : Slow 1200mV 85C Model Setup 'ledPatternGen:inst19|nineCounter:ledset5|clock_generator:inst|clock_divider_1024:inst103|inst10'
+Slack : -2.480
+TNS   : -6.330
 
-Type  : Slow 1200mV 85C Model Setup 'ledPatternGen:inst19|nineCounter:ledset3|clock_generator:inst|clock_divider_1024:inst102|inst10'
-Slack : -1.887
-TNS   : -3.455
+Type  : Slow 1200mV 85C Model Setup 'upcounter:inst2|debouncer:inst6|clock_divider_1024:inst|inst10'
+Slack : -2.466
+TNS   : -5.116
+
+Type  : Slow 1200mV 85C Model Setup 'ledPatternGen:inst19|nineCounter:ledset6|clock_generator:inst|clock_divider_1024:inst103|inst10'
+Slack : -2.450
+TNS   : -6.131
+
+Type  : Slow 1200mV 85C Model Setup 'ledPatternGen:inst19|nineCounter:ledset4|clock_generator:inst|clock_divider_1024:inst103|inst10'
+Slack : -2.417
+TNS   : -6.182
+
+Type  : Slow 1200mV 85C Model Setup 'upcounter:inst1|debouncer:inst6|clock_divider_1024:inst|inst10'
+Slack : -2.318
+TNS   : -5.456
 
 Type  : Slow 1200mV 85C Model Setup 'ledPatternGen:inst19|nineCounter:ledset2|clock_generator:inst|clock_divider_1024:inst102|inst10'
-Slack : -1.848
-TNS   : -3.720
+Slack : -1.997
+TNS   : -4.074
 
-Type  : Slow 1200mV 85C Model Setup 'ledPatternGen:inst19|nineCounter:ledset5|clock_generator:inst|clock_divider_1024:inst102|inst10'
-Slack : -1.459
-TNS   : -3.530
+Type  : Slow 1200mV 85C Model Setup 'ledPatternGen:inst19|nineCounter:ledset1|clock_generator:inst|clock_divider_1024:inst102|inst10'
+Slack : -1.992
+TNS   : -4.163
 
-Type  : Slow 1200mV 85C Model Setup 'ledPatternGen:inst19|nineCounter:ledset6|clock_generator:inst|clock_divider_1024:inst102|inst10'
-Slack : -1.417
-TNS   : -3.309
-
-Type  : Slow 1200mV 85C Model Setup 'ledPatternGen:inst19|nineCounter:ledset4|clock_generator:inst|clock_divider_1024:inst102|inst10'
-Slack : -1.379
-TNS   : -2.994
+Type  : Slow 1200mV 85C Model Setup 'ledPatternGen:inst19|nineCounter:ledset3|clock_generator:inst|clock_divider_1024:inst102|inst10'
+Slack : -1.880
+TNS   : -3.740
 
 Type  : Slow 1200mV 85C Model Setup 'ledPatternGen:inst19|nineCounter:ledset7|clock_generator:inst|clock_divider_1024:inst102|inst10'
-Slack : -1.340
-TNS   : -2.921
+Slack : -1.435
+TNS   : -2.908
 
 Type  : Slow 1200mV 85C Model Setup 'ledPatternGen:inst19|nineCounter:ledset8|clock_generator:inst|clock_divider_1024:inst102|inst10'
-Slack : -1.328
-TNS   : -2.919
+Slack : -1.391
+TNS   : -3.006
 
-Type  : Slow 1200mV 85C Model Setup 'upcounter:inst111|inst1'
-Slack : -0.825
-TNS   : -0.825
+Type  : Slow 1200mV 85C Model Setup 'ledPatternGen:inst19|nineCounter:ledset6|clock_generator:inst|clock_divider_1024:inst102|inst10'
+Slack : -1.380
+TNS   : -3.820
 
-Type  : Slow 1200mV 85C Model Setup 'upcounter:inst1|inst389025'
-Slack : -0.688
-TNS   : -0.688
+Type  : Slow 1200mV 85C Model Setup 'ledPatternGen:inst19|nineCounter:ledset5|clock_generator:inst|clock_divider_1024:inst102|inst10'
+Slack : -1.348
+TNS   : -2.937
 
-Type  : Slow 1200mV 85C Model Setup 'upcounter:inst1|inst1'
-Slack : -0.684
-TNS   : -0.684
-
-Type  : Slow 1200mV 85C Model Setup 'upcounter:inst8|inst1'
-Slack : -0.683
-TNS   : -0.683
-
-Type  : Slow 1200mV 85C Model Setup 'upcounter:inst111|inst389025'
-Slack : -0.682
-TNS   : -0.682
-
-Type  : Slow 1200mV 85C Model Setup 'upcounter:inst7|inst389025'
-Slack : -0.666
-TNS   : -0.666
-
-Type  : Slow 1200mV 85C Model Setup 'upcounter:inst7|debouncer:inst6|inst2'
-Slack : -0.640
-TNS   : -0.640
-
-Type  : Slow 1200mV 85C Model Setup 'upcounter:inst8|inst389025'
-Slack : -0.635
-TNS   : -0.635
-
-Type  : Slow 1200mV 85C Model Setup 'upcounter:inst8|debouncer:inst6|inst2'
-Slack : -0.584
-TNS   : -0.584
-
-Type  : Slow 1200mV 85C Model Setup 'upcounter:inst3|debouncer:inst6|inst2'
-Slack : -0.568
-TNS   : -0.568
-
-Type  : Slow 1200mV 85C Model Setup 'upcounter:inst9|inst389025'
-Slack : -0.565
-TNS   : -0.565
-
-Type  : Slow 1200mV 85C Model Setup 'upcounter:inst2|debouncer:inst6|inst2'
-Slack : -0.539
-TNS   : -0.539
-
-Type  : Slow 1200mV 85C Model Setup 'upcounter:inst10|debouncer:inst6|inst2'
-Slack : -0.533
-TNS   : -0.533
-
-Type  : Slow 1200mV 85C Model Setup 'upcounter:inst3|inst1'
-Slack : -0.531
-TNS   : -0.531
-
-Type  : Slow 1200mV 85C Model Setup 'upcounter:inst9|debouncer:inst6|inst2'
-Slack : -0.527
-TNS   : -0.527
-
-Type  : Slow 1200mV 85C Model Setup 'upcounter:inst2|inst389025'
-Slack : -0.508
-TNS   : -0.508
-
-Type  : Slow 1200mV 85C Model Setup 'upcounter:inst7|inst1'
-Slack : -0.489
-TNS   : -0.489
-
-Type  : Slow 1200mV 85C Model Setup 'upcounter:inst9|inst1'
-Slack : -0.454
-TNS   : -0.454
-
-Type  : Slow 1200mV 85C Model Setup 'upcounter:inst10|inst389025'
-Slack : -0.449
-TNS   : -0.449
+Type  : Slow 1200mV 85C Model Setup 'ledPatternGen:inst19|nineCounter:ledset4|clock_generator:inst|clock_divider_1024:inst102|inst10'
+Slack : -1.343
+TNS   : -2.937
 
 Type  : Slow 1200mV 85C Model Setup 'upcounter:inst2|inst1'
-Slack : -0.438
-TNS   : -0.438
+Slack : -0.751
+TNS   : -0.751
 
-Type  : Slow 1200mV 85C Model Setup 'upcounter:inst111|debouncer:inst6|inst2'
-Slack : -0.437
-TNS   : -0.437
+Type  : Slow 1200mV 85C Model Setup 'upcounter:inst111|inst1'
+Slack : -0.731
+TNS   : -0.731
 
-Type  : Slow 1200mV 85C Model Setup 'upcounter:inst10|inst1'
-Slack : -0.364
-TNS   : -0.364
+Type  : Slow 1200mV 85C Model Setup 'upcounter:inst1|inst389025'
+Slack : -0.692
+TNS   : -0.692
 
-Type  : Slow 1200mV 85C Model Setup 'upcounter:inst1|debouncer:inst6|inst2'
-Slack : -0.352
-TNS   : -0.352
+Type  : Slow 1200mV 85C Model Setup 'upcounter:inst111|inst389025'
+Slack : -0.659
+TNS   : -0.659
 
 Type  : Slow 1200mV 85C Model Setup 'upcounter:inst3|inst389025'
-Slack : -0.347
-TNS   : -0.347
+Slack : -0.647
+TNS   : -0.647
 
-Type  : Slow 1200mV 85C Model Setup 'ledPatternGen:inst19|nineCounter:ledset8|clock_generator:inst|inst7'
-Slack : -0.198
-TNS   : -0.525
+Type  : Slow 1200mV 85C Model Setup 'upcounter:inst111|debouncer:inst6|inst2'
+Slack : -0.589
+TNS   : -0.589
 
-Type  : Slow 1200mV 85C Model Setup 'ledPatternGen:inst19|nineCounter:ledset3|clock_generator:inst|inst7'
-Slack : -0.197
-TNS   : -0.525
+Type  : Slow 1200mV 85C Model Setup 'upcounter:inst9|inst389025'
+Slack : -0.583
+TNS   : -0.583
+
+Type  : Slow 1200mV 85C Model Setup 'upcounter:inst10|inst1'
+Slack : -0.553
+TNS   : -0.553
+
+Type  : Slow 1200mV 85C Model Setup 'upcounter:inst9|debouncer:inst6|inst2'
+Slack : -0.550
+TNS   : -0.550
+
+Type  : Slow 1200mV 85C Model Setup 'upcounter:inst8|inst389025'
+Slack : -0.545
+TNS   : -0.545
+
+Type  : Slow 1200mV 85C Model Setup 'upcounter:inst10|inst389025'
+Slack : -0.543
+TNS   : -0.543
+
+Type  : Slow 1200mV 85C Model Setup 'upcounter:inst3|debouncer:inst6|inst2'
+Slack : -0.529
+TNS   : -0.529
+
+Type  : Slow 1200mV 85C Model Setup 'upcounter:inst10|debouncer:inst6|inst2'
+Slack : -0.526
+TNS   : -0.526
+
+Type  : Slow 1200mV 85C Model Setup 'upcounter:inst2|debouncer:inst6|inst2'
+Slack : -0.526
+TNS   : -0.526
+
+Type  : Slow 1200mV 85C Model Setup 'upcounter:inst1|debouncer:inst6|inst2'
+Slack : -0.506
+TNS   : -0.506
+
+Type  : Slow 1200mV 85C Model Setup 'upcounter:inst2|inst389025'
+Slack : -0.504
+TNS   : -0.504
+
+Type  : Slow 1200mV 85C Model Setup 'upcounter:inst7|debouncer:inst6|inst2'
+Slack : -0.461
+TNS   : -0.461
+
+Type  : Slow 1200mV 85C Model Setup 'upcounter:inst1|inst1'
+Slack : -0.424
+TNS   : -0.424
+
+Type  : Slow 1200mV 85C Model Setup 'upcounter:inst8|debouncer:inst6|inst2'
+Slack : -0.421
+TNS   : -0.421
+
+Type  : Slow 1200mV 85C Model Setup 'upcounter:inst9|inst1'
+Slack : -0.400
+TNS   : -0.400
+
+Type  : Slow 1200mV 85C Model Setup 'upcounter:inst3|inst1'
+Slack : -0.353
+TNS   : -0.353
+
+Type  : Slow 1200mV 85C Model Setup 'upcounter:inst8|inst1'
+Slack : -0.351
+TNS   : -0.351
+
+Type  : Slow 1200mV 85C Model Setup 'upcounter:inst7|inst389025'
+Slack : -0.340
+TNS   : -0.340
+
+Type  : Slow 1200mV 85C Model Setup 'upcounter:inst7|inst1'
+Slack : -0.339
+TNS   : -0.339
 
 Type  : Slow 1200mV 85C Model Setup 'ledPatternGen:inst19|nineCounter:ledset4|clock_generator:inst|inst7'
-Slack : -0.197
-TNS   : -0.524
+Slack : -0.182
+TNS   : -0.506
 
-Type  : Slow 1200mV 85C Model Setup 'ledPatternGen:inst19|nineCounter:ledset6|clock_generator:inst|inst7'
-Slack : -0.197
-TNS   : -0.521
+Type  : Slow 1200mV 85C Model Setup 'ledPatternGen:inst19|nineCounter:ledset3|clock_generator:inst|inst7'
+Slack : -0.182
+TNS   : -0.505
 
 Type  : Slow 1200mV 85C Model Setup 'ledPatternGen:inst19|nineCounter:ledset2|clock_generator:inst|inst7'
-Slack : -0.197
-TNS   : -0.520
+Slack : -0.180
+TNS   : -0.504
+
+Type  : Slow 1200mV 85C Model Setup 'ledPatternGen:inst19|nineCounter:ledset8|clock_generator:inst|inst7'
+Slack : -0.179
+TNS   : -0.502
 
 Type  : Slow 1200mV 85C Model Setup 'ledPatternGen:inst19|nineCounter:ledset1|clock_generator:inst|inst7'
-Slack : -0.196
-TNS   : -0.523
+Slack : -0.178
+TNS   : -0.501
 
 Type  : Slow 1200mV 85C Model Setup 'ledPatternGen:inst19|nineCounter:ledset5|clock_generator:inst|inst7'
-Slack : -0.196
-TNS   : -0.521
+Slack : -0.178
+TNS   : -0.501
 
 Type  : Slow 1200mV 85C Model Setup 'ledPatternGen:inst19|nineCounter:ledset7|clock_generator:inst|inst7'
-Slack : -0.196
-TNS   : -0.517
+Slack : -0.178
+TNS   : -0.499
+
+Type  : Slow 1200mV 85C Model Setup 'ledPatternGen:inst19|nineCounter:ledset6|clock_generator:inst|inst7'
+Slack : -0.177
+TNS   : -0.495
 
 Type  : Slow 1200mV 85C Model Setup 'upcounter:inst10|inst2'
 Slack : 0.210
@@ -263,18 +263,10 @@ Slack : 0.210
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Hold 'BoardClock'
-Slack : 0.401
-TNS   : 0.000
-
-Type  : Slow 1200mV 85C Model Hold 'ledPatternGen:inst19|nineCounter:ledset1|clock_generator:inst|clock_divider_1024:inst102|inst10'
-Slack : 0.403
+Slack : 0.402
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Hold 'ledPatternGen:inst19|nineCounter:ledset1|clock_generator:inst|clock_divider_1024:inst103|inst10'
-Slack : 0.403
-TNS   : 0.000
-
-Type  : Slow 1200mV 85C Model Hold 'ledPatternGen:inst19|nineCounter:ledset2|clock_generator:inst|clock_divider_1024:inst103|inst10'
 Slack : 0.403
 TNS   : 0.000
 
@@ -282,31 +274,11 @@ Type  : Slow 1200mV 85C Model Hold 'ledPatternGen:inst19|nineCounter:ledset3|clo
 Slack : 0.403
 TNS   : 0.000
 
-Type  : Slow 1200mV 85C Model Hold 'ledPatternGen:inst19|nineCounter:ledset5|clock_generator:inst|clock_divider_1024:inst103|inst10'
+Type  : Slow 1200mV 85C Model Hold 'upcounter:inst1|debouncer:inst6|clock_divider_1024:inst|inst10'
 Slack : 0.403
 TNS   : 0.000
 
-Type  : Slow 1200mV 85C Model Hold 'upcounter:inst10|debouncer:inst6|clock_divider_1024:inst|inst10'
-Slack : 0.403
-TNS   : 0.000
-
-Type  : Slow 1200mV 85C Model Hold 'upcounter:inst2|debouncer:inst6|clock_divider_1024:inst|inst10'
-Slack : 0.403
-TNS   : 0.000
-
-Type  : Slow 1200mV 85C Model Hold 'upcounter:inst8|debouncer:inst6|clock_divider_1024:inst|inst10'
-Slack : 0.403
-TNS   : 0.000
-
-Type  : Slow 1200mV 85C Model Hold 'ledPatternGen:inst19|nineCounter:ledset2|clock_generator:inst|clock_divider_1024:inst102|inst10'
-Slack : 0.404
-TNS   : 0.000
-
-Type  : Slow 1200mV 85C Model Hold 'ledPatternGen:inst19|nineCounter:ledset3|clock_generator:inst|clock_divider_1024:inst102|inst10'
-Slack : 0.404
-TNS   : 0.000
-
-Type  : Slow 1200mV 85C Model Hold 'ledPatternGen:inst19|nineCounter:ledset7|clock_generator:inst|clock_divider_1024:inst103|inst10'
+Type  : Slow 1200mV 85C Model Hold 'ledPatternGen:inst19|nineCounter:ledset2|clock_generator:inst|clock_divider_1024:inst103|inst10'
 Slack : 0.404
 TNS   : 0.000
 
@@ -314,32 +286,60 @@ Type  : Slow 1200mV 85C Model Hold 'upcounter:inst111|debouncer:inst6|clock_divi
 Slack : 0.404
 TNS   : 0.000
 
-Type  : Slow 1200mV 85C Model Hold 'upcounter:inst3|debouncer:inst6|clock_divider_1024:inst|inst10'
-Slack : 0.404
-TNS   : 0.000
-
 Type  : Slow 1200mV 85C Model Hold 'upcounter:inst7|debouncer:inst6|clock_divider_1024:inst|inst10'
 Slack : 0.404
 TNS   : 0.000
 
-Type  : Slow 1200mV 85C Model Hold 'upcounter:inst9|debouncer:inst6|clock_divider_1024:inst|inst10'
+Type  : Slow 1200mV 85C Model Hold 'upcounter:inst8|debouncer:inst6|clock_divider_1024:inst|inst10'
 Slack : 0.404
 TNS   : 0.000
 
+Type  : Slow 1200mV 85C Model Hold 'upcounter:inst2|debouncer:inst6|clock_divider_1024:inst|inst10'
+Slack : 0.405
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'upcounter:inst3|debouncer:inst6|clock_divider_1024:inst|inst10'
+Slack : 0.405
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'upcounter:inst9|debouncer:inst6|clock_divider_1024:inst|inst10'
+Slack : 0.405
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'ledPatternGen:inst19|nineCounter:ledset1|clock_generator:inst|clock_divider_1024:inst102|inst10'
+Slack : 0.406
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'ledPatternGen:inst19|nineCounter:ledset2|clock_generator:inst|clock_divider_1024:inst102|inst10'
+Slack : 0.406
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'ledPatternGen:inst19|nineCounter:ledset3|clock_generator:inst|clock_divider_1024:inst102|inst10'
+Slack : 0.406
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'upcounter:inst10|debouncer:inst6|clock_divider_1024:inst|inst10'
+Slack : 0.406
+TNS   : 0.000
+
 Type  : Slow 1200mV 85C Model Hold 'ledPatternGen:inst19|nineCounter:ledset4|clock_generator:inst|clock_divider_1024:inst103|inst10'
-Slack : 0.405
+Slack : 0.407
 TNS   : 0.000
 
-Type  : Slow 1200mV 85C Model Hold 'ledPatternGen:inst19|nineCounter:ledset6|clock_generator:inst|clock_divider_1024:inst103|inst10'
-Slack : 0.405
+Type  : Slow 1200mV 85C Model Hold 'ledPatternGen:inst19|nineCounter:ledset5|clock_generator:inst|clock_divider_1024:inst103|inst10'
+Slack : 0.407
 TNS   : 0.000
 
-Type  : Slow 1200mV 85C Model Hold 'upcounter:inst1|debouncer:inst6|clock_divider_1024:inst|inst10'
-Slack : 0.405
+Type  : Slow 1200mV 85C Model Hold 'ledPatternGen:inst19|nineCounter:ledset7|clock_generator:inst|clock_divider_1024:inst103|inst10'
+Slack : 0.407
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Hold 'ledPatternGen:inst19|nineCounter:ledset8|clock_generator:inst|clock_divider_1024:inst103|inst10'
-Slack : 0.406
+Slack : 0.407
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'ledPatternGen:inst19|nineCounter:ledset6|clock_generator:inst|clock_divider_1024:inst103|inst10'
+Slack : 0.408
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Hold 'ledPatternGen:inst19|nineCounter:ledset1|clock_generator:inst|inst7'
@@ -426,164 +426,164 @@ Type  : Slow 1200mV 85C Model Hold 'upcounter:inst9|inst2'
 Slack : 0.445
 TNS   : 0.000
 
-Type  : Slow 1200mV 85C Model Hold 'upcounter:inst1|debouncer:inst6|inst2'
-Slack : 0.479
-TNS   : 0.000
-
-Type  : Slow 1200mV 85C Model Hold 'upcounter:inst9|debouncer:inst6|inst2'
+Type  : Slow 1200mV 85C Model Hold 'upcounter:inst2|debouncer:inst6|inst2'
 Slack : 0.504
 TNS   : 0.000
 
-Type  : Slow 1200mV 85C Model Hold 'upcounter:inst2|inst1'
-Slack : 0.505
-TNS   : 0.000
-
-Type  : Slow 1200mV 85C Model Hold 'upcounter:inst7|inst1'
-Slack : 0.509
-TNS   : 0.000
-
-Type  : Slow 1200mV 85C Model Hold 'upcounter:inst10|debouncer:inst6|inst2'
-Slack : 0.519
-TNS   : 0.000
-
-Type  : Slow 1200mV 85C Model Hold 'upcounter:inst2|debouncer:inst6|inst2'
-Slack : 0.520
-TNS   : 0.000
-
-Type  : Slow 1200mV 85C Model Hold 'upcounter:inst111|debouncer:inst6|inst2'
-Slack : 0.526
-TNS   : 0.000
-
-Type  : Slow 1200mV 85C Model Hold 'upcounter:inst3|inst389025'
-Slack : 0.553
+Type  : Slow 1200mV 85C Model Hold 'upcounter:inst8|debouncer:inst6|inst2'
+Slack : 0.506
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Hold 'upcounter:inst3|debouncer:inst6|inst2'
-Slack : 0.559
+Slack : 0.511
 TNS   : 0.000
 
-Type  : Slow 1200mV 85C Model Hold 'upcounter:inst8|debouncer:inst6|inst2'
-Slack : 0.573
+Type  : Slow 1200mV 85C Model Hold 'upcounter:inst10|debouncer:inst6|inst2'
+Slack : 0.514
 TNS   : 0.000
 
-Type  : Slow 1200mV 85C Model Hold 'upcounter:inst10|inst1'
-Slack : 0.574
+Type  : Slow 1200mV 85C Model Hold 'upcounter:inst111|debouncer:inst6|inst2'
+Slack : 0.524
 TNS   : 0.000
 
-Type  : Slow 1200mV 85C Model Hold 'upcounter:inst2|inst389025'
-Slack : 0.607
+Type  : Slow 1200mV 85C Model Hold 'upcounter:inst1|debouncer:inst6|inst2'
+Slack : 0.529
 TNS   : 0.000
 
-Type  : Slow 1200mV 85C Model Hold 'upcounter:inst10|inst389025'
-Slack : 0.611
+Type  : Slow 1200mV 85C Model Hold 'upcounter:inst9|debouncer:inst6|inst2'
+Slack : 0.537
 TNS   : 0.000
 
-Type  : Slow 1200mV 85C Model Hold 'upcounter:inst9|inst1'
-Slack : 0.611
-TNS   : 0.000
-
-Type  : Slow 1200mV 85C Model Hold 'upcounter:inst7|debouncer:inst6|inst2'
-Slack : 0.636
-TNS   : 0.000
-
-Type  : Slow 1200mV 85C Model Hold 'upcounter:inst8|inst389025'
-Slack : 0.645
+Type  : Slow 1200mV 85C Model Hold 'upcounter:inst7|inst1'
+Slack : 0.540
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Hold 'upcounter:inst7|inst389025'
-Slack : 0.678
-TNS   : 0.000
-
-Type  : Slow 1200mV 85C Model Hold 'upcounter:inst1|inst1'
-Slack : 0.686
-TNS   : 0.000
-
-Type  : Slow 1200mV 85C Model Hold 'upcounter:inst1|inst389025'
-Slack : 0.688
-TNS   : 0.000
-
-Type  : Slow 1200mV 85C Model Hold 'upcounter:inst3|inst1'
-Slack : 0.703
+Slack : 0.541
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Hold 'upcounter:inst8|inst1'
-Slack : 0.711
+Slack : 0.576
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'upcounter:inst7|debouncer:inst6|inst2'
+Slack : 0.587
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'upcounter:inst3|inst1'
+Slack : 0.594
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'upcounter:inst1|inst1'
+Slack : 0.599
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Hold 'upcounter:inst9|inst389025'
-Slack : 0.721
+Slack : 0.599
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'upcounter:inst9|inst1'
+Slack : 0.602
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'upcounter:inst2|inst389025'
+Slack : 0.603
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'upcounter:inst3|inst389025'
+Slack : 0.623
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'upcounter:inst10|inst389025'
+Slack : 0.641
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'upcounter:inst8|inst389025'
+Slack : 0.643
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Hold 'upcounter:inst111|inst389025'
-Slack : 0.787
+Slack : 0.673
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'upcounter:inst10|inst1'
+Slack : 0.685
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'upcounter:inst1|inst389025'
+Slack : 0.715
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'upcounter:inst2|inst1'
+Slack : 0.726
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Hold 'upcounter:inst111|inst1'
-Slack : 0.935
+Slack : 0.854
 TNS   : 0.000
-
-Type  : Slow 1200mV 85C Model Recovery 'ledPatternGen:inst19|nineCounter:ledset5|clock_generator:inst|inst7'
-Slack : -5.829
-TNS   : -17.487
-
-Type  : Slow 1200mV 85C Model Recovery 'ledPatternGen:inst19|nineCounter:ledset6|clock_generator:inst|inst7'
-Slack : -5.714
-TNS   : -17.142
-
-Type  : Slow 1200mV 85C Model Recovery 'ledPatternGen:inst19|nineCounter:ledset1|clock_generator:inst|inst7'
-Slack : -5.698
-TNS   : -17.094
-
-Type  : Slow 1200mV 85C Model Recovery 'ledPatternGen:inst19|nineCounter:ledset3|clock_generator:inst|inst7'
-Slack : -5.696
-TNS   : -17.088
-
-Type  : Slow 1200mV 85C Model Recovery 'ledPatternGen:inst19|nineCounter:ledset2|clock_generator:inst|inst7'
-Slack : -5.687
-TNS   : -17.061
-
-Type  : Slow 1200mV 85C Model Recovery 'ledPatternGen:inst19|nineCounter:ledset8|clock_generator:inst|inst7'
-Slack : -5.564
-TNS   : -16.692
 
 Type  : Slow 1200mV 85C Model Recovery 'ledPatternGen:inst19|nineCounter:ledset4|clock_generator:inst|inst7'
-Slack : -5.489
-TNS   : -16.467
+Slack : -5.074
+TNS   : -15.222
+
+Type  : Slow 1200mV 85C Model Recovery 'ledPatternGen:inst19|nineCounter:ledset1|clock_generator:inst|inst7'
+Slack : -4.866
+TNS   : -14.598
+
+Type  : Slow 1200mV 85C Model Recovery 'ledPatternGen:inst19|nineCounter:ledset8|clock_generator:inst|inst7'
+Slack : -4.849
+TNS   : -14.547
 
 Type  : Slow 1200mV 85C Model Recovery 'ledPatternGen:inst19|nineCounter:ledset7|clock_generator:inst|inst7'
-Slack : -5.332
-TNS   : -15.996
+Slack : -4.843
+TNS   : -14.529
 
-Type  : Slow 1200mV 85C Model Removal 'ledPatternGen:inst19|nineCounter:ledset7|clock_generator:inst|inst7'
-Slack : 4.239
-TNS   : 0.000
+Type  : Slow 1200mV 85C Model Recovery 'ledPatternGen:inst19|nineCounter:ledset2|clock_generator:inst|inst7'
+Slack : -4.819
+TNS   : -14.457
 
-Type  : Slow 1200mV 85C Model Removal 'ledPatternGen:inst19|nineCounter:ledset4|clock_generator:inst|inst7'
-Slack : 4.412
-TNS   : 0.000
+Type  : Slow 1200mV 85C Model Recovery 'ledPatternGen:inst19|nineCounter:ledset6|clock_generator:inst|inst7'
+Slack : -4.667
+TNS   : -14.001
 
-Type  : Slow 1200mV 85C Model Removal 'ledPatternGen:inst19|nineCounter:ledset8|clock_generator:inst|inst7'
-Slack : 4.472
-TNS   : 0.000
+Type  : Slow 1200mV 85C Model Recovery 'ledPatternGen:inst19|nineCounter:ledset5|clock_generator:inst|inst7'
+Slack : -4.627
+TNS   : -13.881
 
-Type  : Slow 1200mV 85C Model Removal 'ledPatternGen:inst19|nineCounter:ledset2|clock_generator:inst|inst7'
-Slack : 4.624
-TNS   : 0.000
+Type  : Slow 1200mV 85C Model Recovery 'ledPatternGen:inst19|nineCounter:ledset3|clock_generator:inst|inst7'
+Slack : -4.506
+TNS   : -13.518
 
 Type  : Slow 1200mV 85C Model Removal 'ledPatternGen:inst19|nineCounter:ledset3|clock_generator:inst|inst7'
-Slack : 4.624
-TNS   : 0.000
-
-Type  : Slow 1200mV 85C Model Removal 'ledPatternGen:inst19|nineCounter:ledset1|clock_generator:inst|inst7'
-Slack : 4.626
-TNS   : 0.000
-
-Type  : Slow 1200mV 85C Model Removal 'ledPatternGen:inst19|nineCounter:ledset6|clock_generator:inst|inst7'
-Slack : 4.657
+Slack : 2.858
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Removal 'ledPatternGen:inst19|nineCounter:ledset5|clock_generator:inst|inst7'
-Slack : 4.732
+Slack : 2.991
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'ledPatternGen:inst19|nineCounter:ledset6|clock_generator:inst|inst7'
+Slack : 3.027
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'ledPatternGen:inst19|nineCounter:ledset2|clock_generator:inst|inst7'
+Slack : 3.206
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'ledPatternGen:inst19|nineCounter:ledset8|clock_generator:inst|inst7'
+Slack : 3.215
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'ledPatternGen:inst19|nineCounter:ledset7|clock_generator:inst|inst7'
+Slack : 3.220
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'ledPatternGen:inst19|nineCounter:ledset1|clock_generator:inst|inst7'
+Slack : 3.248
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'ledPatternGen:inst19|nineCounter:ledset4|clock_generator:inst|inst7'
+Slack : 3.451
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Minimum Pulse Width 'BoardClock'
@@ -879,232 +879,232 @@ Slack : -1.285
 TNS   : -1.285
 
 Type  : Slow 1200mV 0C Model Setup 'BoardClock'
-Slack : -2.778
-TNS   : -39.767
+Slack : -2.908
+TNS   : -41.330
 
 Type  : Slow 1200mV 0C Model Setup 'upcounter:inst7|debouncer:inst6|clock_divider_1024:inst|inst10'
-Slack : -2.377
-TNS   : -5.352
-
-Type  : Slow 1200mV 0C Model Setup 'ledPatternGen:inst19|nineCounter:ledset3|clock_generator:inst|clock_divider_1024:inst103|inst10'
-Slack : -2.330
-TNS   : -5.461
-
-Type  : Slow 1200mV 0C Model Setup 'ledPatternGen:inst19|nineCounter:ledset8|clock_generator:inst|clock_divider_1024:inst103|inst10'
-Slack : -2.255
-TNS   : -4.147
+Slack : -2.370
+TNS   : -4.366
 
 Type  : Slow 1200mV 0C Model Setup 'upcounter:inst9|debouncer:inst6|clock_divider_1024:inst|inst10'
-Slack : -2.249
-TNS   : -5.707
-
-Type  : Slow 1200mV 0C Model Setup 'upcounter:inst111|debouncer:inst6|clock_divider_1024:inst|inst10'
-Slack : -2.244
-TNS   : -3.960
-
-Type  : Slow 1200mV 0C Model Setup 'upcounter:inst1|debouncer:inst6|clock_divider_1024:inst|inst10'
-Slack : -2.233
-TNS   : -4.535
+Slack : -2.344
+TNS   : -4.520
 
 Type  : Slow 1200mV 0C Model Setup 'ledPatternGen:inst19|nineCounter:ledset1|clock_generator:inst|clock_divider_1024:inst103|inst10'
-Slack : -2.225
-TNS   : -4.057
+Slack : -2.304
+TNS   : -3.966
 
-Type  : Slow 1200mV 0C Model Setup 'ledPatternGen:inst19|nineCounter:ledset6|clock_generator:inst|clock_divider_1024:inst103|inst10'
-Slack : -2.223
-TNS   : -4.618
+Type  : Slow 1200mV 0C Model Setup 'ledPatternGen:inst19|nineCounter:ledset3|clock_generator:inst|clock_divider_1024:inst103|inst10'
+Slack : -2.275
+TNS   : -4.869
 
-Type  : Slow 1200mV 0C Model Setup 'ledPatternGen:inst19|nineCounter:ledset2|clock_generator:inst|clock_divider_1024:inst103|inst10'
-Slack : -2.209
-TNS   : -4.420
-
-Type  : Slow 1200mV 0C Model Setup 'ledPatternGen:inst19|nineCounter:ledset4|clock_generator:inst|clock_divider_1024:inst103|inst10'
-Slack : -2.179
-TNS   : -5.187
-
-Type  : Slow 1200mV 0C Model Setup 'upcounter:inst10|debouncer:inst6|clock_divider_1024:inst|inst10'
-Slack : -2.179
-TNS   : -5.119
-
-Type  : Slow 1200mV 0C Model Setup 'ledPatternGen:inst19|nineCounter:ledset5|clock_generator:inst|clock_divider_1024:inst103|inst10'
-Slack : -2.176
-TNS   : -5.283
-
-Type  : Slow 1200mV 0C Model Setup 'upcounter:inst3|debouncer:inst6|clock_divider_1024:inst|inst10'
-Slack : -2.173
-TNS   : -5.088
-
-Type  : Slow 1200mV 0C Model Setup 'upcounter:inst2|debouncer:inst6|clock_divider_1024:inst|inst10'
-Slack : -2.165
-TNS   : -4.793
+Type  : Slow 1200mV 0C Model Setup 'ledPatternGen:inst19|nineCounter:ledset8|clock_generator:inst|clock_divider_1024:inst103|inst10'
+Slack : -2.273
+TNS   : -5.336
 
 Type  : Slow 1200mV 0C Model Setup 'upcounter:inst8|debouncer:inst6|clock_divider_1024:inst|inst10'
-Slack : -2.161
-TNS   : -4.336
+Slack : -2.217
+TNS   : -4.411
+
+Type  : Slow 1200mV 0C Model Setup 'upcounter:inst3|debouncer:inst6|clock_divider_1024:inst|inst10'
+Slack : -2.211
+TNS   : -4.693
+
+Type  : Slow 1200mV 0C Model Setup 'upcounter:inst10|debouncer:inst6|clock_divider_1024:inst|inst10'
+Slack : -2.209
+TNS   : -5.214
+
+Type  : Slow 1200mV 0C Model Setup 'ledPatternGen:inst19|nineCounter:ledset2|clock_generator:inst|clock_divider_1024:inst103|inst10'
+Slack : -2.208
+TNS   : -4.413
 
 Type  : Slow 1200mV 0C Model Setup 'ledPatternGen:inst19|nineCounter:ledset7|clock_generator:inst|clock_divider_1024:inst103|inst10'
-Slack : -2.126
-TNS   : -4.979
+Slack : -2.199
+TNS   : -5.080
 
-Type  : Slow 1200mV 0C Model Setup 'ledPatternGen:inst19|nineCounter:ledset1|clock_generator:inst|clock_divider_1024:inst102|inst10'
-Slack : -1.688
-TNS   : -2.988
+Type  : Slow 1200mV 0C Model Setup 'upcounter:inst111|debouncer:inst6|clock_divider_1024:inst|inst10'
+Slack : -2.198
+TNS   : -3.962
 
-Type  : Slow 1200mV 0C Model Setup 'ledPatternGen:inst19|nineCounter:ledset3|clock_generator:inst|clock_divider_1024:inst102|inst10'
-Slack : -1.646
-TNS   : -2.601
+Type  : Slow 1200mV 0C Model Setup 'ledPatternGen:inst19|nineCounter:ledset5|clock_generator:inst|clock_divider_1024:inst103|inst10'
+Slack : -2.193
+TNS   : -5.068
+
+Type  : Slow 1200mV 0C Model Setup 'upcounter:inst2|debouncer:inst6|clock_divider_1024:inst|inst10'
+Slack : -2.175
+TNS   : -4.028
+
+Type  : Slow 1200mV 0C Model Setup 'ledPatternGen:inst19|nineCounter:ledset6|clock_generator:inst|clock_divider_1024:inst103|inst10'
+Slack : -2.169
+TNS   : -4.955
+
+Type  : Slow 1200mV 0C Model Setup 'ledPatternGen:inst19|nineCounter:ledset4|clock_generator:inst|clock_divider_1024:inst103|inst10'
+Slack : -2.131
+TNS   : -4.885
+
+Type  : Slow 1200mV 0C Model Setup 'upcounter:inst1|debouncer:inst6|clock_divider_1024:inst|inst10'
+Slack : -2.042
+TNS   : -4.302
 
 Type  : Slow 1200mV 0C Model Setup 'ledPatternGen:inst19|nineCounter:ledset2|clock_generator:inst|clock_divider_1024:inst102|inst10'
-Slack : -1.617
-TNS   : -2.832
+Slack : -1.743
+TNS   : -3.138
 
-Type  : Slow 1200mV 0C Model Setup 'ledPatternGen:inst19|nineCounter:ledset5|clock_generator:inst|clock_divider_1024:inst102|inst10'
-Slack : -1.214
-TNS   : -2.581
+Type  : Slow 1200mV 0C Model Setup 'ledPatternGen:inst19|nineCounter:ledset1|clock_generator:inst|clock_divider_1024:inst102|inst10'
+Slack : -1.733
+TNS   : -3.167
 
-Type  : Slow 1200mV 0C Model Setup 'ledPatternGen:inst19|nineCounter:ledset6|clock_generator:inst|clock_divider_1024:inst102|inst10'
-Slack : -1.205
-TNS   : -2.492
-
-Type  : Slow 1200mV 0C Model Setup 'ledPatternGen:inst19|nineCounter:ledset4|clock_generator:inst|clock_divider_1024:inst102|inst10'
-Slack : -1.180
-TNS   : -2.203
-
-Type  : Slow 1200mV 0C Model Setup 'ledPatternGen:inst19|nineCounter:ledset8|clock_generator:inst|clock_divider_1024:inst102|inst10'
-Slack : -1.112
-TNS   : -2.092
+Type  : Slow 1200mV 0C Model Setup 'ledPatternGen:inst19|nineCounter:ledset3|clock_generator:inst|clock_divider_1024:inst102|inst10'
+Slack : -1.638
+TNS   : -2.840
 
 Type  : Slow 1200mV 0C Model Setup 'ledPatternGen:inst19|nineCounter:ledset7|clock_generator:inst|clock_divider_1024:inst102|inst10'
-Slack : -1.111
-TNS   : -2.109
+Slack : -1.228
+TNS   : -2.145
+
+Type  : Slow 1200mV 0C Model Setup 'ledPatternGen:inst19|nineCounter:ledset8|clock_generator:inst|clock_divider_1024:inst102|inst10'
+Slack : -1.194
+TNS   : -2.231
+
+Type  : Slow 1200mV 0C Model Setup 'ledPatternGen:inst19|nineCounter:ledset6|clock_generator:inst|clock_divider_1024:inst102|inst10'
+Slack : -1.178
+TNS   : -2.908
+
+Type  : Slow 1200mV 0C Model Setup 'ledPatternGen:inst19|nineCounter:ledset5|clock_generator:inst|clock_divider_1024:inst102|inst10'
+Slack : -1.123
+TNS   : -2.135
+
+Type  : Slow 1200mV 0C Model Setup 'ledPatternGen:inst19|nineCounter:ledset4|clock_generator:inst|clock_divider_1024:inst102|inst10'
+Slack : -1.118
+TNS   : -2.129
 
 Type  : Slow 1200mV 0C Model Setup 'upcounter:inst111|inst1'
-Slack : -0.747
-TNS   : -0.747
+Slack : -0.655
+TNS   : -0.655
 
-Type  : Slow 1200mV 0C Model Setup 'upcounter:inst111|inst389025'
-Slack : -0.613
-TNS   : -0.613
+Type  : Slow 1200mV 0C Model Setup 'upcounter:inst2|inst1'
+Slack : -0.651
+TNS   : -0.651
 
 Type  : Slow 1200mV 0C Model Setup 'upcounter:inst1|inst389025'
-Slack : -0.597
-TNS   : -0.597
+Slack : -0.592
+TNS   : -0.592
 
-Type  : Slow 1200mV 0C Model Setup 'upcounter:inst1|inst1'
-Slack : -0.589
-TNS   : -0.589
+Type  : Slow 1200mV 0C Model Setup 'upcounter:inst3|inst389025'
+Slack : -0.575
+TNS   : -0.575
 
-Type  : Slow 1200mV 0C Model Setup 'upcounter:inst8|inst1'
-Slack : -0.589
-TNS   : -0.589
-
-Type  : Slow 1200mV 0C Model Setup 'upcounter:inst7|inst389025'
-Slack : -0.567
-TNS   : -0.567
-
-Type  : Slow 1200mV 0C Model Setup 'upcounter:inst8|inst389025'
-Slack : -0.548
-TNS   : -0.548
-
-Type  : Slow 1200mV 0C Model Setup 'upcounter:inst7|debouncer:inst6|inst2'
-Slack : -0.518
-TNS   : -0.518
+Type  : Slow 1200mV 0C Model Setup 'upcounter:inst111|inst389025'
+Slack : -0.568
+TNS   : -0.568
 
 Type  : Slow 1200mV 0C Model Setup 'upcounter:inst9|inst389025'
-Slack : -0.493
-TNS   : -0.493
+Slack : -0.504
+TNS   : -0.504
 
-Type  : Slow 1200mV 0C Model Setup 'upcounter:inst8|debouncer:inst6|inst2'
-Slack : -0.478
-TNS   : -0.478
+Type  : Slow 1200mV 0C Model Setup 'upcounter:inst10|inst1'
+Slack : -0.473
+TNS   : -0.473
 
-Type  : Slow 1200mV 0C Model Setup 'upcounter:inst3|debouncer:inst6|inst2'
-Slack : -0.464
-TNS   : -0.464
+Type  : Slow 1200mV 0C Model Setup 'upcounter:inst111|debouncer:inst6|inst2'
+Slack : -0.473
+TNS   : -0.473
 
-Type  : Slow 1200mV 0C Model Setup 'upcounter:inst3|inst1'
-Slack : -0.462
-TNS   : -0.462
+Type  : Slow 1200mV 0C Model Setup 'upcounter:inst8|inst389025'
+Slack : -0.469
+TNS   : -0.469
 
-Type  : Slow 1200mV 0C Model Setup 'upcounter:inst2|debouncer:inst6|inst2'
-Slack : -0.437
-TNS   : -0.437
-
-Type  : Slow 1200mV 0C Model Setup 'upcounter:inst10|debouncer:inst6|inst2'
-Slack : -0.432
-TNS   : -0.432
+Type  : Slow 1200mV 0C Model Setup 'upcounter:inst10|inst389025'
+Slack : -0.465
+TNS   : -0.465
 
 Type  : Slow 1200mV 0C Model Setup 'upcounter:inst9|debouncer:inst6|inst2'
-Slack : -0.426
-TNS   : -0.426
+Slack : -0.447
+TNS   : -0.447
+
+Type  : Slow 1200mV 0C Model Setup 'upcounter:inst10|debouncer:inst6|inst2'
+Slack : -0.427
+TNS   : -0.427
+
+Type  : Slow 1200mV 0C Model Setup 'upcounter:inst3|debouncer:inst6|inst2'
+Slack : -0.427
+TNS   : -0.427
+
+Type  : Slow 1200mV 0C Model Setup 'upcounter:inst2|debouncer:inst6|inst2'
+Slack : -0.425
+TNS   : -0.425
 
 Type  : Slow 1200mV 0C Model Setup 'upcounter:inst2|inst389025'
 Slack : -0.424
 TNS   : -0.424
 
-Type  : Slow 1200mV 0C Model Setup 'upcounter:inst7|inst1'
-Slack : -0.411
-TNS   : -0.411
+Type  : Slow 1200mV 0C Model Setup 'upcounter:inst1|debouncer:inst6|inst2'
+Slack : -0.415
+TNS   : -0.415
+
+Type  : Slow 1200mV 0C Model Setup 'upcounter:inst7|debouncer:inst6|inst2'
+Slack : -0.367
+TNS   : -0.367
+
+Type  : Slow 1200mV 0C Model Setup 'upcounter:inst1|inst1'
+Slack : -0.360
+TNS   : -0.360
+
+Type  : Slow 1200mV 0C Model Setup 'upcounter:inst8|debouncer:inst6|inst2'
+Slack : -0.334
+TNS   : -0.334
 
 Type  : Slow 1200mV 0C Model Setup 'upcounter:inst9|inst1'
-Slack : -0.389
-TNS   : -0.389
+Slack : -0.329
+TNS   : -0.329
 
-Type  : Slow 1200mV 0C Model Setup 'upcounter:inst10|inst389025'
-Slack : -0.387
-TNS   : -0.387
+Type  : Slow 1200mV 0C Model Setup 'upcounter:inst8|inst1'
+Slack : -0.303
+TNS   : -0.303
 
-Type  : Slow 1200mV 0C Model Setup 'upcounter:inst2|inst1'
-Slack : -0.375
-TNS   : -0.375
+Type  : Slow 1200mV 0C Model Setup 'upcounter:inst3|inst1'
+Slack : -0.302
+TNS   : -0.302
 
-Type  : Slow 1200mV 0C Model Setup 'upcounter:inst111|debouncer:inst6|inst2'
-Slack : -0.346
-TNS   : -0.346
+Type  : Slow 1200mV 0C Model Setup 'upcounter:inst7|inst1'
+Slack : -0.282
+TNS   : -0.282
 
-Type  : Slow 1200mV 0C Model Setup 'upcounter:inst10|inst1'
-Slack : -0.304
-TNS   : -0.304
-
-Type  : Slow 1200mV 0C Model Setup 'upcounter:inst1|debouncer:inst6|inst2'
-Slack : -0.284
-TNS   : -0.284
-
-Type  : Slow 1200mV 0C Model Setup 'upcounter:inst3|inst389025'
-Slack : -0.284
-TNS   : -0.284
-
-Type  : Slow 1200mV 0C Model Setup 'ledPatternGen:inst19|nineCounter:ledset6|clock_generator:inst|inst7'
-Slack : -0.074
-TNS   : -0.173
-
-Type  : Slow 1200mV 0C Model Setup 'ledPatternGen:inst19|nineCounter:ledset5|clock_generator:inst|inst7'
-Slack : -0.074
-TNS   : -0.168
-
-Type  : Slow 1200mV 0C Model Setup 'ledPatternGen:inst19|nineCounter:ledset8|clock_generator:inst|inst7'
-Slack : -0.074
-TNS   : -0.167
-
-Type  : Slow 1200mV 0C Model Setup 'ledPatternGen:inst19|nineCounter:ledset2|clock_generator:inst|inst7'
-Slack : -0.073
-TNS   : -0.166
-
-Type  : Slow 1200mV 0C Model Setup 'ledPatternGen:inst19|nineCounter:ledset7|clock_generator:inst|inst7'
-Slack : -0.073
-TNS   : -0.166
-
-Type  : Slow 1200mV 0C Model Setup 'ledPatternGen:inst19|nineCounter:ledset3|clock_generator:inst|inst7'
-Slack : -0.072
-TNS   : -0.163
-
-Type  : Slow 1200mV 0C Model Setup 'ledPatternGen:inst19|nineCounter:ledset1|clock_generator:inst|inst7'
-Slack : -0.071
-TNS   : -0.163
+Type  : Slow 1200mV 0C Model Setup 'upcounter:inst7|inst389025'
+Slack : -0.277
+TNS   : -0.277
 
 Type  : Slow 1200mV 0C Model Setup 'ledPatternGen:inst19|nineCounter:ledset4|clock_generator:inst|inst7'
-Slack : -0.071
-TNS   : -0.162
+Slack : -0.065
+TNS   : -0.157
+
+Type  : Slow 1200mV 0C Model Setup 'ledPatternGen:inst19|nineCounter:ledset2|clock_generator:inst|inst7'
+Slack : -0.065
+TNS   : -0.155
+
+Type  : Slow 1200mV 0C Model Setup 'ledPatternGen:inst19|nineCounter:ledset8|clock_generator:inst|inst7'
+Slack : -0.063
+TNS   : -0.153
+
+Type  : Slow 1200mV 0C Model Setup 'ledPatternGen:inst19|nineCounter:ledset3|clock_generator:inst|inst7'
+Slack : -0.063
+TNS   : -0.151
+
+Type  : Slow 1200mV 0C Model Setup 'ledPatternGen:inst19|nineCounter:ledset1|clock_generator:inst|inst7'
+Slack : -0.062
+TNS   : -0.152
+
+Type  : Slow 1200mV 0C Model Setup 'ledPatternGen:inst19|nineCounter:ledset6|clock_generator:inst|inst7'
+Slack : -0.062
+TNS   : -0.151
+
+Type  : Slow 1200mV 0C Model Setup 'ledPatternGen:inst19|nineCounter:ledset7|clock_generator:inst|inst7'
+Slack : -0.061
+TNS   : -0.149
+
+Type  : Slow 1200mV 0C Model Setup 'ledPatternGen:inst19|nineCounter:ledset5|clock_generator:inst|inst7'
+Slack : -0.060
+TNS   : -0.148
 
 Type  : Slow 1200mV 0C Model Setup 'upcounter:inst10|inst2'
 Slack : 0.297
@@ -1138,7 +1138,7 @@ Type  : Slow 1200mV 0C Model Setup 'upcounter:inst9|inst2'
 Slack : 0.297
 TNS   : 0.000
 
-Type  : Slow 1200mV 0C Model Hold 'ledPatternGen:inst19|nineCounter:ledset2|clock_generator:inst|clock_divider_1024:inst103|inst10'
+Type  : Slow 1200mV 0C Model Hold 'ledPatternGen:inst19|nineCounter:ledset3|clock_generator:inst|clock_divider_1024:inst103|inst10'
 Slack : 0.352
 TNS   : 0.000
 
@@ -1150,39 +1150,15 @@ Type  : Slow 1200mV 0C Model Hold 'ledPatternGen:inst19|nineCounter:ledset1|cloc
 Slack : 0.353
 TNS   : 0.000
 
-Type  : Slow 1200mV 0C Model Hold 'upcounter:inst10|debouncer:inst6|clock_divider_1024:inst|inst10'
+Type  : Slow 1200mV 0C Model Hold 'ledPatternGen:inst19|nineCounter:ledset2|clock_generator:inst|clock_divider_1024:inst103|inst10'
 Slack : 0.353
-TNS   : 0.000
-
-Type  : Slow 1200mV 0C Model Hold 'upcounter:inst2|debouncer:inst6|clock_divider_1024:inst|inst10'
-Slack : 0.353
-TNS   : 0.000
-
-Type  : Slow 1200mV 0C Model Hold 'ledPatternGen:inst19|nineCounter:ledset3|clock_generator:inst|clock_divider_1024:inst103|inst10'
-Slack : 0.354
-TNS   : 0.000
-
-Type  : Slow 1200mV 0C Model Hold 'ledPatternGen:inst19|nineCounter:ledset5|clock_generator:inst|clock_divider_1024:inst103|inst10'
-Slack : 0.354
-TNS   : 0.000
-
-Type  : Slow 1200mV 0C Model Hold 'ledPatternGen:inst19|nineCounter:ledset6|clock_generator:inst|clock_divider_1024:inst103|inst10'
-Slack : 0.354
-TNS   : 0.000
-
-Type  : Slow 1200mV 0C Model Hold 'ledPatternGen:inst19|nineCounter:ledset7|clock_generator:inst|clock_divider_1024:inst103|inst10'
-Slack : 0.354
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Hold 'upcounter:inst111|debouncer:inst6|clock_divider_1024:inst|inst10'
-Slack : 0.354
+Slack : 0.353
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Hold 'upcounter:inst1|debouncer:inst6|clock_divider_1024:inst|inst10'
-Slack : 0.354
-TNS   : 0.000
-
-Type  : Slow 1200mV 0C Model Hold 'upcounter:inst3|debouncer:inst6|clock_divider_1024:inst|inst10'
 Slack : 0.354
 TNS   : 0.000
 
@@ -1194,28 +1170,52 @@ Type  : Slow 1200mV 0C Model Hold 'upcounter:inst8|debouncer:inst6|clock_divider
 Slack : 0.354
 TNS   : 0.000
 
-Type  : Slow 1200mV 0C Model Hold 'upcounter:inst9|debouncer:inst6|clock_divider_1024:inst|inst10'
-Slack : 0.354
+Type  : Slow 1200mV 0C Model Hold 'upcounter:inst2|debouncer:inst6|clock_divider_1024:inst|inst10'
+Slack : 0.355
 TNS   : 0.000
 
-Type  : Slow 1200mV 0C Model Hold 'ledPatternGen:inst19|nineCounter:ledset1|clock_generator:inst|clock_divider_1024:inst102|inst10'
+Type  : Slow 1200mV 0C Model Hold 'upcounter:inst3|debouncer:inst6|clock_divider_1024:inst|inst10'
 Slack : 0.355
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Hold 'ledPatternGen:inst19|nineCounter:ledset4|clock_generator:inst|clock_divider_1024:inst103|inst10'
-Slack : 0.355
-TNS   : 0.000
-
-Type  : Slow 1200mV 0C Model Hold 'ledPatternGen:inst19|nineCounter:ledset2|clock_generator:inst|clock_divider_1024:inst102|inst10'
 Slack : 0.356
 TNS   : 0.000
 
-Type  : Slow 1200mV 0C Model Hold 'ledPatternGen:inst19|nineCounter:ledset3|clock_generator:inst|clock_divider_1024:inst102|inst10'
+Type  : Slow 1200mV 0C Model Hold 'ledPatternGen:inst19|nineCounter:ledset5|clock_generator:inst|clock_divider_1024:inst103|inst10'
+Slack : 0.356
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'ledPatternGen:inst19|nineCounter:ledset6|clock_generator:inst|clock_divider_1024:inst103|inst10'
+Slack : 0.356
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'ledPatternGen:inst19|nineCounter:ledset7|clock_generator:inst|clock_divider_1024:inst103|inst10'
 Slack : 0.356
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Hold 'ledPatternGen:inst19|nineCounter:ledset8|clock_generator:inst|clock_divider_1024:inst103|inst10'
 Slack : 0.356
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'upcounter:inst10|debouncer:inst6|clock_divider_1024:inst|inst10'
+Slack : 0.356
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'upcounter:inst9|debouncer:inst6|clock_divider_1024:inst|inst10'
+Slack : 0.356
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'ledPatternGen:inst19|nineCounter:ledset2|clock_generator:inst|clock_divider_1024:inst102|inst10'
+Slack : 0.357
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'ledPatternGen:inst19|nineCounter:ledset1|clock_generator:inst|clock_divider_1024:inst102|inst10'
+Slack : 0.358
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'ledPatternGen:inst19|nineCounter:ledset3|clock_generator:inst|clock_divider_1024:inst102|inst10'
+Slack : 0.358
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Hold 'ledPatternGen:inst19|nineCounter:ledset1|clock_generator:inst|inst7'
@@ -1302,164 +1302,164 @@ Type  : Slow 1200mV 0C Model Hold 'upcounter:inst9|inst2'
 Slack : 0.398
 TNS   : 0.000
 
-Type  : Slow 1200mV 0C Model Hold 'upcounter:inst1|debouncer:inst6|inst2'
-Slack : 0.432
-TNS   : 0.000
-
-Type  : Slow 1200mV 0C Model Hold 'upcounter:inst9|debouncer:inst6|inst2'
-Slack : 0.450
-TNS   : 0.000
-
-Type  : Slow 1200mV 0C Model Hold 'upcounter:inst10|debouncer:inst6|inst2'
-Slack : 0.464
-TNS   : 0.000
-
 Type  : Slow 1200mV 0C Model Hold 'upcounter:inst2|debouncer:inst6|inst2'
-Slack : 0.465
+Slack : 0.449
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Hold 'upcounter:inst111|debouncer:inst6|inst2'
-Slack : 0.476
-TNS   : 0.000
-
-Type  : Slow 1200mV 0C Model Hold 'upcounter:inst2|inst1'
-Slack : 0.486
-TNS   : 0.000
-
-Type  : Slow 1200mV 0C Model Hold 'upcounter:inst7|inst1'
-Slack : 0.490
-TNS   : 0.000
-
-Type  : Slow 1200mV 0C Model Hold 'upcounter:inst3|debouncer:inst6|inst2'
-Slack : 0.498
+Slack : 0.452
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Hold 'upcounter:inst8|debouncer:inst6|inst2'
-Slack : 0.516
+Slack : 0.453
 TNS   : 0.000
 
-Type  : Slow 1200mV 0C Model Hold 'upcounter:inst3|inst389025'
-Slack : 0.531
+Type  : Slow 1200mV 0C Model Hold 'upcounter:inst3|debouncer:inst6|inst2'
+Slack : 0.455
 TNS   : 0.000
 
-Type  : Slow 1200mV 0C Model Hold 'upcounter:inst10|inst1'
-Slack : 0.548
+Type  : Slow 1200mV 0C Model Hold 'upcounter:inst10|debouncer:inst6|inst2'
+Slack : 0.457
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'upcounter:inst1|debouncer:inst6|inst2'
+Slack : 0.475
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'upcounter:inst9|debouncer:inst6|inst2'
+Slack : 0.478
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Hold 'upcounter:inst7|debouncer:inst6|inst2'
-Slack : 0.548
+Slack : 0.516
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'upcounter:inst7|inst1'
+Slack : 0.518
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'upcounter:inst7|inst389025'
+Slack : 0.520
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'upcounter:inst8|inst1'
+Slack : 0.547
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'upcounter:inst9|inst389025'
+Slack : 0.568
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'upcounter:inst3|inst1'
+Slack : 0.569
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Hold 'upcounter:inst2|inst389025'
 Slack : 0.574
 TNS   : 0.000
 
-Type  : Slow 1200mV 0C Model Hold 'upcounter:inst10|inst389025'
-Slack : 0.587
-TNS   : 0.000
-
 Type  : Slow 1200mV 0C Model Hold 'upcounter:inst9|inst1'
-Slack : 0.592
-TNS   : 0.000
-
-Type  : Slow 1200mV 0C Model Hold 'upcounter:inst8|inst389025'
-Slack : 0.608
-TNS   : 0.000
-
-Type  : Slow 1200mV 0C Model Hold 'upcounter:inst7|inst389025'
-Slack : 0.632
+Slack : 0.575
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Hold 'upcounter:inst1|inst1'
-Slack : 0.647
+Slack : 0.580
 TNS   : 0.000
 
-Type  : Slow 1200mV 0C Model Hold 'upcounter:inst1|inst389025'
-Slack : 0.649
+Type  : Slow 1200mV 0C Model Hold 'upcounter:inst10|inst389025'
+Slack : 0.603
 TNS   : 0.000
 
-Type  : Slow 1200mV 0C Model Hold 'upcounter:inst8|inst1'
-Slack : 0.669
+Type  : Slow 1200mV 0C Model Hold 'upcounter:inst3|inst389025'
+Slack : 0.607
 TNS   : 0.000
 
-Type  : Slow 1200mV 0C Model Hold 'upcounter:inst9|inst389025'
-Slack : 0.674
-TNS   : 0.000
-
-Type  : Slow 1200mV 0C Model Hold 'upcounter:inst3|inst1'
-Slack : 0.675
+Type  : Slow 1200mV 0C Model Hold 'upcounter:inst8|inst389025'
+Slack : 0.609
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Hold 'upcounter:inst111|inst389025'
-Slack : 0.761
+Slack : 0.632
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'upcounter:inst10|inst1'
+Slack : 0.645
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'upcounter:inst1|inst389025'
+Slack : 0.671
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'upcounter:inst2|inst1'
+Slack : 0.684
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Hold 'upcounter:inst111|inst1'
-Slack : 0.906
+Slack : 0.824
 TNS   : 0.000
-
-Type  : Slow 1200mV 0C Model Recovery 'ledPatternGen:inst19|nineCounter:ledset5|clock_generator:inst|inst7'
-Slack : -5.327
-TNS   : -15.981
-
-Type  : Slow 1200mV 0C Model Recovery 'ledPatternGen:inst19|nineCounter:ledset6|clock_generator:inst|inst7'
-Slack : -5.251
-TNS   : -15.753
-
-Type  : Slow 1200mV 0C Model Recovery 'ledPatternGen:inst19|nineCounter:ledset1|clock_generator:inst|inst7'
-Slack : -5.230
-TNS   : -15.690
-
-Type  : Slow 1200mV 0C Model Recovery 'ledPatternGen:inst19|nineCounter:ledset3|clock_generator:inst|inst7'
-Slack : -5.228
-TNS   : -15.684
-
-Type  : Slow 1200mV 0C Model Recovery 'ledPatternGen:inst19|nineCounter:ledset2|clock_generator:inst|inst7'
-Slack : -5.220
-TNS   : -15.660
-
-Type  : Slow 1200mV 0C Model Recovery 'ledPatternGen:inst19|nineCounter:ledset8|clock_generator:inst|inst7'
-Slack : -5.093
-TNS   : -15.279
 
 Type  : Slow 1200mV 0C Model Recovery 'ledPatternGen:inst19|nineCounter:ledset4|clock_generator:inst|inst7'
-Slack : -5.012
-TNS   : -15.036
+Slack : -4.677
+TNS   : -14.031
+
+Type  : Slow 1200mV 0C Model Recovery 'ledPatternGen:inst19|nineCounter:ledset1|clock_generator:inst|inst7'
+Slack : -4.464
+TNS   : -13.392
 
 Type  : Slow 1200mV 0C Model Recovery 'ledPatternGen:inst19|nineCounter:ledset7|clock_generator:inst|inst7'
-Slack : -4.854
-TNS   : -14.562
+Slack : -4.439
+TNS   : -13.317
 
-Type  : Slow 1200mV 0C Model Removal 'ledPatternGen:inst19|nineCounter:ledset7|clock_generator:inst|inst7'
-Slack : 3.953
-TNS   : 0.000
+Type  : Slow 1200mV 0C Model Recovery 'ledPatternGen:inst19|nineCounter:ledset8|clock_generator:inst|inst7'
+Slack : -4.432
+TNS   : -13.296
 
-Type  : Slow 1200mV 0C Model Removal 'ledPatternGen:inst19|nineCounter:ledset4|clock_generator:inst|inst7'
-Slack : 4.117
-TNS   : 0.000
+Type  : Slow 1200mV 0C Model Recovery 'ledPatternGen:inst19|nineCounter:ledset2|clock_generator:inst|inst7'
+Slack : -4.420
+TNS   : -13.260
 
-Type  : Slow 1200mV 0C Model Removal 'ledPatternGen:inst19|nineCounter:ledset8|clock_generator:inst|inst7'
-Slack : 4.149
-TNS   : 0.000
+Type  : Slow 1200mV 0C Model Recovery 'ledPatternGen:inst19|nineCounter:ledset6|clock_generator:inst|inst7'
+Slack : -4.242
+TNS   : -12.726
 
-Type  : Slow 1200mV 0C Model Removal 'ledPatternGen:inst19|nineCounter:ledset2|clock_generator:inst|inst7'
-Slack : 4.287
-TNS   : 0.000
+Type  : Slow 1200mV 0C Model Recovery 'ledPatternGen:inst19|nineCounter:ledset5|clock_generator:inst|inst7'
+Slack : -4.205
+TNS   : -12.615
+
+Type  : Slow 1200mV 0C Model Recovery 'ledPatternGen:inst19|nineCounter:ledset3|clock_generator:inst|inst7'
+Slack : -4.088
+TNS   : -12.264
 
 Type  : Slow 1200mV 0C Model Removal 'ledPatternGen:inst19|nineCounter:ledset3|clock_generator:inst|inst7'
-Slack : 4.292
-TNS   : 0.000
-
-Type  : Slow 1200mV 0C Model Removal 'ledPatternGen:inst19|nineCounter:ledset1|clock_generator:inst|inst7'
-Slack : 4.294
-TNS   : 0.000
-
-Type  : Slow 1200mV 0C Model Removal 'ledPatternGen:inst19|nineCounter:ledset6|clock_generator:inst|inst7'
-Slack : 4.309
+Slack : 2.632
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Removal 'ledPatternGen:inst19|nineCounter:ledset5|clock_generator:inst|inst7'
-Slack : 4.409
+Slack : 2.757
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'ledPatternGen:inst19|nineCounter:ledset6|clock_generator:inst|inst7'
+Slack : 2.792
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'ledPatternGen:inst19|nineCounter:ledset2|clock_generator:inst|inst7'
+Slack : 2.926
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'ledPatternGen:inst19|nineCounter:ledset7|clock_generator:inst|inst7'
+Slack : 2.945
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'ledPatternGen:inst19|nineCounter:ledset8|clock_generator:inst|inst7'
+Slack : 2.950
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'ledPatternGen:inst19|nineCounter:ledset1|clock_generator:inst|inst7'
+Slack : 2.963
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'ledPatternGen:inst19|nineCounter:ledset4|clock_generator:inst|inst7'
+Slack : 3.134
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Minimum Pulse Width 'BoardClock'
@@ -1755,231 +1755,231 @@ Slack : -1.285
 TNS   : -1.285
 
 Type  : Fast 1200mV 0C Model Setup 'BoardClock'
-Slack : -1.094
-TNS   : -14.340
-
-Type  : Fast 1200mV 0C Model Setup 'ledPatternGen:inst19|nineCounter:ledset4|clock_generator:inst|clock_divider_1024:inst103|inst10'
-Slack : -0.890
-TNS   : -0.925
+Slack : -1.235
+TNS   : -14.455
 
 Type  : Fast 1200mV 0C Model Setup 'ledPatternGen:inst19|nineCounter:ledset8|clock_generator:inst|clock_divider_1024:inst103|inst10'
-Slack : -0.887
-TNS   : -0.887
+Slack : -0.922
+TNS   : -1.015
 
 Type  : Fast 1200mV 0C Model Setup 'upcounter:inst3|debouncer:inst6|clock_divider_1024:inst|inst10'
-Slack : -0.873
-TNS   : -0.907
-
-Type  : Fast 1200mV 0C Model Setup 'upcounter:inst7|debouncer:inst6|clock_divider_1024:inst|inst10'
-Slack : -0.861
-TNS   : -0.875
-
-Type  : Fast 1200mV 0C Model Setup 'ledPatternGen:inst19|nineCounter:ledset2|clock_generator:inst|clock_divider_1024:inst103|inst10'
-Slack : -0.836
-TNS   : -0.836
-
-Type  : Fast 1200mV 0C Model Setup 'ledPatternGen:inst19|nineCounter:ledset3|clock_generator:inst|clock_divider_1024:inst103|inst10'
-Slack : -0.832
-TNS   : -0.905
-
-Type  : Fast 1200mV 0C Model Setup 'upcounter:inst1|debouncer:inst6|clock_divider_1024:inst|inst10'
-Slack : -0.815
-TNS   : -0.815
-
-Type  : Fast 1200mV 0C Model Setup 'ledPatternGen:inst19|nineCounter:ledset7|clock_generator:inst|clock_divider_1024:inst103|inst10'
-Slack : -0.796
-TNS   : -0.836
+Slack : -0.890
+TNS   : -0.908
 
 Type  : Fast 1200mV 0C Model Setup 'upcounter:inst9|debouncer:inst6|clock_divider_1024:inst|inst10'
-Slack : -0.792
-TNS   : -1.066
+Slack : -0.875
+TNS   : -0.875
+
+Type  : Fast 1200mV 0C Model Setup 'upcounter:inst7|debouncer:inst6|clock_divider_1024:inst|inst10'
+Slack : -0.870
+TNS   : -0.870
 
 Type  : Fast 1200mV 0C Model Setup 'upcounter:inst111|debouncer:inst6|clock_divider_1024:inst|inst10'
-Slack : -0.792
-TNS   : -0.792
+Slack : -0.858
+TNS   : -0.858
 
-Type  : Fast 1200mV 0C Model Setup 'upcounter:inst10|debouncer:inst6|clock_divider_1024:inst|inst10'
-Slack : -0.773
-TNS   : -0.828
-
-Type  : Fast 1200mV 0C Model Setup 'ledPatternGen:inst19|nineCounter:ledset1|clock_generator:inst|clock_divider_1024:inst103|inst10'
-Slack : -0.769
-TNS   : -0.769
+Type  : Fast 1200mV 0C Model Setup 'ledPatternGen:inst19|nineCounter:ledset4|clock_generator:inst|clock_divider_1024:inst103|inst10'
+Slack : -0.857
+TNS   : -0.873
 
 Type  : Fast 1200mV 0C Model Setup 'ledPatternGen:inst19|nineCounter:ledset6|clock_generator:inst|clock_divider_1024:inst103|inst10'
-Slack : -0.769
-TNS   : -0.769
+Slack : -0.850
+TNS   : -0.890
+
+Type  : Fast 1200mV 0C Model Setup 'ledPatternGen:inst19|nineCounter:ledset1|clock_generator:inst|clock_divider_1024:inst103|inst10'
+Slack : -0.850
+TNS   : -0.850
 
 Type  : Fast 1200mV 0C Model Setup 'ledPatternGen:inst19|nineCounter:ledset5|clock_generator:inst|clock_divider_1024:inst103|inst10'
-Slack : -0.734
-TNS   : -0.767
+Slack : -0.814
+TNS   : -0.847
+
+Type  : Fast 1200mV 0C Model Setup 'ledPatternGen:inst19|nineCounter:ledset7|clock_generator:inst|clock_divider_1024:inst103|inst10'
+Slack : -0.805
+TNS   : -0.842
+
+Type  : Fast 1200mV 0C Model Setup 'ledPatternGen:inst19|nineCounter:ledset3|clock_generator:inst|clock_divider_1024:inst103|inst10'
+Slack : -0.790
+TNS   : -0.828
+
+Type  : Fast 1200mV 0C Model Setup 'ledPatternGen:inst19|nineCounter:ledset2|clock_generator:inst|clock_divider_1024:inst103|inst10'
+Slack : -0.787
+TNS   : -0.787
 
 Type  : Fast 1200mV 0C Model Setup 'upcounter:inst8|debouncer:inst6|clock_divider_1024:inst|inst10'
-Slack : -0.732
-TNS   : -0.732
+Slack : -0.773
+TNS   : -0.773
+
+Type  : Fast 1200mV 0C Model Setup 'upcounter:inst10|debouncer:inst6|clock_divider_1024:inst|inst10'
+Slack : -0.753
+TNS   : -0.971
 
 Type  : Fast 1200mV 0C Model Setup 'upcounter:inst2|debouncer:inst6|clock_divider_1024:inst|inst10'
-Slack : -0.725
-TNS   : -0.744
+Slack : -0.751
+TNS   : -0.751
 
-Type  : Fast 1200mV 0C Model Setup 'ledPatternGen:inst19|nineCounter:ledset3|clock_generator:inst|clock_divider_1024:inst102|inst10'
-Slack : -0.533
-TNS   : -0.533
-
-Type  : Fast 1200mV 0C Model Setup 'ledPatternGen:inst19|nineCounter:ledset1|clock_generator:inst|clock_divider_1024:inst102|inst10'
-Slack : -0.524
-TNS   : -0.524
+Type  : Fast 1200mV 0C Model Setup 'upcounter:inst1|debouncer:inst6|clock_divider_1024:inst|inst10'
+Slack : -0.668
+TNS   : -0.668
 
 Type  : Fast 1200mV 0C Model Setup 'ledPatternGen:inst19|nineCounter:ledset2|clock_generator:inst|clock_divider_1024:inst102|inst10'
-Slack : -0.404
-TNS   : -0.404
+Slack : -0.575
+TNS   : -0.575
 
-Type  : Fast 1200mV 0C Model Setup 'ledPatternGen:inst19|nineCounter:ledset5|clock_generator:inst|clock_divider_1024:inst102|inst10'
-Slack : -0.212
-TNS   : -0.212
+Type  : Fast 1200mV 0C Model Setup 'ledPatternGen:inst19|nineCounter:ledset1|clock_generator:inst|clock_divider_1024:inst102|inst10'
+Slack : -0.490
+TNS   : -0.490
 
-Type  : Fast 1200mV 0C Model Setup 'ledPatternGen:inst19|nineCounter:ledset6|clock_generator:inst|clock_divider_1024:inst102|inst10'
-Slack : -0.177
-TNS   : -0.177
-
-Type  : Fast 1200mV 0C Model Setup 'ledPatternGen:inst19|nineCounter:ledset4|clock_generator:inst|clock_divider_1024:inst102|inst10'
-Slack : -0.151
-TNS   : -0.151
+Type  : Fast 1200mV 0C Model Setup 'ledPatternGen:inst19|nineCounter:ledset3|clock_generator:inst|clock_divider_1024:inst102|inst10'
+Slack : -0.419
+TNS   : -0.419
 
 Type  : Fast 1200mV 0C Model Setup 'ledPatternGen:inst19|nineCounter:ledset7|clock_generator:inst|clock_divider_1024:inst102|inst10'
-Slack : -0.146
-TNS   : -0.146
+Slack : -0.175
+TNS   : -0.175
 
 Type  : Fast 1200mV 0C Model Setup 'ledPatternGen:inst19|nineCounter:ledset8|clock_generator:inst|clock_divider_1024:inst102|inst10'
-Slack : -0.137
-TNS   : -0.137
+Slack : -0.153
+TNS   : -0.153
 
-Type  : Fast 1200mV 0C Model Setup 'upcounter:inst111|inst1'
-Slack : -0.101
-TNS   : -0.101
+Type  : Fast 1200mV 0C Model Setup 'ledPatternGen:inst19|nineCounter:ledset6|clock_generator:inst|clock_divider_1024:inst102|inst10'
+Slack : -0.152
+TNS   : -0.152
 
-Type  : Fast 1200mV 0C Model Setup 'upcounter:inst7|debouncer:inst6|inst2'
-Slack : -0.046
-TNS   : -0.046
+Type  : Fast 1200mV 0C Model Setup 'ledPatternGen:inst19|nineCounter:ledset5|clock_generator:inst|clock_divider_1024:inst102|inst10'
+Slack : -0.147
+TNS   : -0.147
 
-Type  : Fast 1200mV 0C Model Setup 'upcounter:inst1|inst1'
-Slack : -0.040
-TNS   : -0.040
-
-Type  : Fast 1200mV 0C Model Setup 'upcounter:inst8|inst1'
-Slack : -0.037
-TNS   : -0.037
+Type  : Fast 1200mV 0C Model Setup 'ledPatternGen:inst19|nineCounter:ledset4|clock_generator:inst|clock_divider_1024:inst102|inst10'
+Slack : -0.144
+TNS   : -0.144
 
 Type  : Fast 1200mV 0C Model Setup 'upcounter:inst1|inst389025'
-Slack : -0.033
-TNS   : -0.033
+Slack : -0.039
+TNS   : -0.039
+
+Type  : Fast 1200mV 0C Model Setup 'upcounter:inst111|inst1'
+Slack : -0.038
+TNS   : -0.038
+
+Type  : Fast 1200mV 0C Model Setup 'upcounter:inst2|inst1'
+Slack : -0.035
+TNS   : -0.035
+
+Type  : Fast 1200mV 0C Model Setup 'upcounter:inst111|debouncer:inst6|inst2'
+Slack : -0.026
+TNS   : -0.026
 
 Type  : Fast 1200mV 0C Model Setup 'upcounter:inst111|inst389025'
 Slack : -0.024
 TNS   : -0.024
 
-Type  : Fast 1200mV 0C Model Setup 'upcounter:inst7|inst389025'
-Slack : -0.021
-TNS   : -0.021
-
-Type  : Fast 1200mV 0C Model Setup 'upcounter:inst8|debouncer:inst6|inst2'
-Slack : -0.018
-TNS   : -0.018
-
-Type  : Fast 1200mV 0C Model Setup 'upcounter:inst8|inst389025'
-Slack : -0.011
-TNS   : -0.011
-
-Type  : Fast 1200mV 0C Model Setup 'upcounter:inst3|debouncer:inst6|inst2'
-Slack : -0.005
-TNS   : -0.005
-
-Type  : Fast 1200mV 0C Model Setup 'upcounter:inst2|debouncer:inst6|inst2'
-Slack : 0.013
-TNS   : 0.000
-
-Type  : Fast 1200mV 0C Model Setup 'upcounter:inst10|debouncer:inst6|inst2'
-Slack : 0.017
-TNS   : 0.000
-
 Type  : Fast 1200mV 0C Model Setup 'upcounter:inst9|debouncer:inst6|inst2'
-Slack : 0.018
-TNS   : 0.000
-
-Type  : Fast 1200mV 0C Model Setup 'upcounter:inst9|inst389025'
-Slack : 0.040
-TNS   : 0.000
-
-Type  : Fast 1200mV 0C Model Setup 'upcounter:inst2|inst389025'
-Slack : 0.051
-TNS   : 0.000
-
-Type  : Fast 1200mV 0C Model Setup 'upcounter:inst111|debouncer:inst6|inst2'
-Slack : 0.060
-TNS   : 0.000
-
-Type  : Fast 1200mV 0C Model Setup 'upcounter:inst7|inst1'
-Slack : 0.067
-TNS   : 0.000
-
-Type  : Fast 1200mV 0C Model Setup 'upcounter:inst3|inst1'
-Slack : 0.072
-TNS   : 0.000
-
-Type  : Fast 1200mV 0C Model Setup 'upcounter:inst1|debouncer:inst6|inst2'
-Slack : 0.109
-TNS   : 0.000
-
-Type  : Fast 1200mV 0C Model Setup 'upcounter:inst9|inst1'
-Slack : 0.114
-TNS   : 0.000
-
-Type  : Fast 1200mV 0C Model Setup 'upcounter:inst10|inst389025'
-Slack : 0.119
-TNS   : 0.000
-
-Type  : Fast 1200mV 0C Model Setup 'upcounter:inst2|inst1'
-Slack : 0.120
-TNS   : 0.000
-
-Type  : Fast 1200mV 0C Model Setup 'upcounter:inst10|inst1'
-Slack : 0.128
+Slack : 0.005
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Setup 'upcounter:inst3|inst389025'
-Slack : 0.129
+Slack : 0.008
 TNS   : 0.000
 
-Type  : Fast 1200mV 0C Model Setup 'ledPatternGen:inst19|nineCounter:ledset6|clock_generator:inst|inst7'
-Slack : 0.423
+Type  : Fast 1200mV 0C Model Setup 'upcounter:inst3|debouncer:inst6|inst2'
+Slack : 0.016
 TNS   : 0.000
 
-Type  : Fast 1200mV 0C Model Setup 'ledPatternGen:inst19|nineCounter:ledset2|clock_generator:inst|inst7'
-Slack : 0.424
+Type  : Fast 1200mV 0C Model Setup 'upcounter:inst2|debouncer:inst6|inst2'
+Slack : 0.018
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'upcounter:inst10|debouncer:inst6|inst2'
+Slack : 0.020
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'upcounter:inst9|inst389025'
+Slack : 0.022
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'upcounter:inst10|inst1'
+Slack : 0.024
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'upcounter:inst1|debouncer:inst6|inst2'
+Slack : 0.030
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'upcounter:inst10|inst389025'
+Slack : 0.038
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'upcounter:inst8|inst389025'
+Slack : 0.040
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'upcounter:inst7|debouncer:inst6|inst2'
+Slack : 0.050
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'upcounter:inst2|inst389025'
+Slack : 0.057
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'upcounter:inst8|debouncer:inst6|inst2'
+Slack : 0.071
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'upcounter:inst9|inst1'
+Slack : 0.105
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'upcounter:inst1|inst1'
+Slack : 0.124
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'upcounter:inst7|inst389025'
+Slack : 0.138
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'upcounter:inst7|inst1'
+Slack : 0.139
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'upcounter:inst3|inst1'
+Slack : 0.140
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'upcounter:inst8|inst1'
+Slack : 0.147
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Setup 'ledPatternGen:inst19|nineCounter:ledset4|clock_generator:inst|inst7'
-Slack : 0.425
+Slack : 0.429
 TNS   : 0.000
 
-Type  : Fast 1200mV 0C Model Setup 'ledPatternGen:inst19|nineCounter:ledset5|clock_generator:inst|inst7'
-Slack : 0.425
-TNS   : 0.000
-
-Type  : Fast 1200mV 0C Model Setup 'ledPatternGen:inst19|nineCounter:ledset1|clock_generator:inst|inst7'
-Slack : 0.426
+Type  : Fast 1200mV 0C Model Setup 'ledPatternGen:inst19|nineCounter:ledset2|clock_generator:inst|inst7'
+Slack : 0.430
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Setup 'ledPatternGen:inst19|nineCounter:ledset3|clock_generator:inst|inst7'
-Slack : 0.426
+Slack : 0.430
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'ledPatternGen:inst19|nineCounter:ledset1|clock_generator:inst|inst7'
+Slack : 0.433
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'ledPatternGen:inst19|nineCounter:ledset5|clock_generator:inst|inst7'
+Slack : 0.433
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'ledPatternGen:inst19|nineCounter:ledset6|clock_generator:inst|inst7'
+Slack : 0.433
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Setup 'ledPatternGen:inst19|nineCounter:ledset7|clock_generator:inst|inst7'
-Slack : 0.426
+Slack : 0.433
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Setup 'ledPatternGen:inst19|nineCounter:ledset8|clock_generator:inst|inst7'
-Slack : 0.426
+Slack : 0.433
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Setup 'upcounter:inst10|inst2'
@@ -2014,16 +2014,8 @@ Type  : Fast 1200mV 0C Model Setup 'upcounter:inst9|inst2'
 Slack : 0.624
 TNS   : 0.000
 
-Type  : Fast 1200mV 0C Model Hold 'upcounter:inst2|inst1'
-Slack : 0.169
-TNS   : 0.000
-
 Type  : Fast 1200mV 0C Model Hold 'BoardClock'
-Slack : 0.180
-TNS   : 0.000
-
-Type  : Fast 1200mV 0C Model Hold 'upcounter:inst7|debouncer:inst6|clock_divider_1024:inst|inst10'
-Slack : 0.180
+Slack : 0.181
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Hold 'ledPatternGen:inst19|nineCounter:ledset1|clock_generator:inst|clock_divider_1024:inst103|inst10'
@@ -2042,64 +2034,68 @@ Type  : Fast 1200mV 0C Model Hold 'upcounter:inst1|debouncer:inst6|clock_divider
 Slack : 0.181
 TNS   : 0.000
 
-Type  : Fast 1200mV 0C Model Hold 'upcounter:inst2|debouncer:inst6|clock_divider_1024:inst|inst10'
+Type  : Fast 1200mV 0C Model Hold 'upcounter:inst7|debouncer:inst6|clock_divider_1024:inst|inst10'
 Slack : 0.181
-TNS   : 0.000
-
-Type  : Fast 1200mV 0C Model Hold 'upcounter:inst8|debouncer:inst6|clock_divider_1024:inst|inst10'
-Slack : 0.181
-TNS   : 0.000
-
-Type  : Fast 1200mV 0C Model Hold 'ledPatternGen:inst19|nineCounter:ledset1|clock_generator:inst|clock_divider_1024:inst102|inst10'
-Slack : 0.182
-TNS   : 0.000
-
-Type  : Fast 1200mV 0C Model Hold 'ledPatternGen:inst19|nineCounter:ledset3|clock_generator:inst|clock_divider_1024:inst102|inst10'
-Slack : 0.182
-TNS   : 0.000
-
-Type  : Fast 1200mV 0C Model Hold 'ledPatternGen:inst19|nineCounter:ledset4|clock_generator:inst|clock_divider_1024:inst103|inst10'
-Slack : 0.182
-TNS   : 0.000
-
-Type  : Fast 1200mV 0C Model Hold 'ledPatternGen:inst19|nineCounter:ledset6|clock_generator:inst|clock_divider_1024:inst103|inst10'
-Slack : 0.182
-TNS   : 0.000
-
-Type  : Fast 1200mV 0C Model Hold 'ledPatternGen:inst19|nineCounter:ledset8|clock_generator:inst|clock_divider_1024:inst103|inst10'
-Slack : 0.182
-TNS   : 0.000
-
-Type  : Fast 1200mV 0C Model Hold 'upcounter:inst10|debouncer:inst6|clock_divider_1024:inst|inst10'
-Slack : 0.182
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Hold 'upcounter:inst111|debouncer:inst6|clock_divider_1024:inst|inst10'
 Slack : 0.182
 TNS   : 0.000
 
-Type  : Fast 1200mV 0C Model Hold 'upcounter:inst9|debouncer:inst6|clock_divider_1024:inst|inst10'
+Type  : Fast 1200mV 0C Model Hold 'upcounter:inst8|debouncer:inst6|clock_divider_1024:inst|inst10'
 Slack : 0.182
 TNS   : 0.000
 
-Type  : Fast 1200mV 0C Model Hold 'ledPatternGen:inst19|nineCounter:ledset2|clock_generator:inst|clock_divider_1024:inst102|inst10'
-Slack : 0.183
+Type  : Fast 1200mV 0C Model Hold 'ledPatternGen:inst19|nineCounter:ledset3|clock_generator:inst|clock_divider_1024:inst102|inst10'
+Slack : 0.184
 TNS   : 0.000
 
-Type  : Fast 1200mV 0C Model Hold 'ledPatternGen:inst19|nineCounter:ledset5|clock_generator:inst|clock_divider_1024:inst103|inst10'
-Slack : 0.183
-TNS   : 0.000
-
-Type  : Fast 1200mV 0C Model Hold 'ledPatternGen:inst19|nineCounter:ledset7|clock_generator:inst|clock_divider_1024:inst103|inst10'
-Slack : 0.183
+Type  : Fast 1200mV 0C Model Hold 'upcounter:inst2|debouncer:inst6|clock_divider_1024:inst|inst10'
+Slack : 0.184
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Hold 'upcounter:inst3|debouncer:inst6|clock_divider_1024:inst|inst10'
-Slack : 0.183
+Slack : 0.184
 TNS   : 0.000
 
-Type  : Fast 1200mV 0C Model Hold 'upcounter:inst7|inst1'
-Slack : 0.192
+Type  : Fast 1200mV 0C Model Hold 'ledPatternGen:inst19|nineCounter:ledset1|clock_generator:inst|clock_divider_1024:inst102|inst10'
+Slack : 0.185
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'ledPatternGen:inst19|nineCounter:ledset2|clock_generator:inst|clock_divider_1024:inst102|inst10'
+Slack : 0.185
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'ledPatternGen:inst19|nineCounter:ledset4|clock_generator:inst|clock_divider_1024:inst103|inst10'
+Slack : 0.185
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'ledPatternGen:inst19|nineCounter:ledset5|clock_generator:inst|clock_divider_1024:inst103|inst10'
+Slack : 0.185
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'ledPatternGen:inst19|nineCounter:ledset6|clock_generator:inst|clock_divider_1024:inst103|inst10'
+Slack : 0.185
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'ledPatternGen:inst19|nineCounter:ledset7|clock_generator:inst|clock_divider_1024:inst103|inst10'
+Slack : 0.185
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'ledPatternGen:inst19|nineCounter:ledset8|clock_generator:inst|clock_divider_1024:inst103|inst10'
+Slack : 0.185
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'upcounter:inst10|debouncer:inst6|clock_divider_1024:inst|inst10'
+Slack : 0.185
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'upcounter:inst9|debouncer:inst6|clock_divider_1024:inst|inst10'
+Slack : 0.185
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'upcounter:inst1|inst1'
+Slack : 0.197
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Hold 'ledPatternGen:inst19|nineCounter:ledset1|clock_generator:inst|inst7'
@@ -2154,6 +2150,10 @@ Type  : Fast 1200mV 0C Model Hold 'ledPatternGen:inst19|nineCounter:ledset8|cloc
 Slack : 0.201
 TNS   : 0.000
 
+Type  : Fast 1200mV 0C Model Hold 'upcounter:inst7|inst389025'
+Slack : 0.203
+TNS   : 0.000
+
 Type  : Fast 1200mV 0C Model Hold 'upcounter:inst10|inst2'
 Slack : 0.206
 TNS   : 0.000
@@ -2186,161 +2186,161 @@ Type  : Fast 1200mV 0C Model Hold 'upcounter:inst9|inst2'
 Slack : 0.206
 TNS   : 0.000
 
-Type  : Fast 1200mV 0C Model Hold 'upcounter:inst9|inst1'
-Slack : 0.212
-TNS   : 0.000
-
-Type  : Fast 1200mV 0C Model Hold 'upcounter:inst10|inst389025'
-Slack : 0.214
-TNS   : 0.000
-
-Type  : Fast 1200mV 0C Model Hold 'upcounter:inst3|inst389025'
-Slack : 0.218
-TNS   : 0.000
-
-Type  : Fast 1200mV 0C Model Hold 'upcounter:inst10|inst1'
-Slack : 0.222
-TNS   : 0.000
-
-Type  : Fast 1200mV 0C Model Hold 'upcounter:inst1|debouncer:inst6|inst2'
-Slack : 0.229
-TNS   : 0.000
-
-Type  : Fast 1200mV 0C Model Hold 'upcounter:inst9|debouncer:inst6|inst2'
-Slack : 0.236
-TNS   : 0.000
-
-Type  : Fast 1200mV 0C Model Hold 'upcounter:inst10|debouncer:inst6|inst2'
-Slack : 0.242
-TNS   : 0.000
-
-Type  : Fast 1200mV 0C Model Hold 'upcounter:inst2|debouncer:inst6|inst2'
-Slack : 0.243
-TNS   : 0.000
-
-Type  : Fast 1200mV 0C Model Hold 'upcounter:inst111|debouncer:inst6|inst2'
-Slack : 0.246
-TNS   : 0.000
-
-Type  : Fast 1200mV 0C Model Hold 'upcounter:inst2|inst389025'
-Slack : 0.248
+Type  : Fast 1200mV 0C Model Hold 'upcounter:inst7|inst1'
+Slack : 0.210
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Hold 'upcounter:inst3|inst1'
-Slack : 0.256
-TNS   : 0.000
-
-Type  : Fast 1200mV 0C Model Hold 'upcounter:inst3|debouncer:inst6|inst2'
-Slack : 0.264
-TNS   : 0.000
-
-Type  : Fast 1200mV 0C Model Hold 'upcounter:inst8|debouncer:inst6|inst2'
-Slack : 0.269
-TNS   : 0.000
-
-Type  : Fast 1200mV 0C Model Hold 'upcounter:inst8|inst389025'
-Slack : 0.269
-TNS   : 0.000
-
-Type  : Fast 1200mV 0C Model Hold 'upcounter:inst7|inst389025'
-Slack : 0.289
-TNS   : 0.000
-
-Type  : Fast 1200mV 0C Model Hold 'upcounter:inst1|inst389025'
-Slack : 0.291
-TNS   : 0.000
-
-Type  : Fast 1200mV 0C Model Hold 'upcounter:inst1|inst1'
-Slack : 0.294
-TNS   : 0.000
-
-Type  : Fast 1200mV 0C Model Hold 'upcounter:inst9|inst389025'
-Slack : 0.295
-TNS   : 0.000
-
-Type  : Fast 1200mV 0C Model Hold 'upcounter:inst111|inst389025'
-Slack : 0.309
+Slack : 0.222
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Hold 'upcounter:inst8|inst1'
-Slack : 0.310
+Slack : 0.224
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'upcounter:inst3|inst389025'
+Slack : 0.232
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'upcounter:inst9|inst1'
+Slack : 0.234
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'upcounter:inst2|debouncer:inst6|inst2'
+Slack : 0.236
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'upcounter:inst8|debouncer:inst6|inst2'
+Slack : 0.236
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'upcounter:inst9|inst389025'
+Slack : 0.238
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'upcounter:inst10|debouncer:inst6|inst2'
+Slack : 0.239
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'upcounter:inst3|debouncer:inst6|inst2'
+Slack : 0.240
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'upcounter:inst2|inst389025'
+Slack : 0.241
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'upcounter:inst9|debouncer:inst6|inst2'
+Slack : 0.252
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'upcounter:inst1|debouncer:inst6|inst2'
+Slack : 0.255
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'upcounter:inst111|debouncer:inst6|inst2'
+Slack : 0.263
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'upcounter:inst8|inst389025'
+Slack : 0.266
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'upcounter:inst2|inst1'
+Slack : 0.268
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'upcounter:inst10|inst1'
+Slack : 0.270
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'upcounter:inst10|inst389025'
+Slack : 0.270
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'upcounter:inst111|inst389025'
+Slack : 0.286
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Hold 'upcounter:inst7|debouncer:inst6|inst2'
-Slack : 0.323
+Slack : 0.286
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'upcounter:inst1|inst389025'
+Slack : 0.300
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Hold 'upcounter:inst111|inst1'
-Slack : 0.406
+Slack : 0.331
 TNS   : 0.000
-
-Type  : Fast 1200mV 0C Model Recovery 'ledPatternGen:inst19|nineCounter:ledset5|clock_generator:inst|inst7'
-Slack : -2.316
-TNS   : -6.948
-
-Type  : Fast 1200mV 0C Model Recovery 'ledPatternGen:inst19|nineCounter:ledset6|clock_generator:inst|inst7'
-Slack : -2.247
-TNS   : -6.741
-
-Type  : Fast 1200mV 0C Model Recovery 'ledPatternGen:inst19|nineCounter:ledset1|clock_generator:inst|inst7'
-Slack : -2.238
-TNS   : -6.714
-
-Type  : Fast 1200mV 0C Model Recovery 'ledPatternGen:inst19|nineCounter:ledset3|clock_generator:inst|inst7'
-Slack : -2.237
-TNS   : -6.711
-
-Type  : Fast 1200mV 0C Model Recovery 'ledPatternGen:inst19|nineCounter:ledset2|clock_generator:inst|inst7'
-Slack : -2.231
-TNS   : -6.693
-
-Type  : Fast 1200mV 0C Model Recovery 'ledPatternGen:inst19|nineCounter:ledset8|clock_generator:inst|inst7'
-Slack : -2.184
-TNS   : -6.552
 
 Type  : Fast 1200mV 0C Model Recovery 'ledPatternGen:inst19|nineCounter:ledset4|clock_generator:inst|inst7'
-Slack : -2.124
-TNS   : -6.372
+Slack : -1.928
+TNS   : -5.784
+
+Type  : Fast 1200mV 0C Model Recovery 'ledPatternGen:inst19|nineCounter:ledset1|clock_generator:inst|inst7'
+Slack : -1.819
+TNS   : -5.457
+
+Type  : Fast 1200mV 0C Model Recovery 'ledPatternGen:inst19|nineCounter:ledset8|clock_generator:inst|inst7'
+Slack : -1.810
+TNS   : -5.430
 
 Type  : Fast 1200mV 0C Model Recovery 'ledPatternGen:inst19|nineCounter:ledset7|clock_generator:inst|inst7'
-Slack : -2.058
-TNS   : -6.174
+Slack : -1.808
+TNS   : -5.424
 
-Type  : Fast 1200mV 0C Model Removal 'ledPatternGen:inst19|nineCounter:ledset7|clock_generator:inst|inst7'
-Slack : 1.997
-TNS   : 0.000
+Type  : Fast 1200mV 0C Model Recovery 'ledPatternGen:inst19|nineCounter:ledset2|clock_generator:inst|inst7'
+Slack : -1.794
+TNS   : -5.382
 
-Type  : Fast 1200mV 0C Model Removal 'ledPatternGen:inst19|nineCounter:ledset4|clock_generator:inst|inst7'
-Slack : 2.070
-TNS   : 0.000
+Type  : Fast 1200mV 0C Model Recovery 'ledPatternGen:inst19|nineCounter:ledset6|clock_generator:inst|inst7'
+Slack : -1.712
+TNS   : -5.136
 
-Type  : Fast 1200mV 0C Model Removal 'ledPatternGen:inst19|nineCounter:ledset8|clock_generator:inst|inst7'
-Slack : 2.102
-TNS   : 0.000
+Type  : Fast 1200mV 0C Model Recovery 'ledPatternGen:inst19|nineCounter:ledset5|clock_generator:inst|inst7'
+Slack : -1.691
+TNS   : -5.073
 
-Type  : Fast 1200mV 0C Model Removal 'ledPatternGen:inst19|nineCounter:ledset2|clock_generator:inst|inst7'
-Slack : 2.166
-TNS   : 0.000
+Type  : Fast 1200mV 0C Model Recovery 'ledPatternGen:inst19|nineCounter:ledset3|clock_generator:inst|inst7'
+Slack : -1.640
+TNS   : -4.920
 
 Type  : Fast 1200mV 0C Model Removal 'ledPatternGen:inst19|nineCounter:ledset3|clock_generator:inst|inst7'
-Slack : 2.167
-TNS   : 0.000
-
-Type  : Fast 1200mV 0C Model Removal 'ledPatternGen:inst19|nineCounter:ledset1|clock_generator:inst|inst7'
-Slack : 2.168
-TNS   : 0.000
-
-Type  : Fast 1200mV 0C Model Removal 'ledPatternGen:inst19|nineCounter:ledset6|clock_generator:inst|inst7'
-Slack : 2.181
+Slack : 1.319
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Removal 'ledPatternGen:inst19|nineCounter:ledset5|clock_generator:inst|inst7'
-Slack : 2.229
+Slack : 1.377
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'ledPatternGen:inst19|nineCounter:ledset6|clock_generator:inst|inst7'
+Slack : 1.392
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'ledPatternGen:inst19|nineCounter:ledset2|clock_generator:inst|inst7'
+Slack : 1.472
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'ledPatternGen:inst19|nineCounter:ledset8|clock_generator:inst|inst7'
+Slack : 1.480
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'ledPatternGen:inst19|nineCounter:ledset7|clock_generator:inst|inst7'
+Slack : 1.481
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'ledPatternGen:inst19|nineCounter:ledset1|clock_generator:inst|inst7'
+Slack : 1.490
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'ledPatternGen:inst19|nineCounter:ledset4|clock_generator:inst|inst7'
+Slack : 1.586
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Minimum Pulse Width 'BoardClock'
 Slack : -3.000
-TNS   : -27.427
+TNS   : -27.405
 
 Type  : Fast 1200mV 0C Model Minimum Pulse Width 'ledPatternGen:inst19|nineCounter:ledset1|clock_generator:inst|clock_divider_1024:inst103|inst10'
 Slack : -1.000
@@ -2470,10 +2470,6 @@ Type  : Fast 1200mV 0C Model Minimum Pulse Width 'ledPatternGen:inst19|nineCount
 Slack : -1.000
 TNS   : -3.000
 
-Type  : Fast 1200mV 0C Model Minimum Pulse Width 'upcounter:inst111|inst2'
-Slack : -1.000
-TNS   : -2.036
-
 Type  : Fast 1200mV 0C Model Minimum Pulse Width 'upcounter:inst10|inst1'
 Slack : -1.000
 TNS   : -2.000
@@ -2487,6 +2483,10 @@ Slack : -1.000
 TNS   : -2.000
 
 Type  : Fast 1200mV 0C Model Minimum Pulse Width 'upcounter:inst111|inst1'
+Slack : -1.000
+TNS   : -2.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'upcounter:inst111|inst2'
 Slack : -1.000
 TNS   : -2.000
 
