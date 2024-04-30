@@ -1,5 +1,5 @@
 Analysis & Synthesis report for finalproject
-Sun Apr 28 22:38:05 2024
+Tue Apr 30 04:47:54 2024
 Quartus Prime Version 22.1std.1 Build 917 02/14/2023 SC Standard Edition
 
 
@@ -44,16 +44,16 @@ https://fpgasoftware.intel.com/eula.
 +-----------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                            ;
 +------------------------------------+----------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Sun Apr 28 22:38:05 2024              ;
+; Analysis & Synthesis Status        ; Successful - Tue Apr 30 04:47:54 2024              ;
 ; Quartus Prime Version              ; 22.1std.1 Build 917 02/14/2023 SC Standard Edition ;
 ; Revision Name                      ; finalproject                                       ;
 ; Top-level Entity Name              ; finalproject                                       ;
 ; Family                             ; Cyclone IV E                                       ;
-; Total logic elements               ; 376                                                ;
-;     Total combinational functions  ; 375                                                ;
+; Total logic elements               ; 377                                                ;
+;     Total combinational functions  ; 376                                                ;
 ;     Dedicated logic registers      ; 272                                                ;
 ; Total registers                    ; 272                                                ;
-; Total pins                         ; 95                                                 ;
+; Total pins                         ; 94                                                 ;
 ; Total virtual pins                 ; 0                                                  ;
 ; Total memory bits                  ; 0                                                  ;
 ; Embedded Multiplier 9-bit elements ; 0                                                  ;
@@ -155,13 +155,13 @@ https://fpgasoftware.intel.com/eula.
 ; Number detected on machine ; 20          ;
 ; Maximum allowed            ; 12          ;
 ;                            ;             ;
-; Average used               ; 1.01        ;
+; Average used               ; 1.02        ;
 ; Maximum used               ; 12          ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;   0.1%      ;
-;     Processors 3-12        ;   0.1%      ;
+;     Processor 2            ;   0.3%      ;
+;     Processors 3-12        ;   0.2%      ;
 +----------------------------+-------------+
 
 
@@ -192,28 +192,28 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------+---------------+
 ; Resource                                    ; Usage         ;
 +---------------------------------------------+---------------+
-; Estimated Total logic elements              ; 376           ;
+; Estimated Total logic elements              ; 377           ;
 ;                                             ;               ;
-; Total combinational functions               ; 375           ;
+; Total combinational functions               ; 376           ;
 ; Logic element usage by number of LUT inputs ;               ;
 ;     -- 4 input functions                    ; 133           ;
 ;     -- 3 input functions                    ; 91            ;
-;     -- <=2 input functions                  ; 151           ;
+;     -- <=2 input functions                  ; 152           ;
 ;                                             ;               ;
 ; Logic elements by mode                      ;               ;
-;     -- normal mode                          ; 375           ;
+;     -- normal mode                          ; 376           ;
 ;     -- arithmetic mode                      ; 0             ;
 ;                                             ;               ;
 ; Total registers                             ; 272           ;
 ;     -- Dedicated logic registers            ; 272           ;
 ;     -- I/O registers                        ; 0             ;
 ;                                             ;               ;
-; I/O pins                                    ; 95            ;
+; I/O pins                                    ; 94            ;
 ;                                             ;               ;
 ; Embedded Multiplier 9-bit elements          ; 0             ;
 ;                                             ;               ;
 ; Maximum fan-out node                        ; setPass~input ;
-; Maximum fan-out                             ; 66            ;
+; Maximum fan-out                             ; 34            ;
 ; Total fan-out                               ; 1854          ;
 ; Average fan-out                             ; 2.22          ;
 +---------------------------------------------+---------------+
@@ -224,7 +224,7 @@ https://fpgasoftware.intel.com/eula.
 +------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+--------------------------------------------------------------------------------------------------------+----------------------+--------------+
 ; Compilation Hierarchy Node               ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                    ; Entity Name          ; Library Name ;
 +------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+--------------------------------------------------------------------------------------------------------+----------------------+--------------+
-; |finalproject                            ; 375 (0)             ; 272 (0)                   ; 0           ; 0            ; 0       ; 0         ; 95   ; 0            ; |finalproject                                                                                          ; finalproject         ; work         ;
+; |finalproject                            ; 376 (2)             ; 272 (0)                   ; 0           ; 0            ; 0       ; 0         ; 94   ; 0            ; |finalproject                                                                                          ; finalproject         ; work         ;
 ;    |isgameFinishedModule:inst21|         ; 1 (1)               ; 1 (1)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |finalproject|isgameFinishedModule:inst21                                                              ; isgameFinishedModule ; work         ;
 ;    |ledPatternGen:inst19|                ; 183 (0)             ; 159 (0)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |finalproject|ledPatternGen:inst19                                                                     ; ledPatternGen        ; work         ;
 ;       |nineCounter:ledset1|              ; 27 (3)              ; 24 (3)                    ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |finalproject|ledPatternGen:inst19|nineCounter:ledset1                                                 ; nineCounter          ; work         ;
@@ -289,8 +289,8 @@ https://fpgasoftware.intel.com/eula.
 ;       |debouncer:inst6|                  ; 11 (0)              ; 10 (1)                    ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |finalproject|upcounter:inst3|debouncer:inst6                                                          ; debouncer            ; work         ;
 ;          |clock_divider_1024:inst1|      ; 10 (10)             ; 8 (8)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |finalproject|upcounter:inst3|debouncer:inst6|clock_divider_1024:inst1                                 ; clock_divider_1024   ; work         ;
 ;          |clock_divider_1024:inst|       ; 1 (1)               ; 1 (1)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |finalproject|upcounter:inst3|debouncer:inst6|clock_divider_1024:inst                                  ; clock_divider_1024   ; work         ;
-;    |upcounter:inst7|                     ; 18 (4)              ; 14 (4)                    ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |finalproject|upcounter:inst7                                                                          ; upcounter            ; work         ;
-;       |debouncer:inst6|                  ; 14 (1)              ; 10 (1)                    ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |finalproject|upcounter:inst7|debouncer:inst6                                                          ; debouncer            ; work         ;
+;    |upcounter:inst7|                     ; 17 (4)              ; 14 (4)                    ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |finalproject|upcounter:inst7                                                                          ; upcounter            ; work         ;
+;       |debouncer:inst6|                  ; 13 (0)              ; 10 (1)                    ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |finalproject|upcounter:inst7|debouncer:inst6                                                          ; debouncer            ; work         ;
 ;          |clock_divider_1024:inst1|      ; 10 (10)             ; 8 (8)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |finalproject|upcounter:inst7|debouncer:inst6|clock_divider_1024:inst1                                 ; clock_divider_1024   ; work         ;
 ;          |clock_divider_1024:inst|       ; 3 (3)               ; 1 (1)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |finalproject|upcounter:inst7|debouncer:inst6|clock_divider_1024:inst                                  ; clock_divider_1024   ; work         ;
 ;    |upcounter:inst8|                     ; 15 (4)              ; 14 (4)                    ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |finalproject|upcounter:inst8                                                                          ; upcounter            ; work         ;
@@ -311,35 +311,35 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------+
 ; Register name                                                                                  ; Reason for Removal                                                                                         ;
 +------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------+
-; upcounter:inst10|debouncer:inst6|clock_divider_1024:inst|inst1                                 ; Merged with ledPatternGen:inst19|nineCounter:ledset8|clock_generator:inst|clock_divider_1024:inst103|inst1 ;
-; ledPatternGen:inst19|nineCounter:ledset6|clock_generator:inst|clock_divider_1024:inst103|inst1 ; Merged with ledPatternGen:inst19|nineCounter:ledset8|clock_generator:inst|clock_divider_1024:inst103|inst1 ;
 ; upcounter:inst1|debouncer:inst6|clock_divider_1024:inst|inst1                                  ; Merged with ledPatternGen:inst19|nineCounter:ledset8|clock_generator:inst|clock_divider_1024:inst103|inst1 ;
+; ledPatternGen:inst19|nineCounter:ledset6|clock_generator:inst|clock_divider_1024:inst103|inst1 ; Merged with ledPatternGen:inst19|nineCounter:ledset8|clock_generator:inst|clock_divider_1024:inst103|inst1 ;
 ; upcounter:inst9|debouncer:inst6|clock_divider_1024:inst|inst1                                  ; Merged with ledPatternGen:inst19|nineCounter:ledset8|clock_generator:inst|clock_divider_1024:inst103|inst1 ;
-; upcounter:inst2|debouncer:inst6|clock_divider_1024:inst|inst1                                  ; Merged with ledPatternGen:inst19|nineCounter:ledset8|clock_generator:inst|clock_divider_1024:inst103|inst1 ;
+; upcounter:inst3|debouncer:inst6|clock_divider_1024:inst|inst1                                  ; Merged with ledPatternGen:inst19|nineCounter:ledset8|clock_generator:inst|clock_divider_1024:inst103|inst1 ;
+; upcounter:inst7|debouncer:inst6|clock_divider_1024:inst|inst1                                  ; Merged with ledPatternGen:inst19|nineCounter:ledset8|clock_generator:inst|clock_divider_1024:inst103|inst1 ;
 ; ledPatternGen:inst19|nineCounter:ledset5|clock_generator:inst|clock_divider_1024:inst103|inst1 ; Merged with ledPatternGen:inst19|nineCounter:ledset8|clock_generator:inst|clock_divider_1024:inst103|inst1 ;
 ; ledPatternGen:inst19|nineCounter:ledset3|clock_generator:inst|clock_divider_1024:inst103|inst1 ; Merged with ledPatternGen:inst19|nineCounter:ledset8|clock_generator:inst|clock_divider_1024:inst103|inst1 ;
 ; upcounter:inst111|debouncer:inst6|clock_divider_1024:inst|inst1                                ; Merged with ledPatternGen:inst19|nineCounter:ledset8|clock_generator:inst|clock_divider_1024:inst103|inst1 ;
 ; ledPatternGen:inst19|nineCounter:ledset2|clock_generator:inst|clock_divider_1024:inst103|inst1 ; Merged with ledPatternGen:inst19|nineCounter:ledset8|clock_generator:inst|clock_divider_1024:inst103|inst1 ;
 ; ledPatternGen:inst19|nineCounter:ledset4|clock_generator:inst|clock_divider_1024:inst103|inst1 ; Merged with ledPatternGen:inst19|nineCounter:ledset8|clock_generator:inst|clock_divider_1024:inst103|inst1 ;
-; upcounter:inst3|debouncer:inst6|clock_divider_1024:inst|inst1                                  ; Merged with ledPatternGen:inst19|nineCounter:ledset8|clock_generator:inst|clock_divider_1024:inst103|inst1 ;
-; upcounter:inst7|debouncer:inst6|clock_divider_1024:inst|inst1                                  ; Merged with ledPatternGen:inst19|nineCounter:ledset8|clock_generator:inst|clock_divider_1024:inst103|inst1 ;
+; upcounter:inst2|debouncer:inst6|clock_divider_1024:inst|inst1                                  ; Merged with ledPatternGen:inst19|nineCounter:ledset8|clock_generator:inst|clock_divider_1024:inst103|inst1 ;
+; upcounter:inst10|debouncer:inst6|clock_divider_1024:inst|inst1                                 ; Merged with ledPatternGen:inst19|nineCounter:ledset8|clock_generator:inst|clock_divider_1024:inst103|inst1 ;
 ; ledPatternGen:inst19|nineCounter:ledset7|clock_generator:inst|clock_divider_1024:inst103|inst1 ; Merged with ledPatternGen:inst19|nineCounter:ledset8|clock_generator:inst|clock_divider_1024:inst103|inst1 ;
 ; upcounter:inst8|debouncer:inst6|clock_divider_1024:inst|inst1                                  ; Merged with ledPatternGen:inst19|nineCounter:ledset8|clock_generator:inst|clock_divider_1024:inst103|inst1 ;
 ; ledPatternGen:inst19|nineCounter:ledset1|clock_generator:inst|clock_divider_1024:inst103|inst1 ; Merged with ledPatternGen:inst19|nineCounter:ledset8|clock_generator:inst|clock_divider_1024:inst103|inst1 ;
-; upcounter:inst2|debouncer:inst6|clock_divider_1024:inst|inst2                                  ; Merged with ledPatternGen:inst19|nineCounter:ledset8|clock_generator:inst|clock_divider_1024:inst103|inst2 ;
+; upcounter:inst7|debouncer:inst6|clock_divider_1024:inst|inst2                                  ; Merged with ledPatternGen:inst19|nineCounter:ledset8|clock_generator:inst|clock_divider_1024:inst103|inst2 ;
 ; ledPatternGen:inst19|nineCounter:ledset4|clock_generator:inst|clock_divider_1024:inst103|inst2 ; Merged with ledPatternGen:inst19|nineCounter:ledset8|clock_generator:inst|clock_divider_1024:inst103|inst2 ;
 ; ledPatternGen:inst19|nineCounter:ledset3|clock_generator:inst|clock_divider_1024:inst103|inst2 ; Merged with ledPatternGen:inst19|nineCounter:ledset8|clock_generator:inst|clock_divider_1024:inst103|inst2 ;
-; upcounter:inst9|debouncer:inst6|clock_divider_1024:inst|inst2                                  ; Merged with ledPatternGen:inst19|nineCounter:ledset8|clock_generator:inst|clock_divider_1024:inst103|inst2 ;
+; upcounter:inst3|debouncer:inst6|clock_divider_1024:inst|inst2                                  ; Merged with ledPatternGen:inst19|nineCounter:ledset8|clock_generator:inst|clock_divider_1024:inst103|inst2 ;
 ; upcounter:inst111|debouncer:inst6|clock_divider_1024:inst|inst2                                ; Merged with ledPatternGen:inst19|nineCounter:ledset8|clock_generator:inst|clock_divider_1024:inst103|inst2 ;
 ; ledPatternGen:inst19|nineCounter:ledset6|clock_generator:inst|clock_divider_1024:inst103|inst2 ; Merged with ledPatternGen:inst19|nineCounter:ledset8|clock_generator:inst|clock_divider_1024:inst103|inst2 ;
-; upcounter:inst7|debouncer:inst6|clock_divider_1024:inst|inst2                                  ; Merged with ledPatternGen:inst19|nineCounter:ledset8|clock_generator:inst|clock_divider_1024:inst103|inst2 ;
+; upcounter:inst10|debouncer:inst6|clock_divider_1024:inst|inst2                                 ; Merged with ledPatternGen:inst19|nineCounter:ledset8|clock_generator:inst|clock_divider_1024:inst103|inst2 ;
 ; ledPatternGen:inst19|nineCounter:ledset1|clock_generator:inst|clock_divider_1024:inst103|inst2 ; Merged with ledPatternGen:inst19|nineCounter:ledset8|clock_generator:inst|clock_divider_1024:inst103|inst2 ;
 ; ledPatternGen:inst19|nineCounter:ledset7|clock_generator:inst|clock_divider_1024:inst103|inst2 ; Merged with ledPatternGen:inst19|nineCounter:ledset8|clock_generator:inst|clock_divider_1024:inst103|inst2 ;
-; upcounter:inst10|debouncer:inst6|clock_divider_1024:inst|inst2                                 ; Merged with ledPatternGen:inst19|nineCounter:ledset8|clock_generator:inst|clock_divider_1024:inst103|inst2 ;
-; ledPatternGen:inst19|nineCounter:ledset2|clock_generator:inst|clock_divider_1024:inst103|inst2 ; Merged with ledPatternGen:inst19|nineCounter:ledset8|clock_generator:inst|clock_divider_1024:inst103|inst2 ;
-; upcounter:inst3|debouncer:inst6|clock_divider_1024:inst|inst2                                  ; Merged with ledPatternGen:inst19|nineCounter:ledset8|clock_generator:inst|clock_divider_1024:inst103|inst2 ;
-; upcounter:inst8|debouncer:inst6|clock_divider_1024:inst|inst2                                  ; Merged with ledPatternGen:inst19|nineCounter:ledset8|clock_generator:inst|clock_divider_1024:inst103|inst2 ;
 ; upcounter:inst1|debouncer:inst6|clock_divider_1024:inst|inst2                                  ; Merged with ledPatternGen:inst19|nineCounter:ledset8|clock_generator:inst|clock_divider_1024:inst103|inst2 ;
+; ledPatternGen:inst19|nineCounter:ledset2|clock_generator:inst|clock_divider_1024:inst103|inst2 ; Merged with ledPatternGen:inst19|nineCounter:ledset8|clock_generator:inst|clock_divider_1024:inst103|inst2 ;
+; upcounter:inst2|debouncer:inst6|clock_divider_1024:inst|inst2                                  ; Merged with ledPatternGen:inst19|nineCounter:ledset8|clock_generator:inst|clock_divider_1024:inst103|inst2 ;
+; upcounter:inst8|debouncer:inst6|clock_divider_1024:inst|inst2                                  ; Merged with ledPatternGen:inst19|nineCounter:ledset8|clock_generator:inst|clock_divider_1024:inst103|inst2 ;
+; upcounter:inst9|debouncer:inst6|clock_divider_1024:inst|inst2                                  ; Merged with ledPatternGen:inst19|nineCounter:ledset8|clock_generator:inst|clock_divider_1024:inst103|inst2 ;
 ; ledPatternGen:inst19|nineCounter:ledset5|clock_generator:inst|clock_divider_1024:inst103|inst2 ; Merged with ledPatternGen:inst19|nineCounter:ledset8|clock_generator:inst|clock_divider_1024:inst103|inst2 ;
 ; ledPatternGen:inst19|nineCounter:ledset2|clock_generator:inst|clock_divider_1024:inst103|inst3 ; Merged with ledPatternGen:inst19|nineCounter:ledset1|clock_generator:inst|clock_divider_1024:inst103|inst3 ;
 ; ledPatternGen:inst19|nineCounter:ledset3|clock_generator:inst|clock_divider_1024:inst103|inst3 ; Merged with ledPatternGen:inst19|nineCounter:ledset1|clock_generator:inst|clock_divider_1024:inst103|inst3 ;
@@ -440,7 +440,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-----------------------+-----------------------------+
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
-; boundary_port         ; 95                          ;
+; boundary_port         ; 94                          ;
 ; cycloneiii_ff         ; 272                         ;
 ;     CLR               ; 24                          ;
 ;     ENA               ; 15                          ;
@@ -449,8 +449,8 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; cycloneiii_lcell_comb ; 385                         ;
 ;     normal            ; 385                         ;
 ;         0 data inputs ; 1                           ;
-;         1 data inputs ; 82                          ;
-;         2 data inputs ; 78                          ;
+;         1 data inputs ; 80                          ;
+;         2 data inputs ; 80                          ;
 ;         3 data inputs ; 91                          ;
 ;         4 data inputs ; 133                         ;
 ;                       ;                             ;
@@ -474,7 +474,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 22.1std.1 Build 917 02/14/2023 SC Standard Edition
-    Info: Processing started: Sun Apr 28 22:37:58 2024
+    Info: Processing started: Tue Apr 30 04:47:47 2024
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off finalproject -c finalproject
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 12 of the 12 processors detected
@@ -510,6 +510,7 @@ Info (12127): Elaborating entity "finalproject" for the top level hierarchy
 Warning (275011): Block or symbol "segSelector" of instance "inst" overlaps another block or symbol
 Warning (275011): Block or symbol "yesnogenerator" of instance "inst22" overlaps another block or symbol
 Warning (275009): Pin "ENABLE" not connected
+Warning (275009): Pin "restartGame" not connected
 Warning (12125): Using design file seven_seg_decoder.v, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
     Info (12023): Found entity 1: seven_seg_decoder File: U:/CPRE281/final project v2/final project/seven_seg_decoder.v Line: 1
 Info (12128): Elaborating entity "seven_seg_decoder" for hierarchy "seven_seg_decoder:passdisplay4"
@@ -518,6 +519,9 @@ Info (12128): Elaborating entity "upcounter" for hierarchy "upcounter:inst111"
 Info (12128): Elaborating entity "debouncer" for hierarchy "upcounter:inst111|debouncer:inst6"
 Info (12128): Elaborating entity "clock_divider_1024" for hierarchy "upcounter:inst111|debouncer:inst6|clock_divider_1024:inst1"
 Info (12128): Elaborating entity "selector" for hierarchy "selector:inst4"
+Info (12128): Elaborating entity "isgameFinishedModule" for hierarchy "isgameFinishedModule:inst21"
+Info (12128): Elaborating entity "theUltimateComparer" for hierarchy "theUltimateComparer:inst16"
+Info (12128): Elaborating entity "smallUltimateComparers" for hierarchy "theUltimateComparer:inst16|smallUltimateComparers:check44"
 Info (12128): Elaborating entity "ledPatternGen" for hierarchy "ledPatternGen:inst19"
 Warning (275011): Block or symbol "nineCounter" of instance "ledset5" overlaps another block or symbol
 Warning (275011): Block or symbol "nineCounter" of instance "ledset6" overlaps another block or symbol
@@ -525,9 +529,6 @@ Warning (275011): Block or symbol "nineCounter" of instance "ledset7" overlaps a
 Warning (275011): Block or symbol "nineCounter" of instance "ledset8" overlaps another block or symbol
 Info (12128): Elaborating entity "nineCounter" for hierarchy "ledPatternGen:inst19|nineCounter:ledset1"
 Info (12128): Elaborating entity "clock_generator" for hierarchy "ledPatternGen:inst19|nineCounter:ledset1|clock_generator:inst"
-Info (12128): Elaborating entity "isgameFinishedModule" for hierarchy "isgameFinishedModule:inst21"
-Info (12128): Elaborating entity "theUltimateComparer" for hierarchy "theUltimateComparer:inst16"
-Info (12128): Elaborating entity "smallUltimateComparers" for hierarchy "theUltimateComparer:inst16|smallUltimateComparers:check44"
 Info (12128): Elaborating entity "yesnogenerator" for hierarchy "yesnogenerator:inst22"
 Warning (13024): Output pins are stuck at VCC or GND
     Warning (13410): Pin "msgDisplay11" is stuck at VCC
@@ -541,16 +542,17 @@ Warning (13024): Output pins are stuck at VCC or GND
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Warning (21074): Design contains 1 input pin(s) that do not drive logic
+Warning (21074): Design contains 2 input pin(s) that do not drive logic
     Warning (15610): No output dependent on input pin "ENABLE"
+    Warning (15610): No output dependent on input pin "restartGame"
 Info (21057): Implemented 471 device resources after synthesis - the final resource count might be different
-    Info (21058): Implemented 9 input pins
-    Info (21059): Implemented 86 output pins
-    Info (21061): Implemented 376 logic cells
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 22 warnings
-    Info: Peak virtual memory: 4887 megabytes
-    Info: Processing ended: Sun Apr 28 22:38:05 2024
+    Info (21058): Implemented 10 input pins
+    Info (21059): Implemented 84 output pins
+    Info (21061): Implemented 377 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 24 warnings
+    Info: Peak virtual memory: 4882 megabytes
+    Info: Processing ended: Tue Apr 30 04:47:54 2024
     Info: Elapsed time: 00:00:07
-    Info: Total CPU time (on all processors): 00:00:04
+    Info: Total CPU time (on all processors): 00:00:05
 
 

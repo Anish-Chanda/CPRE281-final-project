@@ -128,14 +128,6 @@
 					"strict" : false
 				},
 				{
-					"name" : "clrreg1",
-					"strict" : false
-				},
-				{
-					"name" : "clrreg2",
-					"strict" : false
-				},
-				{
 					"name" : "pin_name1",
 					"strict" : false
 				},
@@ -320,7 +312,7 @@
 					"strict" : false
 				},
 				{
-					"name" : "counter1",
+					"name" : "clr",
 					"strict" : false
 				},
 				{
@@ -328,7 +320,7 @@
 					"strict" : false
 				},
 				{
-					"name" : "clr",
+					"name" : "counter1",
 					"strict" : false
 				},
 				{

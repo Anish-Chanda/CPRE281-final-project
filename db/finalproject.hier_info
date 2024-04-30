@@ -6,22 +6,24 @@ counter3 => inst14.IN0
 counter4 => inst15.IN0
 clr => selector:inst4.clr
 setPass => selector:inst4.select
+setPass => isgameFinishedModule:inst21.guessMode
+setPass => theUltimateComparer:inst16.checkPass
 setPass => segSelector:inst.select
 setPass => segSelector:inst11.select
 setPass => segSelector:inst6.select
 setPass => segSelector:inst5.select
 setPass => setPassLED.DATAIN
-setPass => isgameFinishedModule:inst21.guessMode
-setPass => theUltimateComparer:inst16.checkPass
 BoardClock => upcounter:inst111.boardCLock
-BoardClock => upcounter:inst7.boardCLock
-BoardClock => upcounter:inst1.boardCLock
-BoardClock => upcounter:inst8.boardCLock
-BoardClock => upcounter:inst2.boardCLock
-BoardClock => upcounter:inst9.boardCLock
-BoardClock => upcounter:inst3.boardCLock
 BoardClock => upcounter:inst10.boardCLock
+BoardClock => upcounter:inst9.boardCLock
+BoardClock => upcounter:inst8.boardCLock
+BoardClock => upcounter:inst7.boardCLock
+BoardClock => upcounter:inst3.boardCLock
+BoardClock => upcounter:inst2.boardCLock
+BoardClock => upcounter:inst1.boardCLock
 BoardClock => ledPatternGen:inst19.clk
+CheckPass => isgameFinishedModule:inst21.CheckPass
+CheckPass => inst25.IN1
 b4 <= seven_seg_decoder:passdisplay4.B
 c4 <= seven_seg_decoder:passdisplay4.C
 d4 <= seven_seg_decoder:passdisplay4.D
@@ -50,13 +52,9 @@ e1 <= seven_seg_decoder:passdisplay1.E
 f1 <= seven_seg_decoder:passdisplay1.F
 g1 <= seven_seg_decoder:passdisplay1.G
 setPassLED <= setPass.DB_MAX_OUTPUT_PORT_TYPE
-reg2clk1LED <= register2[3].DB_MAX_OUTPUT_PORT_TYPE
+reg2clk1LED <= inst18.DB_MAX_OUTPUT_PORT_TYPE
 guessBit4Bit4LED <= upcounter:inst7.out0
-clrreg1 <= selector:inst4.enable1
-clrreg2 <= selector:inst4.enable2
 pin_name1 <= ledPatternGen:inst19.pin_name1
-CheckPass => isgameFinishedModule:inst21.CheckPass
-CheckPass => inst25.IN1
 pin_name2 <= ledPatternGen:inst19.pin_name13
 pin_name3 <= ledPatternGen:inst19.pin_name2
 pin_name4 <= ledPatternGen:inst19.pin_name14
@@ -110,6 +108,7 @@ msgDisplay37 <= display4[0].DB_MAX_OUTPUT_PORT_TYPE
 msgDisplay171 <= display2[6].DB_MAX_OUTPUT_PORT_TYPE
 checkpassled111 <= theUltimateComparer:inst16.out
 ENABLE => ~NO_FANOUT~
+restartGame => ~NO_FANOUT~
 
 
 |finalproject|seven_seg_decoder:passdisplay4
@@ -229,7 +228,179 @@ clr1 <= clr1.DB_MAX_OUTPUT_PORT_TYPE
 clr2 <= clr2.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|finalproject|upcounter:inst7
+|finalproject|isgameFinishedModule:inst21
+out <= inst.DB_MAX_OUTPUT_PORT_TYPE
+clear => inst.ACLR
+CheckPass => ins11.IN0
+Comparer => ins11.IN1
+guessMode => inst.DATAIN
+
+
+|finalproject|theUltimateComparer:inst16
+out <= inst8.DB_MAX_OUTPUT_PORT_TYPE
+checkPass => smallUltimateComparers:check44.checkguess
+checkPass => smallUltimateComparers:check42.checkguess
+checkPass => smallUltimateComparers:check43.checkguess
+checkPass => smallUltimateComparers:check41.checkguess
+checkPass => smallUltimateComparers:check32.checkguess
+checkPass => smallUltimateComparers:check33.checkguess
+checkPass => smallUltimateComparers:check31.checkguess
+checkPass => smallUltimateComparers:check34.checkguess
+checkPass => smallUltimateComparers:check24.checkguess
+checkPass => smallUltimateComparers:check22.checkguess
+checkPass => smallUltimateComparers:check23.checkguess
+checkPass => smallUltimateComparers:check21.checkguess
+checkPass => smallUltimateComparers:check12.checkguess
+checkPass => smallUltimateComparers:check13.checkguess
+checkPass => smallUltimateComparers:check11.checkguess
+checkPass => smallUltimateComparers:check14.checkguess
+pass44 => smallUltimateComparers:check44.pass
+guess44 => smallUltimateComparers:check44.guess
+pass42 => smallUltimateComparers:check42.pass
+guess42 => smallUltimateComparers:check42.guess
+pass43 => smallUltimateComparers:check43.pass
+guess43 => smallUltimateComparers:check43.guess
+pass41 => smallUltimateComparers:check41.pass
+guess41 => smallUltimateComparers:check41.guess
+pass32 => smallUltimateComparers:check32.pass
+guess32 => smallUltimateComparers:check32.guess
+pass33 => smallUltimateComparers:check33.pass
+guess33 => smallUltimateComparers:check33.guess
+pass31 => smallUltimateComparers:check31.pass
+guess31 => smallUltimateComparers:check31.guess
+pass34 => smallUltimateComparers:check34.pass
+guess34 => smallUltimateComparers:check34.guess
+pass24 => smallUltimateComparers:check24.pass
+guess24 => smallUltimateComparers:check24.guess
+pass22 => smallUltimateComparers:check22.pass
+guess22 => smallUltimateComparers:check22.guess
+pass23 => smallUltimateComparers:check23.pass
+guess23 => smallUltimateComparers:check23.guess
+pass21 => smallUltimateComparers:check21.pass
+guess21 => smallUltimateComparers:check21.guess
+pass12 => smallUltimateComparers:check12.pass
+guess12 => smallUltimateComparers:check12.guess
+pass13 => smallUltimateComparers:check13.pass
+guess13 => smallUltimateComparers:check13.guess
+pass11 => smallUltimateComparers:check11.pass
+guess11 => smallUltimateComparers:check11.guess
+pass14 => smallUltimateComparers:check14.pass
+guess14 => smallUltimateComparers:check14.guess
+
+
+|finalproject|theUltimateComparer:inst16|smallUltimateComparers:check44
+out <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+checkguess => inst2.IN0
+pass => inst.IN0
+guess => inst.IN1
+
+
+|finalproject|theUltimateComparer:inst16|smallUltimateComparers:check42
+out <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+checkguess => inst2.IN0
+pass => inst.IN0
+guess => inst.IN1
+
+
+|finalproject|theUltimateComparer:inst16|smallUltimateComparers:check43
+out <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+checkguess => inst2.IN0
+pass => inst.IN0
+guess => inst.IN1
+
+
+|finalproject|theUltimateComparer:inst16|smallUltimateComparers:check41
+out <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+checkguess => inst2.IN0
+pass => inst.IN0
+guess => inst.IN1
+
+
+|finalproject|theUltimateComparer:inst16|smallUltimateComparers:check32
+out <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+checkguess => inst2.IN0
+pass => inst.IN0
+guess => inst.IN1
+
+
+|finalproject|theUltimateComparer:inst16|smallUltimateComparers:check33
+out <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+checkguess => inst2.IN0
+pass => inst.IN0
+guess => inst.IN1
+
+
+|finalproject|theUltimateComparer:inst16|smallUltimateComparers:check31
+out <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+checkguess => inst2.IN0
+pass => inst.IN0
+guess => inst.IN1
+
+
+|finalproject|theUltimateComparer:inst16|smallUltimateComparers:check34
+out <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+checkguess => inst2.IN0
+pass => inst.IN0
+guess => inst.IN1
+
+
+|finalproject|theUltimateComparer:inst16|smallUltimateComparers:check24
+out <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+checkguess => inst2.IN0
+pass => inst.IN0
+guess => inst.IN1
+
+
+|finalproject|theUltimateComparer:inst16|smallUltimateComparers:check22
+out <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+checkguess => inst2.IN0
+pass => inst.IN0
+guess => inst.IN1
+
+
+|finalproject|theUltimateComparer:inst16|smallUltimateComparers:check23
+out <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+checkguess => inst2.IN0
+pass => inst.IN0
+guess => inst.IN1
+
+
+|finalproject|theUltimateComparer:inst16|smallUltimateComparers:check21
+out <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+checkguess => inst2.IN0
+pass => inst.IN0
+guess => inst.IN1
+
+
+|finalproject|theUltimateComparer:inst16|smallUltimateComparers:check12
+out <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+checkguess => inst2.IN0
+pass => inst.IN0
+guess => inst.IN1
+
+
+|finalproject|theUltimateComparer:inst16|smallUltimateComparers:check13
+out <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+checkguess => inst2.IN0
+pass => inst.IN0
+guess => inst.IN1
+
+
+|finalproject|theUltimateComparer:inst16|smallUltimateComparers:check11
+out <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+checkguess => inst2.IN0
+pass => inst.IN0
+guess => inst.IN1
+
+
+|finalproject|theUltimateComparer:inst16|smallUltimateComparers:check14
+out <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+checkguess => inst2.IN0
+pass => inst.IN0
+guess => inst.IN1
+
+
+|finalproject|upcounter:inst10
 out3 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
 CLRN => inst3.ACLR
 CLRN => inst2.ACLR
@@ -246,13 +417,13 @@ out1 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
 out0 <= inst389025.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|finalproject|upcounter:inst7|debouncer:inst6
+|finalproject|upcounter:inst10|debouncer:inst6
 Smooth <= inst2.DB_MAX_OUTPUT_PORT_TYPE
 board => clock_divider_1024:inst.CLK_IN
 manual => inst2.DATAIN
 
 
-|finalproject|upcounter:inst7|debouncer:inst6|clock_divider_1024:inst1
+|finalproject|upcounter:inst10|debouncer:inst6|clock_divider_1024:inst1
 CLK_OUT <= inst10.DB_MAX_OUTPUT_PORT_TYPE
 CLK_IN => inst1.CLK
 CLK_IN => inst2.CLK
@@ -264,214 +435,7 @@ CLK_IN => inst9.CLK
 CLK_IN => inst10.CLK
 
 
-|finalproject|upcounter:inst7|debouncer:inst6|clock_divider_1024:inst
-CLK_OUT <= inst10.DB_MAX_OUTPUT_PORT_TYPE
-CLK_IN => inst1.CLK
-CLK_IN => inst2.CLK
-CLK_IN => inst3.CLK
-CLK_IN => inst6.CLK
-CLK_IN => inst7.CLK
-CLK_IN => inst8.CLK
-CLK_IN => inst9.CLK
-CLK_IN => inst10.CLK
-
-
-|finalproject|seven_seg_decoder:passdisplay3
-Z => Decoder0.IN0
-Y => Decoder0.IN1
-X => Decoder0.IN2
-W => Decoder0.IN3
-A <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
-B <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
-C <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
-D <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
-E <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
-F <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
-G <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|finalproject|segSelector:inst11
-inputs_set1a => outputa.DATAB
-inputs_set1b => outputb.DATAB
-inputs_set1c => outputc.DATAB
-inputs_set1d => outputd.DATAB
-inputs_set2a => outputa.DATAA
-inputs_set2b => outputb.DATAA
-inputs_set2c => outputc.DATAA
-inputs_set2d => outputd.DATAA
-select => outputa.OUTPUTSELECT
-select => outputb.OUTPUTSELECT
-select => outputc.OUTPUTSELECT
-select => outputd.OUTPUTSELECT
-outputa <= outputa.DB_MAX_OUTPUT_PORT_TYPE
-outputb <= outputb.DB_MAX_OUTPUT_PORT_TYPE
-outputc <= outputc.DB_MAX_OUTPUT_PORT_TYPE
-outputd <= outputd.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|finalproject|upcounter:inst1
-out3 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
-CLRN => inst3.ACLR
-CLRN => inst2.ACLR
-CLRN => inst1.ACLR
-CLRN => inst389025.ACLR
-Enable => inst3.IN0
-Enable => inst2.IN0
-Enable => inst1.IN0
-Enable => inst389025.IN0
-Clk => debouncer:inst6.manual
-boardCLock => debouncer:inst6.board
-out2 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
-out1 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
-out0 <= inst389025.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|finalproject|upcounter:inst1|debouncer:inst6
-Smooth <= inst2.DB_MAX_OUTPUT_PORT_TYPE
-board => clock_divider_1024:inst.CLK_IN
-manual => inst2.DATAIN
-
-
-|finalproject|upcounter:inst1|debouncer:inst6|clock_divider_1024:inst1
-CLK_OUT <= inst10.DB_MAX_OUTPUT_PORT_TYPE
-CLK_IN => inst1.CLK
-CLK_IN => inst2.CLK
-CLK_IN => inst3.CLK
-CLK_IN => inst6.CLK
-CLK_IN => inst7.CLK
-CLK_IN => inst8.CLK
-CLK_IN => inst9.CLK
-CLK_IN => inst10.CLK
-
-
-|finalproject|upcounter:inst1|debouncer:inst6|clock_divider_1024:inst
-CLK_OUT <= inst10.DB_MAX_OUTPUT_PORT_TYPE
-CLK_IN => inst1.CLK
-CLK_IN => inst2.CLK
-CLK_IN => inst3.CLK
-CLK_IN => inst6.CLK
-CLK_IN => inst7.CLK
-CLK_IN => inst8.CLK
-CLK_IN => inst9.CLK
-CLK_IN => inst10.CLK
-
-
-|finalproject|upcounter:inst8
-out3 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
-CLRN => inst3.ACLR
-CLRN => inst2.ACLR
-CLRN => inst1.ACLR
-CLRN => inst389025.ACLR
-Enable => inst3.IN0
-Enable => inst2.IN0
-Enable => inst1.IN0
-Enable => inst389025.IN0
-Clk => debouncer:inst6.manual
-boardCLock => debouncer:inst6.board
-out2 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
-out1 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
-out0 <= inst389025.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|finalproject|upcounter:inst8|debouncer:inst6
-Smooth <= inst2.DB_MAX_OUTPUT_PORT_TYPE
-board => clock_divider_1024:inst.CLK_IN
-manual => inst2.DATAIN
-
-
-|finalproject|upcounter:inst8|debouncer:inst6|clock_divider_1024:inst1
-CLK_OUT <= inst10.DB_MAX_OUTPUT_PORT_TYPE
-CLK_IN => inst1.CLK
-CLK_IN => inst2.CLK
-CLK_IN => inst3.CLK
-CLK_IN => inst6.CLK
-CLK_IN => inst7.CLK
-CLK_IN => inst8.CLK
-CLK_IN => inst9.CLK
-CLK_IN => inst10.CLK
-
-
-|finalproject|upcounter:inst8|debouncer:inst6|clock_divider_1024:inst
-CLK_OUT <= inst10.DB_MAX_OUTPUT_PORT_TYPE
-CLK_IN => inst1.CLK
-CLK_IN => inst2.CLK
-CLK_IN => inst3.CLK
-CLK_IN => inst6.CLK
-CLK_IN => inst7.CLK
-CLK_IN => inst8.CLK
-CLK_IN => inst9.CLK
-CLK_IN => inst10.CLK
-
-
-|finalproject|seven_seg_decoder:passdisplay2
-Z => Decoder0.IN0
-Y => Decoder0.IN1
-X => Decoder0.IN2
-W => Decoder0.IN3
-A <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
-B <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
-C <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
-D <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
-E <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
-F <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
-G <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|finalproject|segSelector:inst6
-inputs_set1a => outputa.DATAB
-inputs_set1b => outputb.DATAB
-inputs_set1c => outputc.DATAB
-inputs_set1d => outputd.DATAB
-inputs_set2a => outputa.DATAA
-inputs_set2b => outputb.DATAA
-inputs_set2c => outputc.DATAA
-inputs_set2d => outputd.DATAA
-select => outputa.OUTPUTSELECT
-select => outputb.OUTPUTSELECT
-select => outputc.OUTPUTSELECT
-select => outputd.OUTPUTSELECT
-outputa <= outputa.DB_MAX_OUTPUT_PORT_TYPE
-outputb <= outputb.DB_MAX_OUTPUT_PORT_TYPE
-outputc <= outputc.DB_MAX_OUTPUT_PORT_TYPE
-outputd <= outputd.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|finalproject|upcounter:inst2
-out3 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
-CLRN => inst3.ACLR
-CLRN => inst2.ACLR
-CLRN => inst1.ACLR
-CLRN => inst389025.ACLR
-Enable => inst3.IN0
-Enable => inst2.IN0
-Enable => inst1.IN0
-Enable => inst389025.IN0
-Clk => debouncer:inst6.manual
-boardCLock => debouncer:inst6.board
-out2 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
-out1 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
-out0 <= inst389025.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|finalproject|upcounter:inst2|debouncer:inst6
-Smooth <= inst2.DB_MAX_OUTPUT_PORT_TYPE
-board => clock_divider_1024:inst.CLK_IN
-manual => inst2.DATAIN
-
-
-|finalproject|upcounter:inst2|debouncer:inst6|clock_divider_1024:inst1
-CLK_OUT <= inst10.DB_MAX_OUTPUT_PORT_TYPE
-CLK_IN => inst1.CLK
-CLK_IN => inst2.CLK
-CLK_IN => inst3.CLK
-CLK_IN => inst6.CLK
-CLK_IN => inst7.CLK
-CLK_IN => inst8.CLK
-CLK_IN => inst9.CLK
-CLK_IN => inst10.CLK
-
-
-|finalproject|upcounter:inst2|debouncer:inst6|clock_divider_1024:inst
+|finalproject|upcounter:inst10|debouncer:inst6|clock_divider_1024:inst
 CLK_OUT <= inst10.DB_MAX_OUTPUT_PORT_TYPE
 CLK_IN => inst1.CLK
 CLK_IN => inst2.CLK
@@ -530,37 +494,98 @@ CLK_IN => inst9.CLK
 CLK_IN => inst10.CLK
 
 
-|finalproject|seven_seg_decoder:passdisplay1
-Z => Decoder0.IN0
-Y => Decoder0.IN1
-X => Decoder0.IN2
-W => Decoder0.IN3
-A <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
-B <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
-C <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
-D <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
-E <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
-F <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
-G <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+|finalproject|upcounter:inst8
+out3 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+CLRN => inst3.ACLR
+CLRN => inst2.ACLR
+CLRN => inst1.ACLR
+CLRN => inst389025.ACLR
+Enable => inst3.IN0
+Enable => inst2.IN0
+Enable => inst1.IN0
+Enable => inst389025.IN0
+Clk => debouncer:inst6.manual
+boardCLock => debouncer:inst6.board
+out2 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+out1 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+out0 <= inst389025.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|finalproject|segSelector:inst5
-inputs_set1a => outputa.DATAB
-inputs_set1b => outputb.DATAB
-inputs_set1c => outputc.DATAB
-inputs_set1d => outputd.DATAB
-inputs_set2a => outputa.DATAA
-inputs_set2b => outputb.DATAA
-inputs_set2c => outputc.DATAA
-inputs_set2d => outputd.DATAA
-select => outputa.OUTPUTSELECT
-select => outputb.OUTPUTSELECT
-select => outputc.OUTPUTSELECT
-select => outputd.OUTPUTSELECT
-outputa <= outputa.DB_MAX_OUTPUT_PORT_TYPE
-outputb <= outputb.DB_MAX_OUTPUT_PORT_TYPE
-outputc <= outputc.DB_MAX_OUTPUT_PORT_TYPE
-outputd <= outputd.DB_MAX_OUTPUT_PORT_TYPE
+|finalproject|upcounter:inst8|debouncer:inst6
+Smooth <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+board => clock_divider_1024:inst.CLK_IN
+manual => inst2.DATAIN
+
+
+|finalproject|upcounter:inst8|debouncer:inst6|clock_divider_1024:inst1
+CLK_OUT <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+CLK_IN => inst1.CLK
+CLK_IN => inst2.CLK
+CLK_IN => inst3.CLK
+CLK_IN => inst6.CLK
+CLK_IN => inst7.CLK
+CLK_IN => inst8.CLK
+CLK_IN => inst9.CLK
+CLK_IN => inst10.CLK
+
+
+|finalproject|upcounter:inst8|debouncer:inst6|clock_divider_1024:inst
+CLK_OUT <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+CLK_IN => inst1.CLK
+CLK_IN => inst2.CLK
+CLK_IN => inst3.CLK
+CLK_IN => inst6.CLK
+CLK_IN => inst7.CLK
+CLK_IN => inst8.CLK
+CLK_IN => inst9.CLK
+CLK_IN => inst10.CLK
+
+
+|finalproject|upcounter:inst7
+out3 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+CLRN => inst3.ACLR
+CLRN => inst2.ACLR
+CLRN => inst1.ACLR
+CLRN => inst389025.ACLR
+Enable => inst3.IN0
+Enable => inst2.IN0
+Enable => inst1.IN0
+Enable => inst389025.IN0
+Clk => debouncer:inst6.manual
+boardCLock => debouncer:inst6.board
+out2 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+out1 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+out0 <= inst389025.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|finalproject|upcounter:inst7|debouncer:inst6
+Smooth <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+board => clock_divider_1024:inst.CLK_IN
+manual => inst2.DATAIN
+
+
+|finalproject|upcounter:inst7|debouncer:inst6|clock_divider_1024:inst1
+CLK_OUT <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+CLK_IN => inst1.CLK
+CLK_IN => inst2.CLK
+CLK_IN => inst3.CLK
+CLK_IN => inst6.CLK
+CLK_IN => inst7.CLK
+CLK_IN => inst8.CLK
+CLK_IN => inst9.CLK
+CLK_IN => inst10.CLK
+
+
+|finalproject|upcounter:inst7|debouncer:inst6|clock_divider_1024:inst
+CLK_OUT <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+CLK_IN => inst1.CLK
+CLK_IN => inst2.CLK
+CLK_IN => inst3.CLK
+CLK_IN => inst6.CLK
+CLK_IN => inst7.CLK
+CLK_IN => inst8.CLK
+CLK_IN => inst9.CLK
+CLK_IN => inst10.CLK
 
 
 |finalproject|upcounter:inst3
@@ -610,7 +635,7 @@ CLK_IN => inst9.CLK
 CLK_IN => inst10.CLK
 
 
-|finalproject|upcounter:inst10
+|finalproject|upcounter:inst2
 out3 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
 CLRN => inst3.ACLR
 CLRN => inst2.ACLR
@@ -627,13 +652,13 @@ out1 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
 out0 <= inst389025.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|finalproject|upcounter:inst10|debouncer:inst6
+|finalproject|upcounter:inst2|debouncer:inst6
 Smooth <= inst2.DB_MAX_OUTPUT_PORT_TYPE
 board => clock_divider_1024:inst.CLK_IN
 manual => inst2.DATAIN
 
 
-|finalproject|upcounter:inst10|debouncer:inst6|clock_divider_1024:inst1
+|finalproject|upcounter:inst2|debouncer:inst6|clock_divider_1024:inst1
 CLK_OUT <= inst10.DB_MAX_OUTPUT_PORT_TYPE
 CLK_IN => inst1.CLK
 CLK_IN => inst2.CLK
@@ -645,7 +670,7 @@ CLK_IN => inst9.CLK
 CLK_IN => inst10.CLK
 
 
-|finalproject|upcounter:inst10|debouncer:inst6|clock_divider_1024:inst
+|finalproject|upcounter:inst2|debouncer:inst6|clock_divider_1024:inst
 CLK_OUT <= inst10.DB_MAX_OUTPUT_PORT_TYPE
 CLK_IN => inst1.CLK
 CLK_IN => inst2.CLK
@@ -655,6 +680,152 @@ CLK_IN => inst7.CLK
 CLK_IN => inst8.CLK
 CLK_IN => inst9.CLK
 CLK_IN => inst10.CLK
+
+
+|finalproject|upcounter:inst1
+out3 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+CLRN => inst3.ACLR
+CLRN => inst2.ACLR
+CLRN => inst1.ACLR
+CLRN => inst389025.ACLR
+Enable => inst3.IN0
+Enable => inst2.IN0
+Enable => inst1.IN0
+Enable => inst389025.IN0
+Clk => debouncer:inst6.manual
+boardCLock => debouncer:inst6.board
+out2 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+out1 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+out0 <= inst389025.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|finalproject|upcounter:inst1|debouncer:inst6
+Smooth <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+board => clock_divider_1024:inst.CLK_IN
+manual => inst2.DATAIN
+
+
+|finalproject|upcounter:inst1|debouncer:inst6|clock_divider_1024:inst1
+CLK_OUT <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+CLK_IN => inst1.CLK
+CLK_IN => inst2.CLK
+CLK_IN => inst3.CLK
+CLK_IN => inst6.CLK
+CLK_IN => inst7.CLK
+CLK_IN => inst8.CLK
+CLK_IN => inst9.CLK
+CLK_IN => inst10.CLK
+
+
+|finalproject|upcounter:inst1|debouncer:inst6|clock_divider_1024:inst
+CLK_OUT <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+CLK_IN => inst1.CLK
+CLK_IN => inst2.CLK
+CLK_IN => inst3.CLK
+CLK_IN => inst6.CLK
+CLK_IN => inst7.CLK
+CLK_IN => inst8.CLK
+CLK_IN => inst9.CLK
+CLK_IN => inst10.CLK
+
+
+|finalproject|seven_seg_decoder:passdisplay3
+Z => Decoder0.IN0
+Y => Decoder0.IN1
+X => Decoder0.IN2
+W => Decoder0.IN3
+A <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+B <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+C <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+D <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+E <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+F <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+G <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|finalproject|segSelector:inst11
+inputs_set1a => outputa.DATAB
+inputs_set1b => outputb.DATAB
+inputs_set1c => outputc.DATAB
+inputs_set1d => outputd.DATAB
+inputs_set2a => outputa.DATAA
+inputs_set2b => outputb.DATAA
+inputs_set2c => outputc.DATAA
+inputs_set2d => outputd.DATAA
+select => outputa.OUTPUTSELECT
+select => outputb.OUTPUTSELECT
+select => outputc.OUTPUTSELECT
+select => outputd.OUTPUTSELECT
+outputa <= outputa.DB_MAX_OUTPUT_PORT_TYPE
+outputb <= outputb.DB_MAX_OUTPUT_PORT_TYPE
+outputc <= outputc.DB_MAX_OUTPUT_PORT_TYPE
+outputd <= outputd.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|finalproject|seven_seg_decoder:passdisplay2
+Z => Decoder0.IN0
+Y => Decoder0.IN1
+X => Decoder0.IN2
+W => Decoder0.IN3
+A <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+B <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+C <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+D <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+E <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+F <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+G <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|finalproject|segSelector:inst6
+inputs_set1a => outputa.DATAB
+inputs_set1b => outputb.DATAB
+inputs_set1c => outputc.DATAB
+inputs_set1d => outputd.DATAB
+inputs_set2a => outputa.DATAA
+inputs_set2b => outputb.DATAA
+inputs_set2c => outputc.DATAA
+inputs_set2d => outputd.DATAA
+select => outputa.OUTPUTSELECT
+select => outputb.OUTPUTSELECT
+select => outputc.OUTPUTSELECT
+select => outputd.OUTPUTSELECT
+outputa <= outputa.DB_MAX_OUTPUT_PORT_TYPE
+outputb <= outputb.DB_MAX_OUTPUT_PORT_TYPE
+outputc <= outputc.DB_MAX_OUTPUT_PORT_TYPE
+outputd <= outputd.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|finalproject|seven_seg_decoder:passdisplay1
+Z => Decoder0.IN0
+Y => Decoder0.IN1
+X => Decoder0.IN2
+W => Decoder0.IN3
+A <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+B <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+C <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+D <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+E <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+F <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+G <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|finalproject|segSelector:inst5
+inputs_set1a => outputa.DATAB
+inputs_set1b => outputb.DATAB
+inputs_set1c => outputc.DATAB
+inputs_set1d => outputd.DATAB
+inputs_set2a => outputa.DATAA
+inputs_set2b => outputb.DATAA
+inputs_set2c => outputc.DATAA
+inputs_set2d => outputd.DATAA
+select => outputa.OUTPUTSELECT
+select => outputb.OUTPUTSELECT
+select => outputc.OUTPUTSELECT
+select => outputd.OUTPUTSELECT
+outputa <= outputa.DB_MAX_OUTPUT_PORT_TYPE
+outputb <= outputb.DB_MAX_OUTPUT_PORT_TYPE
+outputc <= outputc.DB_MAX_OUTPUT_PORT_TYPE
+outputd <= outputd.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |finalproject|ledPatternGen:inst19
@@ -1082,178 +1253,6 @@ CLK_IN => inst7.CLK
 CLK_IN => inst8.CLK
 CLK_IN => inst9.CLK
 CLK_IN => inst10.CLK
-
-
-|finalproject|isgameFinishedModule:inst21
-out <= inst.DB_MAX_OUTPUT_PORT_TYPE
-clear => inst.ACLR
-CheckPass => ins11.IN0
-Comparer => ins11.IN1
-guessMode => inst.DATAIN
-
-
-|finalproject|theUltimateComparer:inst16
-out <= inst8.DB_MAX_OUTPUT_PORT_TYPE
-checkPass => smallUltimateComparers:check44.checkguess
-checkPass => smallUltimateComparers:check42.checkguess
-checkPass => smallUltimateComparers:check43.checkguess
-checkPass => smallUltimateComparers:check41.checkguess
-checkPass => smallUltimateComparers:check32.checkguess
-checkPass => smallUltimateComparers:check33.checkguess
-checkPass => smallUltimateComparers:check31.checkguess
-checkPass => smallUltimateComparers:check34.checkguess
-checkPass => smallUltimateComparers:check24.checkguess
-checkPass => smallUltimateComparers:check22.checkguess
-checkPass => smallUltimateComparers:check23.checkguess
-checkPass => smallUltimateComparers:check21.checkguess
-checkPass => smallUltimateComparers:check12.checkguess
-checkPass => smallUltimateComparers:check13.checkguess
-checkPass => smallUltimateComparers:check11.checkguess
-checkPass => smallUltimateComparers:check14.checkguess
-pass44 => smallUltimateComparers:check44.pass
-guess44 => smallUltimateComparers:check44.guess
-pass42 => smallUltimateComparers:check42.pass
-guess42 => smallUltimateComparers:check42.guess
-pass43 => smallUltimateComparers:check43.pass
-guess43 => smallUltimateComparers:check43.guess
-pass41 => smallUltimateComparers:check41.pass
-guess41 => smallUltimateComparers:check41.guess
-pass32 => smallUltimateComparers:check32.pass
-guess32 => smallUltimateComparers:check32.guess
-pass33 => smallUltimateComparers:check33.pass
-guess33 => smallUltimateComparers:check33.guess
-pass31 => smallUltimateComparers:check31.pass
-guess31 => smallUltimateComparers:check31.guess
-pass34 => smallUltimateComparers:check34.pass
-guess34 => smallUltimateComparers:check34.guess
-pass24 => smallUltimateComparers:check24.pass
-guess24 => smallUltimateComparers:check24.guess
-pass22 => smallUltimateComparers:check22.pass
-guess22 => smallUltimateComparers:check22.guess
-pass23 => smallUltimateComparers:check23.pass
-guess23 => smallUltimateComparers:check23.guess
-pass21 => smallUltimateComparers:check21.pass
-guess21 => smallUltimateComparers:check21.guess
-pass12 => smallUltimateComparers:check12.pass
-guess12 => smallUltimateComparers:check12.guess
-pass13 => smallUltimateComparers:check13.pass
-guess13 => smallUltimateComparers:check13.guess
-pass11 => smallUltimateComparers:check11.pass
-guess11 => smallUltimateComparers:check11.guess
-pass14 => smallUltimateComparers:check14.pass
-guess14 => smallUltimateComparers:check14.guess
-
-
-|finalproject|theUltimateComparer:inst16|smallUltimateComparers:check44
-out <= inst2.DB_MAX_OUTPUT_PORT_TYPE
-checkguess => inst2.IN0
-pass => inst.IN0
-guess => inst.IN1
-
-
-|finalproject|theUltimateComparer:inst16|smallUltimateComparers:check42
-out <= inst2.DB_MAX_OUTPUT_PORT_TYPE
-checkguess => inst2.IN0
-pass => inst.IN0
-guess => inst.IN1
-
-
-|finalproject|theUltimateComparer:inst16|smallUltimateComparers:check43
-out <= inst2.DB_MAX_OUTPUT_PORT_TYPE
-checkguess => inst2.IN0
-pass => inst.IN0
-guess => inst.IN1
-
-
-|finalproject|theUltimateComparer:inst16|smallUltimateComparers:check41
-out <= inst2.DB_MAX_OUTPUT_PORT_TYPE
-checkguess => inst2.IN0
-pass => inst.IN0
-guess => inst.IN1
-
-
-|finalproject|theUltimateComparer:inst16|smallUltimateComparers:check32
-out <= inst2.DB_MAX_OUTPUT_PORT_TYPE
-checkguess => inst2.IN0
-pass => inst.IN0
-guess => inst.IN1
-
-
-|finalproject|theUltimateComparer:inst16|smallUltimateComparers:check33
-out <= inst2.DB_MAX_OUTPUT_PORT_TYPE
-checkguess => inst2.IN0
-pass => inst.IN0
-guess => inst.IN1
-
-
-|finalproject|theUltimateComparer:inst16|smallUltimateComparers:check31
-out <= inst2.DB_MAX_OUTPUT_PORT_TYPE
-checkguess => inst2.IN0
-pass => inst.IN0
-guess => inst.IN1
-
-
-|finalproject|theUltimateComparer:inst16|smallUltimateComparers:check34
-out <= inst2.DB_MAX_OUTPUT_PORT_TYPE
-checkguess => inst2.IN0
-pass => inst.IN0
-guess => inst.IN1
-
-
-|finalproject|theUltimateComparer:inst16|smallUltimateComparers:check24
-out <= inst2.DB_MAX_OUTPUT_PORT_TYPE
-checkguess => inst2.IN0
-pass => inst.IN0
-guess => inst.IN1
-
-
-|finalproject|theUltimateComparer:inst16|smallUltimateComparers:check22
-out <= inst2.DB_MAX_OUTPUT_PORT_TYPE
-checkguess => inst2.IN0
-pass => inst.IN0
-guess => inst.IN1
-
-
-|finalproject|theUltimateComparer:inst16|smallUltimateComparers:check23
-out <= inst2.DB_MAX_OUTPUT_PORT_TYPE
-checkguess => inst2.IN0
-pass => inst.IN0
-guess => inst.IN1
-
-
-|finalproject|theUltimateComparer:inst16|smallUltimateComparers:check21
-out <= inst2.DB_MAX_OUTPUT_PORT_TYPE
-checkguess => inst2.IN0
-pass => inst.IN0
-guess => inst.IN1
-
-
-|finalproject|theUltimateComparer:inst16|smallUltimateComparers:check12
-out <= inst2.DB_MAX_OUTPUT_PORT_TYPE
-checkguess => inst2.IN0
-pass => inst.IN0
-guess => inst.IN1
-
-
-|finalproject|theUltimateComparer:inst16|smallUltimateComparers:check13
-out <= inst2.DB_MAX_OUTPUT_PORT_TYPE
-checkguess => inst2.IN0
-pass => inst.IN0
-guess => inst.IN1
-
-
-|finalproject|theUltimateComparer:inst16|smallUltimateComparers:check11
-out <= inst2.DB_MAX_OUTPUT_PORT_TYPE
-checkguess => inst2.IN0
-pass => inst.IN0
-guess => inst.IN1
-
-
-|finalproject|theUltimateComparer:inst16|smallUltimateComparers:check14
-out <= inst2.DB_MAX_OUTPUT_PORT_TYPE
-checkguess => inst2.IN0
-pass => inst.IN0
-guess => inst.IN1
 
 
 |finalproject|yesnogenerator:inst22
